@@ -1,0 +1,30 @@
+body {
+	overflow: hidden;
+}
+
+h1 {
+font-family: 'Lato';
+font-size: 24px;
+font-weight: 300;
+color: #ffffff;
+letter-spacing: 2px;
+text-align: center;
+text-decoration: none;
+line-height: 40px;
+}
+
+h1 a{
+	color: #ffffff;
+text-decoration: none;
+border-bottom: 2px solid #73c3b4;
+}
+
+h1 a:hover{
+	border-bottom: 2px solid #777575;
+}
+
+.message {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 20%;
+}
