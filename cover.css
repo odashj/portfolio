@@ -381,7 +381,7 @@ h1 a:hover {
     width: 90%;
     margin-top: 0;
     margin-bottom: 50px;
-        border-bottom: 2px solid #000;
+    border-bottom: 2px solid #000;
     padding-bottom: 14%;
   }
 }
@@ -421,6 +421,28 @@ h2 {
   text-align: left;
   line-height: 18px;
 }
+
+#top-img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 801px) {
+  #top-img img {
+    width: 100%;
+    height: auto;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  #top-img img {
+    width: 100%;
+    height: auto;
+    padding-right: 0px;
+  }
+}
+
 
 #photos {
  /* Prevent vertical gaps */
@@ -684,6 +706,7 @@ p a:hover{
     width: 79%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5%;
 
   }
 }
@@ -701,6 +724,7 @@ p a:hover{
     width: 91%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5%;
 
   }
 }
@@ -860,7 +884,7 @@ hr {
     padding-right: 100px;
     width: 91%;
     padding-bottom: 3%;
-}*/
+    }*/
 
 /*.videoWrapper {
   position: relative;
