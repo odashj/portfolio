@@ -403,7 +403,7 @@ h1 a:hover {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 35px;
+    margin-top: 30px;
     margin-bottom: 5%;
   }
 }
@@ -820,13 +820,13 @@ hr {
     h5 a {
     color: #f42f08;
     text-decoration: none;
-    border-bottom: solid #000 1px;
+    border-bottom: solid #000 2px;
   }
 
     h5 a:hover {
     color: #f42f08;
     text-decoration: none;
-    border-bottom: solid #f42f08 1px;
+    border-bottom: solid #f42f08 2px;
   }
 }
 
@@ -846,13 +846,13 @@ hr {
     h5 a {
     color: #f42f08;
     text-decoration: none;
-    border-bottom: solid #000 .75px;
+    border-bottom: solid #000 .5px;
   }
 
     h5 a:hover {
     color: #f42f08;
     text-decoration: none;
-    border-bottom: solid #f42f08 .75px;
+    border-bottom: solid #f42f08 .5px;
   }
 }
 
