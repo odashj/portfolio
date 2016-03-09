@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Vollkorn|Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script> 
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="favicon.png">
@@ -54,7 +57,7 @@
             </div>
           </div>
 
-          <div class="thumbnails">
+          <div class="thumbnails hidden">
             <section id="top-img"><a href="project_modular.html"><img src="clip_thumb.png"></a><h2><strong>Modular Typographic Poster</strong><br>Photography, Print</h2></section>
             <section id="photos">
               <a href="project_micablog.html"><img src="mica_gd_thumb.gif"></a><h2><strong>MICA Graphic Design Blog</strong><br>Web</h2>
@@ -88,3 +91,9 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
   </html>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+    $('div.thumbnails').fadeIn(1000).removeClass('hidden');
+});
+  </script>

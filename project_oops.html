@@ -53,44 +53,46 @@
               </nav>
             </div>
           </div>
-
-          <div class="project_title">
-            <h3>
-              Oopsfest Festival Identity      </h3>
-              <p>
-                Oopsfest is a festival that celebrates all kinds of mistakes. The festival is spread out throughout three days, and takes places within three venues. There a three different types of events: happy accidents, intentional mistakes, and your classic screw-ups. The festival is made up of 60 different events in total, and each is represented on the poster. 
-              </p>
-            </div>
-            <section id="hero_img">
-              <img src="oops_hero.jpg">
-            </section>
-
-            <section id="addl_img">
-              <img src="oops_addl_01.jpg">
-            </section>
+          <div class="full hidden">
 
             <div class="project_title">
-              <p>
-              Accompanying the poster is a promotional <a href="https://vimeo.com/120022165">video</a> for the festival. The video is composed of several found clips that represent different aspects of the event, and is meant to be ambiguous, encouraging the viewer to visit the website to learn more. </p>
+              <h3>
+                Oopsfest Festival Identity      </h3>
+                <p>
+                  Oopsfest is a festival that celebrates all kinds of mistakes. The festival is spread out throughout three days, and takes places within three venues. There a three different types of events: happy accidents, intentional mistakes, and your classic screw-ups. The festival is made up of 60 different events in total, and each is represented on the poster. 
+                </p>
               </div>
+              <section id="hero_img">
+                <img src="oops_hero.jpg">
+              </section>
+
+              <section id="addl_img">
+                <img src="oops_addl_01.jpg">
+              </section>
+
+              <div class="project_title">
+                <p>
+                  Accompanying the poster is a promotional <a href="https://vimeo.com/120022165">video</a> for the festival. The video is composed of several found clips that represent different aspects of the event, and is meant to be ambiguous, encouraging the viewer to visit the website to learn more. </p>
+                </div>
 
               <!-- <section id="addl_img2">
                 <div class="videoWrapper">
                   <!-- Copy & Pasted from YouTube -->
-<!--                   <iframe src="https://player.vimeo.com/video/120022165?title=0&byline=0&portrait=0" width="1200" height="890" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+                  <!--                   <iframe src="https://player.vimeo.com/video/120022165?title=0&byline=0&portrait=0" width="1200" height="890" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+                </section> -->
+
+                <div class="nextback">
+                  <h4><a href="project_modular.html">next project</a> / <a href="project_rune.html">previous project</a></h4>
                 </div>
-              </section> -->
-
-              <div class="nextback">
-                <h4><a href="project_modular.html">next project</a> / <a href="project_rune.html">previous project</a></h4>
               </div>
-
-
             </div>
+
 
           </div>
 
         </div>
+
+      </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -102,3 +104,9 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
   </html>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('div.full').fadeIn(1000).removeClass('hidden');
+    });
+  </script>

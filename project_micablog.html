@@ -53,32 +53,33 @@
               </nav>
             </div>
           </div>
+          <div class="full hidden">
 
-          <div class="project_title">
-            <h3>
-              MICA Graphic Design
-            </h3>
-            <p>
-              Redesign for the Marlyand Institute College of Art Graphic Design department blog. The previous design was dated and complicated, and was not mobile-compatible. The new design simplifies the site's content, while still preserving an irreverent aesthetic.</p><p>View the full site <a href="http://micagraphicdesign.org/">here.</a>
-            </p>
+            <div class="project_title">
+              <h3>
+                MICA Graphic Design
+              </h3>
+              <p>
+                Redesign for the Marlyand Institute College of Art Graphic Design department blog. The previous design was dated and complicated, and was not mobile-compatible. The new design simplifies the site's content, while still preserving an irreverent aesthetic.</p><p>View the full site <a href="http://micagraphicdesign.org/">here.</a>
+              </p>
+            </div>
+            <section id="hero_img">
+              <img src="mica_blog_01.png">
+            </section>
+
+            <section id="addl_img">
+              <img src="mica_blog_02.png">
+              <img src="mica_blog_08.png">
+              <img src="mica_blog_06.png">
+              <img src="mica_blog_07.png">
+              <img src="mica_blog_mobile_01.png">
+              <img src="mica_blog_mobile_02.png">
+            </section>
+            <div class="nextback">
+              <h4><a href="project_stilllife.html">next project</a> / <a href="project_modular.html">previous project</a></h4>
+            </div>
+
           </div>
-          <section id="hero_img">
-            <img src="mica_blog_01.png">
-          </section>
-
-          <section id="addl_img">
-            <img src="mica_blog_02.png">
-            <img src="mica_blog_08.png">
-            <img src="mica_blog_06.png">
-            <img src="mica_blog_07.png">
-            <img src="mica_blog_mobile_01.png">
-            <img src="mica_blog_mobile_02.png">
-          </section>
-
-          <div class="nextback">
-          <h4><a href="project_stilllife.html">next project</a> / <a href="project_modular.html">previous project</a></h4>
-          </div>
-
 
 
         </div>
@@ -97,3 +98,9 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
   </html>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('div.full').fadeIn(1000).removeClass('hidden');
+    });
+  </script>

@@ -52,40 +52,41 @@
             </nav>
           </div>
         </div>
+        <div class="full hidden">
 
-        <div class="project_title">
-          <h3>
-            Rune      </h3>
+          <div class="project_title">
+            <h3>
+              Rune      </h3>
+              <p>
+                Rune is a communicative tool created by Olivia Johnson that translates each letter of the English alphabet into a graphic form, producing a unique composition for every word or phrase.
+              </p><p>Give Rune a try <a href="http://rune.one">here</a>.
+            </p>
+          </div>
+          <section id="hero_img">
+            <img src="rune_hero.png">
+          </section>
+
+          <section id="addl_img">
+            <img src="rune_demo_01.gif">
+            <img src="rune_demo_02.gif">
+
+          </section>
+
+          <div class="project_title">
             <p>
-              Rune is a communicative tool created by Olivia Johnson that translates each letter of the English alphabet into a graphic form, producing a unique composition for every word or phrase.
-            </p><p>Give Rune a try <a href="http://rune.one">here</a>.
-          </p>
-        </div>
-        <section id="hero_img">
-          <img src="rune_hero.png">
-        </section>
+              Rune was initially created as a stand-alone Processing sketch to be displayed in a multidisciplinary design exhibition. The audience was free to experiment with the program and create their own compositions. Each saved composition was printed and displayed, resulting in a collection of user-generated art and dialogue.</p></div>
 
-        <section id="addl_img">
-          <img src="rune_demo_01.gif">
-          <img src="rune_demo_02.gif">
+              <section id="addl_img">
+                <img src="exhibit_01.png">
+                <img src="exhibit_03.png">
 
-        </section>
-
-        <div class="project_title">
-          <p>
-            Rune was initially created as a stand-alone Processing sketch to be displayed in a multidisciplinary design exhibition. The audience was free to experiment with the program and create their own compositions. Each saved composition was printed and displayed, resulting in a collection of user-generated art and dialogue.</div>
-
-            <section id="addl_img">
-              <img src="exhibit_01.png">
-              <img src="exhibit_03.png">
-
-            </section>
-
-            <div class="nextback">
-            <h4><a href="project_oops.html">next project</a> / <a href="project_ando.html">previous project</a></h4>
+              </section>
+              <div class="nextback">
+                <h4><a href="project_oops.html">next project</a> / <a href="project_ando.html">previous project</a></h4>
+              </div>
             </div>
 
-    
+            
 
           </div>
 
@@ -103,3 +104,9 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
   </html>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('div.full').fadeIn(1000).removeClass('hidden');
+    });
+  </script>
