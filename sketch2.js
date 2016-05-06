@@ -1,19 +1,32 @@
-var state;
+var canvas;
 
+var state;
 var api = 'http://api.census.gov/data/2014/acs1/profile';
 var apiKey = '?key=9df29ce2a585089df6961f0f534d063842a4651b';
 var units = '&get=NAME,DP05_0001E,DP02_0067PE,DP02_0093E,DP04_0132E,DP04_0088E,DP03_0119PE,DP03_0063E,DP03_0001E,DP03_0099E,DP02_0052E&for=state:';
 var input;
 
+var statsText;
 
 function setup() {
-  createCanvas(800, 500);
+    const canvasHolder = select('#canvasHolder'),
+        canvasWidth  = canvasHolder.width,
+        canvasHeight = canvasHolder.height;
+  
+  console.log(canvasHolder);
+  print(canvasWidth + ', ' + canvasHeight);
+ 
+  createCanvas(canvasWidth, canvasHeight).parent('canvasHolder');
+  
+  // myCanvas = createCanvas(800, 500);
+  // canvas.parent('canvasHolder');
   colorMode(HSB);
 
   var button = select('#submit');
   button.mousePressed(stateAsk);
 
   input = select('#city');
+
 }
 
 function stateAsk() {
@@ -40,6 +53,21 @@ function draw() {
     var noHealth = state[1][9];
     var school = state[1][10];
     var id = state[1][11];
+    var nameText = ' state: ';
+    var popText = ' | population: ';
+    var employedText = ' | population employed: ';
+    var schoolText = ' | population currently in school: ';
+    var noHealthText = ' | population without health insurance: ';
+    var bachText = ' | % with bachelors degree: ';
+    var povText = ' | % of families in poverty: ';
+    var incomeText = ' | average household income: ';
+    var rentText = ' | median rent: ';
+    var homeText = ' | median home value: ';
+
+    var scrolling = nameText + name + popText + pop + employedText + employed + schoolText + school + noHealthText + noHealth + bachText + bach + povText + pov + incomeText + income + rentText + rent + homeText + home;
+    var statsText = createP(scrolling);
+    statsText.parent("stats");
+
     background(360-home/1000-rent/10,100,100-pov);
 
     noStroke();
@@ -109,9 +137,9 @@ function draw() {
       star(employed/55000, pop/100000, 30, 70, 7); 
     }
 
-    noStroke();
-    fill(255);
-    text(name,width/2,height/2);
+    // noStroke();
+    // fill(255);
+    // text(name,width/2,height/2);
 
   }
 
