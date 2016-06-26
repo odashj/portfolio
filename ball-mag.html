@@ -5,14 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Vollkorn|Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script> 
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="favicon.png">
 
-  <title>Olivia Johnson | Portfolio</title>
+  <title>Olivia Johnson | BALL Magazine</title>
 
   <!-- Bootstrap core CSS -->
   <link href="dist2/css/bootstrap.min.css" rel="stylesheet">
@@ -34,7 +31,7 @@
       <![endif]-->
     </head>
 
-    <body class="portfolio">
+    <body class="project">
 
       <div class="site-wrapper">
 
@@ -49,37 +46,56 @@
                </div>
                <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
                   <li><a href="resume.html">About</a></li>
                   <li><a href="mailto:olivia@o-j.co?subject=Hello!">Contact</a></li>                  
                 </ul>
               </nav>
             </div>
           </div>
+          <div class="full hidden">
 
-          <div class="thumbnails hidden">
-            <section id="top-img"><a href="socialism-is.html"><img src="socialism_thumb.png"></a><h2><strong>Socialism Is...</strong><br>Web, Print</h2></section>
-            <section id="photos">
-              <a href="mica-blog.html"><img src="mica_gd_thumb.gif"></a><h2><strong>MICA Graphic Design Blog</strong><br>Web</h2>
-              <a href="still-life.html"><img src="stilllife_thumb.png"></a><h2><strong>Still Life</strong><br>Photography</h2>
-              <a href="rune.html"><img src="rune_thumb.gif"></a><h2><strong>Rune</strong><br>Interactive</h2>
-              <a href="ball-mag.html"><img src="ball_thumb.png"></a><h2><strong>BALL Magazine</strong><br>Publication</h2>
-              <a href="ando.html"><img src="ando_mockup_thumb.png"></a><h2><strong>Tadao Ando Poster</strong><br>Print</h2>    
-              <a href="9-to-5.html"><img src="modular_hero.png"></a><h2><strong>9-to-5</strong><br>Photography, Print</h2>
-            </section>
-          </div>
+            <div class="project_title">
+              <h3>
+                BALL Magazine      </h3>
+                <p>BALL was created to encourage HIV treatment adherence and open up the conversation about what it means to be healthy and sexy. The publication focuses on sexual health, but also features fun Ball-centric articles that are exciting to read.
+                </p>
+              </div>
+              <section id="hero_img">
+                <img src="ball_hero.png">
+              </section>
 
-          <div class="mastfoot">
-            <div class="inner">
+              
+              <div class="project_title">
+                <p>
+                  The project was a collaboration between myself, Alexander Reynolds, Amy Hushen, and Nick Fogarty, and was created for the Baltimore City Health Department. Each team member holds equal responsibility in the research, content, and design of the book. </p>
+                </div>
+
+                <section id="addl_img2">
+                  <img src="ball_poster_0_01.png">
+                  <img src="ball_poster_01.png">
+                  <img src="ball_poster_01_5.png">
+                  <img src="ball_poster_02.png">
+                  <img src="ball_poster_02_5.png">
+                  <img src="ball_poster_03.png">
+                  <img src="ball_poster_04.png">
+                  <img src="ball_poster_05.png">
+                  <img src="ball_poster_06.png">
+                  <img src="ball_poster_07.png">
+                  <img src="ball_poster_08.png">
+                </section>
+
+
+                <div class="nextback">
+                  <h4><a href="ando.html">next project</a> / <a href="still-life.html">previous project</a></h4>
+                </div>
+              </div>
 
             </div>
+
           </div>
 
         </div>
-
-      </div>
-
-    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -94,6 +110,6 @@
 
   <script type="text/javascript">
     $(document).ready(function () {
-    $('div.thumbnails').fadeIn(1000).removeClass('hidden');
-});
+      $('div.full').fadeIn(1000).removeClass('hidden');
+    });
   </script>
