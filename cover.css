@@ -998,21 +998,11 @@ hr {
   .full {
 
   }
-
-  @media (min-width: 650px) {
-    .letters{
-      height: 100vh;
-      width: 100vw;
-      margin: auto;
-      position: absolute;
-      display: block;
-    }
-  }
-
-    @media (max-width: 649px) {
-    .letters{
-      display: none;
-    }
+  .letters{
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    position: absolute;
   }
 
 
