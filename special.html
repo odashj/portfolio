@@ -57,7 +57,7 @@
           </nav>
           <div >
 
-            <div class="letters">
+            <div class="letters opacity">
               <div id="drag-1" class="draggable">
                 <h1 class="name" style="color:#FFFFFF">O</h1>
               </div>
@@ -167,6 +167,11 @@
 
     $(document).ready(function () {
       $('div.indexBg').fadeIn(700).removeClass('hidden');
+    });
+
+        $(document).ready(function () {
+          $('.letters').animate({opacity: 1},1000);
+
     });
 
     // target elements with the "draggable" class

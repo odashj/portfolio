@@ -1108,3 +1108,7 @@ h2.footer a:hover {
 .arrow {
   margin-top: 7vw;
 }
+
+.opacity {
+  opacity: 0;
+}
