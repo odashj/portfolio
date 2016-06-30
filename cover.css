@@ -29,7 +29,6 @@
  html,
  body.index {
   height: 100%;
-  background-color: #000000;
 /*  background: url('cover_image.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -68,7 +67,6 @@
 html,
 body.about {
   height: 100%;
-  background-color: #ffffff;
   background-image: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -79,7 +77,6 @@ body.about {
 html,
 body.project {
   height: 100%;
-  background-color: #ffffff;
   background-image: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -89,19 +86,12 @@ body.project {
 
 html,
 body.portfolio {
-  height: 100%;
-  background-color: #ffffff;
-  background-image: none;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
 }
 
 html,
 body {
   height: 100%;
-  background-color: inherit;
   background-image: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -110,7 +100,6 @@ body {
 }
 
 body {
-  color: #fff;
   text-align: center;
 }
 
@@ -408,50 +397,41 @@ h1 a:hover {
 
 @media (min-width: 1601px) {
   .bio {
-    margin-left:auto;
-    margin-right:auto;  
-    width: 70%;
-    margin-top: 10%;
-    border-bottom: 3px solid #2955B6;
-    padding-bottom: 5%;
+    width: 100vw;
+    height: 100vh;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 13%;
+    margin-top: 0;
+/*    border-bottom: 3px solid #2955B6;
+*/    padding-bottom: 0;
   }
 }
 
 
 @media (max-width: 1600px) {
   .bio {
-    margin-left:auto;
-    margin-right:auto;  
-    width: 80%;
-    margin-top: 150px;
-    border-bottom: 2px solid #2955B6;
-    padding-bottom: 10%;
+    width: 100vw;
+    height: 100vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 13%;
+    margin-top: 0;
   }
 }
 
 @media (max-width: 767px) {
   .bio {
-    margin-left:auto;
-    margin-right:auto;  
-    width: 90%;
+    width: 100vw;
+    height: 100vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 13%;
     margin-top: 0;
-    margin-bottom: 50px;
-    border-bottom: 2px solid #2955B6;
-    padding-bottom: 14%;
   }
 }
 
-@media (max-width: 767px) {
-  .bio {
-    margin-left:auto;
-    margin-right:auto;  
-    width: 95%;
-    margin-top: 0;
-    margin-bottom: 50px;
-    border-bottom: 2px solid #2955B6;
-    padding-bottom: 14%;
-  }
-}
+
 
 @media (min-width: 801px) {
   .thumbnails{
@@ -1123,4 +1103,8 @@ h2.footer a:hover {
   position: fixed;
   bottom: 40px;
   right: 30px;
+}
+
+.arrow {
+  margin-top: 7vw;
 }
