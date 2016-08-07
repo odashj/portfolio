@@ -401,7 +401,7 @@ h1 a:hover {
     height: 100vh;
     padding-left: 17%;
     padding-right: 17%;
-    padding-top: 13%;
+    padding-top: 15%;
     margin-top: 0;
 /*    border-bottom: 3px solid #2955B6;
 */    padding-bottom: 0;
@@ -415,7 +415,7 @@ h1 a:hover {
     height: 100vh;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 13%;
+    padding-top: 8%;
     margin-top: 0;
   }
 }
@@ -1106,7 +1106,7 @@ h2.footer a:hover {
 }
 
 .arrow {
-  margin-top: 7vw;
+  margin-top: 5em;
 }
 
 .opacity {
