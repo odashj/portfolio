@@ -801,8 +801,8 @@ p a:hover{
     -webkit-column-gap: 4em;
     -moz-column-gap: 4em;
     column-gap: 4em;
-    padding: 10px;
-    width: 90%;
+    padding: 0px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -837,9 +837,10 @@ p a:hover{
     margin-left:auto;
     margin-right:auto;  
     padding-top: 1%;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 90%;
+    padding: 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 0;
   }
 
