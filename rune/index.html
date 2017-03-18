@@ -1,0 +1,229 @@
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:500,400,300' rel='stylesheet' type='text/css'>
+	<title>This is Rune</title>
+  <meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+     <script src="p5.play.js" type="text/javascript"></script>  
+     <script src="p5.dom.js" type="text/javascript"></script> 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script> 
+
+  <!-- uncomment lines below to include extra p5 libraries -->
+  <!--<script language="javascript" src="libraries/p5.dom.js"></script>-->
+  <!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <!-- this line removes any default padding and style. you might only need one of these values set. -->
+  <style> body {padding: 0; margin: 0;} </style>
+</head>
+
+<body background="#e6e5dc">
+
+	<div id='myContainer'></div>
+
+  <div class="logo">
+  <h1>Rune</h1>
+  </div>
+
+  <div class="links">
+  <h2><a href="about.html">About</a>//<a href="contact.html">Contact</a></h2>
+  </div>
+
+  <div class="directions">
+    <h4>
+      press keys a–z.<br>click to start over.
+    </h4>
+  </div>
+
+
+
+<div class="comp-title">
+  <h5><div class="titletitle">Title:</div><textarea autofocus name="title" onkeyup="adjust_textarea(this)" required="true"onfocus="clearContents(this);" id="texttype"></textarea></h5>
+</div>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+<script>
+$(".directions").delay(800).fadeOut(700);
+</script>
+
+<script type="text/javascript">
+  function clearContents(element) {
+  element.value = '';
+}
+</script>
+<script type="text/javascript">
+  var textarea = $('textarea');
+
+textarea.bind("blur", function() {
+   setTimeout(function() {
+    textarea.focus();
+  }, 0);
+});
+</script>
+
+
+<script type="text/javascript">
+  $('textarea').keypress(function (e) {
+    var regex = new RegExp("^[a-zA-Z ]+$");
+    var str = String.fromCharCode(!e.charCode ? e.which : e.charCode);
+    if (regex.test(str)) {
+        return true;
+    }
+
+    e.preventDefault();
+    return false;
+});
+</script>
+
+ <script type="text/javascript">
+  var texttype = document.getElementById('texttype');
+
+var type_this = "hello";
+var index = 0;
+
+window.next_letter = function() {
+    if (index <= type_this.length) {
+        texttype.value = type_this.substr(0, index++);
+        setTimeout("next_letter()", 50);
+    }
+}
+
+next_letter();
+  </script>
+
+<script>
+// function getRandomPosition(element) {
+//   var x = document.body.offsetHeight-element.clientHeight;
+//   var y = document.body.offsetWidth-element.clientWidth;
+//   var randomX = Math.floor(Math.random()*x);
+//   var randomY = Math.floor(Math.random()*y);
+//   return [randomX,randomY];
+// }
+// window.onload = function() {
+//   var img = document.createElement('img');
+//   img.setAttribute("style", "position:absolute;");
+//   img.setAttribute("src", "h.png");
+//   document.body.appendChild(img);
+//   var xy = getRandomPosition(img);
+//   img.style.top = xy[0] + 'px';
+//   img.style.left = xy[1] + 'px';
+// }
+// </script>
+
+<script>
+
+setTimeout(function() {
+  for (var i=1; i <= 1; i++) {
+    var x = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    var y = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    $('<div class="load1" style="z-index: -10;">').css({
+        position: 'absolute',
+        width: '104px',
+        height: '500px',
+        top: y + '%',
+        left: x + '%',
+        'z-index': '0',
+        'background-image': ' url("h.png")'
+    }).appendTo('body');
+}
+}, 50);
+
+setTimeout(function() {
+for (var i=1; i <= 1; i++) {
+    var x = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    var y = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    $('<div class="load2" style="z-index: 0;">').css({
+        position: 'absolute',
+        width: '434px',
+        height: '402px',
+        top: y + '%',
+        left: x + '%',
+        'background-image': ' url("e.png")'
+    }).appendTo('body');
+}
+}, 150);
+
+setTimeout(function() {
+for (var i=1; i <= 1; i++) {
+    var x = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    var y = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+     $('<div class="load3" style="z-index: 10;">').css({
+        position: 'absolute',
+        width: '201px',
+        height: '500px',
+        top: y + '%',
+        left: x + '%',
+        'background-image': ' url("l.png")'
+    }).appendTo('body');
+}
+}, 250);
+
+setTimeout(function() {
+for (var i=1; i <= 1; i++) {
+    var x = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    var y = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+     $('<div class="load4" style="z-index: 10;">').css({
+        position: 'absolute',
+        width: '500px',
+        height: '201px',
+        top: y + '%',
+        left: x + '%',
+        'background-image': ' url("l2.png")'
+    }).appendTo('body');
+}
+}, 350);
+
+setTimeout(function() {
+for (var i=1; i <= 1; i++) {
+    var x = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    var y = Math.max(0, Math.min(60, Math.ceil(Math.random() * 100)));
+    $('<div class="load5" style="z-index: 20;">').css({
+        position: 'absolute',
+        width: '119px',
+        height: '355px',
+        top: y + '%',
+        left: x + '%',
+        'background-image': ' url("o.png")'
+    }).appendTo('body');
+}
+}, 450);
+  </script>
+
+  <script>
+$(document).click(function (event) {        
+    $('.load1').hide();
+});
+
+$(document).click(function (event) {        
+    $('.load2').hide();
+});
+
+$(document).click(function (event) {        
+    $('.load3').hide();
+});
+
+$(document).click(function (event) {        
+    $('.load4').hide();
+});
+
+$(document).click(function (event) {        
+    $('.load5').hide();
+});
+</script>
+
+
+
+
+
+

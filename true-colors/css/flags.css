@@ -1,0 +1,173 @@
+body {
+	padding: 0; 
+	margin: 0;
+	background-color: #000000;
+	overflow-x: hidden;
+	overflow-y: hidden;
+} 
+#canvasHolder {
+	width: 800px;
+	height: 500px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+h1 {
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 1.7vw;
+	line-height: 3vw;
+	color: #FFFFFF;
+	width: 70%;
+	letter-spacing: 1px;
+}
+
+h1 a{
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 35px;
+	text-decoration: underline;
+	color: #BBBBBB;
+	width: 70%;
+	letter-spacing: 1px;
+}
+
+h1 a:hover{
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 35px;
+	text-decoration: none;
+	color: #BBBBBB;
+	width: 70%;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+p {
+	color: #BBBBBB;
+	font-family: 'Roboto Mono';
+	text-transform: lowercase;
+	font-size: 13px;
+}
+
+p a {
+	color: #f74a2c;
+	text-decoration: none;
+}
+
+p a:hover {
+	color: #f74a2c;
+	text-decoration: underline;
+}
+
+.selectCountry {
+	position: absolute;
+	margin-left: 25px;
+	margin-top: 0;
+}
+
+.countryName {
+	position: absolute;
+	right: 25px;
+	margin-top: 0;
+}
+
+#stats {
+	height: 40px;
+	position: absolute;
+	bottom: 5px;
+	animation: marquee 30s linear infinite;
+	overflow: hidden;
+	white-space: nowrap;
+	box-sizing: border-box;
+	width: 100%;
+	border:none; 
+	padding:0; 
+	margin:0;
+}
+
+#stats:hover {
+	animation-play-state: paused
+}
+
+/* Make it move */
+@keyframes marquee {
+	0%   { text-indent: 100% }
+	100% { text-indent: -125% }
+}
+
+#submit {
+	background-color: #000000; /* Green */
+	border: 1px solid #BBBBBB;
+	color: white;
+	padding: 0px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 1px;
+}
+
+#submit:hover {
+	background-color: #000000; /* Green */
+	border: 1px solid #f74a2c;
+	cursor: pointer;
+	color: white;
+	padding: 0px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 1px;
+}
+
+button:focus { 
+	outline: none; 
+}
+
+input[type=text] {
+	width: 17px;
+	padding: 0 0;
+	margin: 0 0;
+	box-sizing: border-box;
+	color: #BBBBBB;
+	font-family: 'Roboto Mono';
+	text-transform: lowercase;
+	font-size: 11.5px;
+	line-height: 1px;
+	background-color: #000000;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px #f74a2c solid;
+	text-align: center;
+}
+
+input:focus { 
+	outline: none; 
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder{
+	color:
+	text-shadow: none;
+	-webkit-text-fill-color: initial;
+}
+
+.about {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0,.6);
+	padding-left: 15%;
+	padding-top: 10%;
+}
+
+.hidden {
+	display: none;
+}
+

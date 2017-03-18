@@ -1,0 +1,552 @@
+/*responsive styles
+*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) {
+	/* Styles */
+	.site-wrapper {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		overflow-x: hidden;
+	}
+
+	.nav-links a {
+		text-decoration: none;
+		color: #000000;
+		font-family: 'Chivo', sans-serif;
+		font-weight: 400;
+		font-size: 20px;
+		letter-spacing: 1px;
+		font-variant: small-caps;
+		text-transform: lowercase;
+	}
+
+	h1 {
+		color: #000000;
+		font-family: 'Asul', sans-serif;
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.large-text {
+		width: 95%;
+		position: relative;
+		margin-top: 74px;
+		margin-bottom: 50px;
+	}
+
+	.grow{
+		width:70px;
+	}
+
+	.project-image h1  {
+		position: absolute; 
+		bottom: 7px; 
+		left: 25px; 
+		width: 100%; 
+		color: #fff;
+	}
+
+	.portrait {
+		width: 100%;
+		margin-top: 74px;
+		float: left;
+		display: block;
+		position: relative;
+	}
+
+	.about-text {
+		width: 100%;
+		margin-top: 10px;
+		margin-left: 0;
+		height: auto;
+		float: left;
+		display: block;
+		position: relative;
+	}
+
+	h2 {
+		color: #000000;
+		font-family: 'Asul', sans-serif;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 34px;
+	}
+
+	.project-header {
+		width: 100%;
+		height: auto;
+		position: relative;
+		display: block;
+		margin-bottom: 40px;
+	}
+
+	.project-title {
+		width: 100%;
+		margin-top: 60px;
+		float: left;
+		left: 0;
+		display: block;
+		position: relative;
+	}
+
+	.project-intro {
+		width: 100%;
+		left: 0;
+		margin-top: 0;
+		height: auto;
+		float: left;
+		display: block;
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	h4 {
+		color: #000000;
+		font-family: 'Chivo', sans-serif;
+		font-weight: 400;
+		font-size: 20px;
+		letter-spacing: 1px;
+		font-variant: small-caps;
+		text-transform: lowercase;
+		line-height: 0;
+	}
+
+	.body-text {
+		position: relative;
+		margin-top: 40px;
+		margin-bottom: 50px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	p {
+		color: #000000;
+		font-family: 'Chivo', sans-serif;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 25px;
+		text-align: left;
+		letter-spacing: .01em;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen  and (min-width : 768px) and (max-width : 1223px) {
+	/* Styles */
+	.site-wrapper {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		overflow-x: hidden;
+	}
+
+	.nav-links a {
+		text-decoration: none;
+		color: #000000;
+		font-family: 'Chivo', sans-serif;
+		font-weight: 400;
+		font-size: 20px;
+		letter-spacing: 1px;
+		font-variant: small-caps;
+		text-transform: lowercase;
+	}
+	h1 {
+		color: #000000;
+		font-family: 'Asul', sans-serif;
+		font-weight: 700;
+		font-size: 38px;
+		line-height: 42px;
+	}
+
+	.large-text {
+		width: 620px;
+		position: relative;
+		margin-top: 99px;
+		margin-bottom: 70px;
+	}
+
+	.grow{
+		width:15%;
+	}
+
+	.project-image h1  {
+		position: absolute; 
+		bottom: 7px; 
+		left: 50px; 
+		width: 100%; 
+		color: #fff;
+	}
+
+	.portrait {
+		width: 100%;
+		margin-top: 100px;
+		float: left;
+		display: block;
+		position: relative;
+	}
+
+	.about-text {
+		width: 90%;
+		margin-top: 10px;
+		margin-left: 0;
+		height: auto;
+		float: left;
+		display: block;
+		position: relative;
+	}
+
+	h2 {
+		color: #000000;
+		font-family: 'Asul', sans-serif;
+		font-weight: 400;
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	.project-header {
+		width: 100%;
+		height: auto;
+		position: relative;
+		display: block;
+		margin-bottom: 40px;
+	}
+
+	.project-title {
+		width: 70%;
+		margin-top: 60px;
+		float: left;
+		left: 10%;
+		display: block;
+		position: relative;
+	}
+
+	.project-intro {
+		width: 80%;
+		left: 10%;
+		margin-top: 0;
+		height: auto;
+		float: left;
+		display: block;
+		position: relative;
+		margin-bottom: 20px;
+	}
+
+	h4 {
+		color: #000000;
+		font-family: 'Chivo', sans-serif;
+		font-weight: 400;
+		font-size: 20px;
+		letter-spacing: 1px;
+		font-variant: small-caps;
+		text-transform: lowercase;
+		line-height: 0;
+	}
+
+	.body-text {
+		position: relative;
+		margin-top: 40px;
+		margin-bottom: 50px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	p {
+		color: #000000;
+		font-family: 'Chivo', sans-serif;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 30px;
+		text-align: left;
+		letter-spacing: .01em;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) and (max-width : 1823px) {
+	/* Styles */
+	.site-wrapper {
+		width: 1080px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		overflow-x: hidden;
+	}
+
+	.nav-links a {
+		text-decoration: none;
+		color: #000000;
+		font-family: 'Chivo', sans-serif;
+		font-weight: 400;
+		font-size: 24px;
+		letter-spacing: 1px;
+		font-variant: small-caps;
+		text-transform: lowercase;
+	}
+
+	h1 {
+		color: #000000;
+		font-family: 'Asul', sans-serif;
+		font-weight: 700;
+		font-size: 50px;
+		line-height: 55px;
+	}
+
+	.large-text {
+		width: 920px;
+		position: relative;
+		margin-top: 99px;
+		margin-bottom: 70px;
+	}
+
+	.grow{
+		width:15%;
+	}
+
+	.project-image h1  {
+		position: absolute; 
+		bottom: 7px; 
+		left: 70px; 
+		width: 100%; 
+		color: #fff;
+	}
+
+	.portrait {
+		width: 360px;
+		margin-top: 100px;
+		float: left;
+		display: inline;
+		position: relative;
+	}
+
+	.about-text {
+		width: 600px;
+		margin-top: 65px;
+		margin-left: 70px;
+		height: auto;
+		float: left;
+		display: inline;
+		position: relative;
+	}
+
+	h2 {
+		color: #000000;
+		font-family: 'Asul', sans-serif;
+		font-weight: 400;
+		font-size: 29px;
+		line-height: 37px;
+	}
+
+	.project-header {
+		width: 1080px;
+		height: 250px;
+		position: relative;
+		display: block;
+		margin-bottom: 30px;
+	}
+
+	.project-title {
+		width: 50%;
+		margin-top: 60px;
+		float: left;
+		display: inline;
+		position: relative;
+	}
+
+	.project-intro {
+		width: 50%;
+		left: 0;
+		margin-top: 65px;
+		height: auto;
+		float: right;
+		display: inline;
+		position: relative;
+	}
+
+	h4 {
+		color: #000000;
+		font-family: 'Chivo', sans-serif;
+		font-weight: 400;
+		font-size: 24px;
+		letter-spacing: 1px;
+		font-variant: small-caps;
+		text-transform: lowercase;
+		line-height: 0;
+	}
+
+	.body-text {
+		position: relative;
+		margin-top: 40px;
+		margin-bottom: 50px;
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+
+	p {
+		color: #000000;
+		font-family: 'Chivo', sans-serif;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 30px;
+		text-align: left;
+		letter-spacing: .01em;
+	}
+
+	.footer {
+		width: auto;
+		margin-left: 0;
+		margin-right: 0;
+		height: 135px;
+		position: relative;
+		text-align: center;
+		padding: 0 0 10px 0;
+	}
+
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+	/* Styles */
+	.site-wrapper {
+		width: 1080px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		overflow-x: hidden;
+	}
+
+	.nav-links a {
+		text-decoration: none;
+		color: #000000;
+		font-family: 'Chivo', sans-serif;
+		font-weight: 400;
+		font-size: 24px;
+		letter-spacing: 1px;
+		font-variant: small-caps;
+		text-transform: lowercase;
+	}
+
+	h1 {
+		color: #000000;
+		font-family: 'Asul', sans-serif;
+		font-weight: 700;
+		font-size: 50px;
+		line-height: 55px;
+	}
+
+	.large-text {
+		width: 920px;
+		position: relative;
+		margin-top: 99px;
+		margin-bottom: 70px;
+	}
+
+	.grow{
+		width:15%;
+	}
+
+	.project-image h1  {
+		position: absolute; 
+		bottom: 7px; 
+		left: 70px; 
+		width: 100%; 
+		color: #fff;
+	}
+
+	.portrait {
+		width: 360px;
+		margin-top: 100px;
+		float: left;
+		display: inline;
+		position: relative;
+	}
+
+	h2 {
+		color: #000000;
+		font-family: 'Asul', sans-serif;
+		font-weight: 400;
+		font-size: 29px;
+		line-height: 37px;
+	}
+
+	.about-text {
+		width: 600px;
+		margin-top: 65px;
+		margin-left: 70px;
+		height: 835px;
+		float: left;
+		display: inline;
+		position: relative;
+	}
+
+	.project-header {
+		width: 1080px;
+		height: 250px;
+		position: relative;
+		display: block;
+		margin-bottom: 30px;
+	}
+
+	.project-title {
+		width: 50%;
+		margin-top: 60px;
+		float: left;
+		display: inline;
+		position: relative;
+	}
+
+	.project-intro {
+		width: 50%;
+		left: 0;
+		margin-top: 65px;
+		height: auto;
+		float: right;
+		display: inline;
+		position: relative;
+	}
+
+	h4 {
+		color: #000000;
+		font-family: 'Chivo', sans-serif;
+		font-weight: 400;
+		font-size: 24px;
+		letter-spacing: 1px;
+		font-variant: small-caps;
+		text-transform: lowercase;
+		line-height: 0;
+	}
+
+	.body-text {
+		position: relative;
+		margin-top: 40px;
+		margin-bottom: 50px;
+		margin-left: 150px;
+		margin-right: 150px;
+	}
+
+	p {
+		color: #000000;
+		font-family: 'Chivo', sans-serif;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 30px;
+		text-align: left;
+		letter-spacing: .01em;
+	}
+
+	.footer {
+		width: auto;
+		margin-left: 0;
+		margin-right: 0;
+		bottom: 0;
+		height: 135px;
+		position: relative;
+		text-align: center;
+ 		padding: 0 0 10px 0;
+
+	}
+}

@@ -1,0 +1,1942 @@
+[
+	{
+		"country" : "Afghanistan",
+		"iso" : "004",
+		"independence" : 1919,
+		"expectancy" : 45.9,
+		"population" : 22720000,
+		"area" : 193.00
+	},
+	{
+		"country" : "Albania",
+		"iso" : "008",
+		"independence" : 1912,
+		"expectancy" : 71.6,
+		"population" : 3401200,
+		"area" : 28748.00
+	},
+	{
+		"country" : "Algeria",
+		"iso" : "012",
+		"independence" : 1962,
+		"expectancy" : 69.7,
+		"population" : 31471000,
+		"area" : 2381741.00
+	},
+	{
+		"country" : "American Samoa",
+		"iso" : "016",
+		"independence" : null,
+		"expectancy" : 75.1,
+		"population" : 68000,
+		"area" : 199.00
+	},
+	{
+		"country" : "Andorra",
+		"iso" : "020",
+		"independence" : 1278,
+		"expectancy" : 83.5,
+		"population" : 78000,
+		"area" : 468.00
+	},
+	{
+		"country" : "Angola",
+		"iso" : "024",
+		"independence" : 1975,
+		"expectancy" : 38.3,
+		"population" : 12878000,
+		"area" : 1246700.00
+	},
+	{
+		"country" : "Anguilla",
+		"iso" : "660",
+		"independence" : null,
+		"expectancy" : 76.1,
+		"population" : 8000,
+		"area" : 96.00	
+	},
+	{
+		"country" : "Antarctica",
+		"iso" : "010",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : null,
+		"area" : 13120000.00
+	},
+	{
+		"country" : "Antigua and Barbuda",
+		"iso" : "028",
+		"independence" : 1981,
+		"expectancy" : 70.5,
+		"population" : 68000,
+		"area" : 442.00
+	},
+	{
+		"country" : "Argentina",
+		"iso" : "032",
+		"independence" : 1816,
+		"expectancy" : 75.1,
+		"population" : 37032000,
+		"area" : 2780400.00
+	},
+	{
+		"country" : "Armenia",
+		"iso" : "051",
+		"independence" : 1991,
+		"expectancy" : 66.4,
+		"population" : 3520000,
+		"area" : 29800.00
+	},
+	{
+		"country" : "Aruba",
+		"iso" : "533",
+		"independence" : null,
+		"expectancy" : 78.4,	
+		"population" : 103000,
+		"area" : 193.00
+	},
+	{
+		"country" : "Australia",
+		"iso" : "036",
+		"independence" : 1901,
+		"expectancy" : 79.8,
+		"population" : 23840314,
+		"area" : 7741220.00
+	},
+	{
+		"country" : "Austria",
+		"iso" : "040",
+		"independence" : 1918,
+		"expectancy" : 77.7,
+		"population" : 8091800,
+		"area" : 83859.00
+	},
+	{
+		"country" : "Azerbaijan",
+		"iso" : "031",
+		"independence" : 1991,
+		"expectancy" : 62.9,
+		"population" : 7734000,
+		"area" : 86600.00
+	},
+	{
+		"country" : "Bahamas",
+		"iso" : "044",
+		"independence" : 1973,
+		"expectancy" : 71.1,
+		"population" : 307000,
+		"area" : 13878.00
+	},
+	{
+		"country" : "Bahrain",
+		"iso" : "048",
+		"independence" : 1971,
+		"expectancy" : 73.0,
+		"population" : 617000,
+		"area" : 694.00
+	},
+	{
+		"country" : "Bangladesh",
+		"iso" : "050",
+		"independence" : 1971,
+		"expectancy" : 60.2,
+		"population" : 129155000,
+		"area" : 143998.00
+	},
+	{
+		"country" : "Barbados",
+		"iso" : "052",
+		"independence" : 1966,
+		"expectancy" : 73.0,
+		"population" : 270000,
+		"area" : 430.00
+	},
+	{
+		"country" : "Belarus",
+		"iso" : "112",
+		"independence" : 1991,
+		"expectancy" : 68.0,
+		"population" : 10236000,
+		"area" : 207600.00
+	},
+	{
+		"country" : "Belgium",
+		"iso" : "056",
+		"independence" : 1830,
+		"expectancy" : 77.8,
+		"population" : 10239000,
+		"area" : 30518.00
+	},
+	{
+		"country" : "Belize",
+		"iso" : "084",
+		"independence" : 1981,
+		"expectancy" : 70.9,
+		"population" : 241000,
+		"area" : 22696.00
+	},
+	{
+		"country" : "Benin",
+		"iso" : "204",
+		"independence" : 1960,
+		"expectancy" : 50.2,
+		"population" : 6097000,
+		"area" : 112622.00
+	},
+	{
+		"country" : "Bermuda",
+		"iso" : "060",
+		"independence" : null,
+		"expectancy" : 76.9,
+		"population" : 65000,
+		"area" : 53.00
+	},
+	{
+		"country" : "Bhutan",
+		"iso" : "064",
+		"independence" : 1910,
+		"expectancy" : 52.4,
+		"population" : 2124000,
+		"area" : 47000.00
+	},
+	{
+		"country" : "Bolivia",
+		"iso" : "068",
+		"independence" : 1825,
+		"expectancy" : 63.7,
+		"population" : 8329000,
+		"area" : 1098581.00
+	},
+	{
+		"country" : "Bosnia and Herzegovina",
+		"iso" : "070",
+		"independence" : 1992,
+		"expectancy" : 71.5,
+		"population" : 3972000,
+		"area" : 51197.00
+	},
+	{
+		"country" : "Botswana",
+		"iso" : "072",
+		"independence" : 1966,
+		"expectancy" : 39.3,
+		"population" : 1622000,
+		"area" : 581730.00
+	},
+	{
+		"country" : "Bouvet Island",
+		"iso" : "074",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : null,
+		"area" : 59.00
+	},
+	{
+		"country" : "Brazil",
+		"iso" : "076",
+		"independence" : 1822,
+		"expectancy" : 62.9,
+		"population" : 170115000,
+		"area" : 8547403.00
+	},
+	{
+		"country" : "British Indian Ocean Territory",
+		"iso" : "086",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : null,
+		"area" : 78.00
+	},
+	{
+		"country" : "Brunei",
+		"iso" : "096",
+		"independence" : 1984,
+		"expectancy" : 73.6,
+		"population" : 328000,
+		"area" : 5765.00
+	},
+	{
+		"country" : "Bulgaria",
+		"iso" : "100",
+		"independence" : 1908,
+		"expectancy" : 70.9,
+		"population" : 8190900,
+		"area" : 110994.00
+	},
+	{
+		"country" : "Burkina Faso",
+		"iso" : "854",
+		"independence" : 1960,
+		"expectancy" : 46.7,
+		"population" : 11937000,
+		"area" : 274000.00
+	},
+	{
+		"country" : "Burundi",
+		"iso" : "108",
+		"independence" : 1962,
+		"expectancy" : 46.2,
+		"population" : 6695000,
+		"area" : 27834.00
+	},
+
+	{
+		"country" : "Cambodia",
+		"iso" : "116",
+		"independence" : 1953,
+		"expectancy" : 56.5,
+		"population" : 11168000,
+		"area" : 181035.00
+	},
+	{
+		"country" : "Cameroon",
+		"iso" : "120",
+		"independence" : 1960,
+		"expectancy" : 54.8,
+		"population" : 15085000,
+		"area" : 475442.00
+	},
+	{
+		"country" : "Canada",
+		"iso" : "124",
+		"independence" : 1867,
+		"expectancy" : 79.4,
+		"population" : 31147000,
+		"area" : 9970610.00
+	},
+	{
+		"country" : "Cape Verde",
+		"iso" : "132",
+		"independence" : 1975,
+		"expectancy" : 68.9,
+		"population" : 428000,
+		"area" : 4033.00
+	},
+	{
+		"country" : "Cayman Islands",
+		"iso" : "136",
+		"independence" : null,
+		"expectancy" : 78.9,
+		"population" : 38000,
+		"area" : 264.00
+	},
+	{
+		"country" : "Central African Republic",
+		"iso" : "140",
+		"independence" : 1960,
+		"expectancy" : 44.0,
+		"population" : 3615000,
+		"area" : 622984.00
+	},
+	{
+		"country" : "Chad",
+		"iso" : "148",
+		"independence" : 1960,
+		"expectancy" : 50.5,
+		"population" : 7651000,
+		"area" : 1284000.00
+	},
+	{
+		"country" : "Chile",
+		"iso" : "152",
+		"independence" : 1810,
+		"expectancy" : 75.7,
+		"population" : 15211000,
+		"area" : 756626.00
+	},
+	{
+		"country" : "China",
+		"iso" : "156",
+		"independence" : -1523,
+		"expectancy" : 71.4,
+		"population" : 1277558000,
+		"area" : 9572900.00
+	},
+	{
+		"country" : "Christmas Island",
+		"iso" : "162",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : 2500
+	},
+	{
+		"country" : "Cocos (Keeling) Islands",
+		"iso" : "166",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : 600,
+		"area" : 14.00
+	},
+	{
+		"country" : "Colombia",
+		"iso" : "170",
+		"independence" : 1810,
+		"expectancy" : 70.3,
+		"population" : 42321000,
+		"area" : 1138914.00
+	},
+	{
+		"country" : "Comoros",
+		"iso" : "174",
+		"independence" : 1975,
+		"expectancy" : 60.0,
+		"population" : 578000,
+		"area" : 1862.00
+	},
+	{
+		"country" : "Congo",
+		"iso" : "178",
+		"independence" : 1960,
+		"expectancy" : 47.4,
+		"population" : 2943000,
+		"area" : 342000.00
+	},
+	{
+		"country" : "Congo, The Democratic Republic of the",
+		"iso" : "180",
+		"independence" : 1960,
+		"expectancy" : 48.8,
+		"population" : 51654000,
+		"area" : 2344858.00
+	},
+	{
+		"country" : "Cook Islands",
+		"iso" : "184",
+		"independence" : null,
+		"expectancy" : 71.1,
+		"population" : 20000,
+		"area" : 236.00
+	},
+	{
+		"country" : "Costa Rica",
+		"iso" : "188",
+		"independence" : 1821,
+		"expectancy" : 75.8,
+		 "population" : 4023000,
+		 "area" : 51100.00
+	},
+	{
+		"country" : "Cote d'Ivoire",
+		"iso" : "384",
+		"independence" : 1960,
+		"expectancy" : 45.2,
+		"population" : 14786000,
+		"area" : 322463.00
+	},
+	{
+		"country" : "Croatia",
+		"iso" : "191",
+		"independence" : 1991,
+		"expectancy" : 73.7,
+		"population" : 4473000,
+		"area" : 56538.00
+	},
+	{
+		"country" : "Cuba",
+		"iso" : "192",
+		"independence" : 1902,
+		"expectancy" : 76.2,
+		"population" : 11201000,
+		"area" : 110861.00
+	},
+	{
+		"country" : "Cyprus",
+		"iso" : "196",
+		"independence" : 1960,
+		"expectancy" : 76.7,
+		"population" : 754700,
+		"area" : 9251.00
+	},
+	{
+		"country" : "Czech Republic",
+		"iso" : "203",
+		"independence" : 1993,
+		"expectancy" : 74.5,
+		"population" : 10278100,
+		"area" : 78866.00
+	},
+	{
+		"country" : "Denmark",
+		"iso" : "208",
+		"independence" : 800,
+		"expectancy" : 76.5,
+		"population" : 5330000,
+		"area" : 43094.00
+	},
+	{
+		"country" : "Djibouti",
+		"iso" : "262",
+		"independence" : 1977,
+		"expectancy" : 50.8,
+		"population" : 638000,
+		"area" : 23200.00
+	},
+	{
+		"country" : "Dominica",
+		"iso" : "214",
+		"independence" : 1978,
+		 "expectancy" : 73.4,
+		 "population" : 71000,
+		 "area" : 751.00
+	},
+	{
+		"country" : "Dominican Republic",
+		"iso" : "214",
+		"independence" : 1844,
+		"expectancy" : 73.2,
+		"population" : 8495000
+	},
+	{
+		"country" : "East Timor",
+		"iso" : "626",
+		"independence" : null,
+		"expectancy" : 46.0,
+		"population" : 885000,
+		"area" : 14874.00
+	},
+	{
+		"country" : "Ecuador",
+		"iso" : "218",
+		"independence" : 1822,
+		"expectancy" : 71.1,
+		"population" : 12646000,
+		"area" : 283561.00
+	},
+	{
+		"country" : "England",
+		"iso" : null,
+		"independence" : null,
+		"expectancy" : null,
+		"population" : null,
+		"area" : null
+	},
+	{
+		"country" : "Egypt",
+		"iso" : "818",
+		"independence" : 1922,
+		"expectancy" : 63.3,
+		"population" : 68470000,
+		"area" : 1001449.00
+	},
+	{
+		"country" : "El Salvador",
+		"iso" : "222",
+		"independence" : 1841,
+		"expectancy" : 69.7,
+		"population" : 6276000,
+		"area" : 21041.00
+	},
+	{
+		"country" : "Equatorial Guinea",
+		"iso" : "226",
+		"independence" : 1968,
+		"expectancy" : 53.6,
+		"population" : 453000,
+		"area" : 28051.00
+	},
+	{
+		"country" : "Eritrea",
+		"iso" : "232",
+		"independence" : 1993,
+		"expectancy" : 55.8,
+		"population" : 6250000,
+		"area" : 117600.00
+	},
+	{
+		"country" : "Estonia",
+		"iso" : "233",
+		"independence" : 1991,
+		"expectancy" : 69.5,
+		"population" : 1439200,
+		"area" : 45227.00
+	},
+	{
+		"country" : "Ethiopia",
+		"iso" : "231",
+		"independence" : -1000,
+		"expectancy" : 45.2,
+		"population" : 78565000,
+		"area" : 1104300.00
+	},
+	{
+		"country" : "Falkland Islands",
+		"iso" : "238",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : 2000,
+		"area" : 12173.00
+	},
+	{
+		"country" : "Faroe Islands",
+		"iso" : "234",
+		"independence" : null,
+		"expectancy" : 78.4,
+		"population" : 43000,
+		"area" : 1399.00
+	},
+	{
+		"country" : "Fiji",
+		"iso" : "242",
+		"independence" : 1970,
+		"expectancy" : 67.9,
+		"population" : 817000,
+		"area" : 18274.00
+	},
+	{
+		"country" : "Finland",
+		"iso" : "246",
+		"independence" : 1917,
+		"expectancy" : 77.4,
+		"population" : 5171300,
+		"area" : 338145.00
+	},
+	{
+		"country" : "France",
+		"iso" : "250",
+		"expectancy" : 78.8,
+		"independence" : 843,
+		"population" : 59225700,
+		"area" : 551500.00
+	},
+	{
+		"country" : "French Guiana",
+		"iso" : "254",
+		"independence" : null,
+		"expectancy" : 76.1,
+		"population" : 181000,
+		"area" : 90000.00
+	},
+	{
+		"country" : "French Polynesia",
+		"iso" : "258",
+		"independence" : null,
+		"expectancy" : 74.8,
+		"population" : 235000,
+		"area" : 4000.00
+	},
+	{
+		"country" : "French Southern territories",
+		"iso" : "260",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : null,
+		"area" : 7780.00
+	},
+	{
+		"country" : "Gabon",
+		"iso" : "266",
+		"independence" : 1960,
+		"expectancy" : 50.1,
+		"population" : 1226000,
+		"area" : 267668.00
+	},
+	{
+		"country" : "Gambia",
+		"iso" : "270",
+		"independence" : 1965,
+		"expectancy" : 53.2,
+		"population" : 1305000,
+		"area" : 11295.00
+	},
+	{
+		"country" : "Georgia",
+		"iso" : "268",
+		"independence" : 1991,
+		"expectancy" : 64.5,
+		"population" : 4968000,
+		"area" : 69700.00
+	},
+	{
+		"country" : "Germany",
+		"iso" : "276",
+		"independence" : 1955,
+		"expectancy" : 77.4,
+		"population" : 82164700,
+		"area" : 357022.00
+	},
+	{
+		"country" : "Ghana",
+		"iso" : "288",
+		"independence" : 1957,
+		"expectancy" : 57.4,
+		"population" : 20212000,
+		"area" : 238533.00
+	},
+	{
+		"country" : "Gibraltar",
+		"iso" : "292",
+		"independence" : null,
+		"expectancy" : 79.0,
+		"population" : 25000,
+		"area" : 6.00
+	},
+	{
+		"country" : "Greece",
+		"iso" : "300",
+		"independence" : 1830,
+		"expectancy" : 78.4,
+		"population" : 10545700,
+		"area" : 131626.00
+	},
+	{
+		"country" : "Greenland",
+		"iso" : "304",
+		"independence" : null,
+		"expectancy" : 68.1,
+		"population" : 56000,
+		"area" : 2166090.00
+	},
+	{
+		"country" : "Grenada",
+		"iso" : "308",
+		"independence" : 1974,
+		"expectancy" : 64.5,
+		"population" : 94000,
+		"area" : 344.00
+	},
+	{
+		"country" : "Guadeloupe",
+		"iso" : "312",
+		"independence" : null,
+		"expectancy" : 77.0,
+		"population" : 456000,
+		"area" : 1705.00
+	},
+	{
+		"country" : "Guam",
+		"iso" : "316",
+		"independence" : null,
+		"expectancy" : 77.8,
+		"population" : 168000,
+		"area" : 549.00
+	},
+	{
+		"country" : "Guatemala",
+		"iso" : "320",
+		"independence" : 1821,
+		"expectancy" : 66.2,
+		"population" : 11385000,
+		"area" : 108889.00
+	},
+	{
+		"country" : "Guinea",
+		"iso" : "324",
+		"independence" : 1958,
+		"expectancy" : 45.6,
+		"population" : 7430000,
+		"area" : 245857.00
+	},
+	{
+		"country" : "Guinea-Bissau",
+		"iso" : "624",
+		"independence" : 1974,
+		"expectancy" : 49.0,
+		"population" : 1213000,
+		"area" : 36125.00
+	},
+	{
+		"country" : "Guyana",
+		"iso" : "328",
+		"independence" : 1966,
+		"expectancy" : 64.0,
+		"population" : 861000,
+		"area" : 214969.00
+	},
+	{
+		"country" : "Haiti",
+		"iso" : "332",
+		"independence" : 1804,
+		"expectancy" : 49.2,
+		"population" : 8222000,
+		"area" : 27750.00
+	},
+	{
+		"country" : "Heard Island and McDonald Islands",
+		"iso" : "334",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : null,
+		"area" : 359.00
+	},
+	{
+		"country" : "Holy See (Vatican City State)",
+		"iso" : "336",
+		"independence" : 1929,
+		"expectancy" : null,
+		"population" : 1000,
+		"area" : 0.40
+	},
+	{
+		"country" : "Honduras",
+		"iso" : "340",
+		"independence" : 1838,
+		"expectancy" : 69.9,
+		"population" : 6485000,
+		"area" : 112088.00
+	},
+
+	{
+		"country" : "Hong Kong",
+		"iso" : null,
+		"independence" : null,
+		"expectancy" : null,
+		"population" : null,
+		"area" : null
+	},
+
+	{
+		"country" : "Hungary",
+		"iso" : "348",
+		"independence" : 1918,
+		"expectancy" : 71.4,
+		"population" : 10043200,
+		"area" : 93030.00
+	},
+	{
+		"country" : "Iceland",
+		"iso" : "352",
+		"independence" : 1944,
+		"expectancy" : 79.4,
+		"population" : 279000,
+		"area" : 103000.00
+	},
+	{
+		"country" : "India",
+		"iso" : "356",
+		"independence" : 1947,
+		"expectancy" : 62.5,
+		"population" : 1013662000,
+		"area" : 3287263.00
+	},
+	{
+		"country" : "Indonesia",
+		"iso" : "360",
+		"independence" : 1945,
+		"expectancy" : 68.0,
+		"population" : 212107000,
+		"area" : 1904569.00
+	},
+	{
+		"country" : "Iran",
+		"iso" : "364",
+		"independence" : 1906,
+		"expectancy" : 69.7,
+		"population" : 67702000,
+		"area" : 1648195.00
+	},
+	{
+		"country" : "Iraq",
+		"iso" : "368",
+		"independence" : 1932,
+		"expectancy" : 66.5,
+		"population" : 23115000,
+		"area" : 438317.00
+	},
+	{
+		"country" : "Ireland",
+		"iso" : "372",
+		"independence" : 1921,
+		"expectancy" : 76.8,
+		"population" : 3775100,
+		"area" : 70273.00
+	},
+	{
+		"country" : "Israel",
+		"iso" : "376",
+		"independence" : 1948,
+		"expectancy" : 78.6,
+		"population" : 6217000,
+		"area" : 21056.00
+	},
+	{
+		"country" : "Italy",
+		"iso" : "380",
+		"independence" : 1861,
+		"expectancy" : 79.0,
+		"population" : 57680000,
+		"area" : 301316.00
+	},
+	{
+		"country" : "Jamaica",
+		"iso" : "388",
+		"independence" : 1962,
+		"expectancy" : 75.2,
+		"population" : 2583000,
+		"area" : 10990.00
+	},
+	{
+		"country" : "Japan",
+		"iso" : "392",
+		"independence" : -660,
+		"expectancy" : 80.7,
+		"population" : 126714000,
+		"area" : 377829.00
+	},
+	{
+		"country" : "Jordan",
+		"iso" : "400",
+		"independence" : 1946,
+		"expectancy" : 77.4,
+		"population" : 5083000,
+		"area" : 88946.00
+	},
+	{
+		"country" : "Kazakhstan",
+		"iso" : "398",
+		"independence" : 1991,
+		"expectancy" : 63.2,
+		"population" : 16223000,
+		"area" : 2724900.00
+	},
+	{
+		"country" : "Kenya",
+		"iso" : "404",
+		"independence" : 1963,
+		"expectancy" : 48.0,
+		"population" : 30080000,
+		"area" : 580367.00
+	},
+	{
+		"country" : "Kiribati",
+		"iso" : "296",
+		"independence" : 1979,
+		"expectancy" : 59.8,
+		"population" : 83000,
+		"area" : 726.00
+	},
+	{
+		"country" : "Kuwait",
+		"iso" : "414",
+		"independence" : 1961,
+		"expectancy" : 76.1,
+		"population" : 1972000,
+		"area" : 17818.00
+	},
+	{
+		"country" : "Kyrgyzstan",
+		"iso" : "417",
+		"independence" : 1991,
+		"expectancy" : 63.4,
+		"population" : 4699000,
+		"area" : 199900.00
+	},
+	{
+		"country" : "Laos",
+		"iso" : "418",
+		"independence" : 1953,
+		"expectancy" : 53.1,
+		"population" : 5433000,
+		"area" : 236800.00
+	},
+	{
+		"country" : "Latvia",
+		"iso" : "428",
+		"independence" : 1991,
+		"expectancy" : 68.4,
+		"population" : 2424200,
+		"area" : 64589.00
+	},
+	{
+		"country" : "Lebanon",
+		"iso" : "422",
+		"independence" : 1941,
+		"expectancy" : 71.3,
+		"population" : 3282000,
+		"area" : 10400.00
+	},
+	{
+		"country" : "Lesotho",
+		"iso" : "426",
+		"independence" : 1966,
+		"expectancy" : 50.8,
+		"population" : 2153000,
+		"area" : 30355.00
+	},
+	{
+		"country" : "Liberia",
+		"iso" : "430",
+		"independence" : 1847,
+		"expectancy" : 51.0,
+		"population" : 3154000,
+		"area" : 111369.00
+	},
+	{
+		"country" : "Libya",
+		"iso" : "434",
+		"independence" : 1951,
+		"expectancy" : 75.5,
+		"population" : 5605000,
+		"area" : 1759540.00
+	},
+	{
+		"country" : "Liechtenstein",
+		"iso" : "438",
+		"independence" : 1806,
+		"expectancy" : 78.8,
+		"population" : 32300,
+		"area" : 160.00
+	},
+	{
+		"country" : "Lithuania",
+		"iso" : "440",
+		"independence" : 1991,
+		"expectancy" : 69.1,
+		"population" : 3698500,
+		"area" : 65301.00
+	},
+	{
+		"country" : "Luxembourg",
+		"iso" : "442",
+		"independence" : 1867,
+		"expectancy" : 77.1,
+		"population" : 435700,
+		"area" : 2586.00
+	},
+	{
+		"country" : "Macao",
+		"iso" : "446",
+		"independence" : null,
+		"expectancy" : 81.6,
+		"population" : 473000,
+		"area" : 18.00
+	},
+	{
+		"country" : "Macedonia",
+		"iso" : "807",
+		"independence" : 1991,
+		"expectancy" : 73.8,
+		"population" : 2024000,
+		"area" : 25713.00
+	},
+	{
+		"country" : "Madagascar",
+		"iso" : "450",
+		"independence" : 1960,
+		"expectancy" : 55.0,
+		"population" : 15942000,
+		"area" : 587041.00
+	},
+	{
+		"country" : "Malawi",
+		"iso" : "454",
+		"independence" : 1964,
+		"expectancy" : 37.6,
+		"population" : 10925000,
+		"area" : 118484.00
+	},
+	{
+		"country" : "Malaysia",
+		"iso" : "458",
+		"independence" : 1957,
+		"expectancy" : 70.8,
+		"population" : 22244000,
+		"area" : 329758.00
+	},
+	{
+		"country" : "Maldives",
+		"iso" : "462",
+		"independence" : 1965,
+		"expectancy" : 62.2,
+		"population" : 286000,
+		"area" : 298.00
+	},
+	{
+		"country" : "Mali",
+		"iso" : "466",
+		"independence" : 1960,
+		"expectancy" : 46.7,
+		"population" : 11234000,
+		"area" : 1240192.00
+	},
+	{
+		"country" : "Malta",
+		"iso" : "470",
+		"independence" : 1964,
+		"expectancy" : 77.9,
+		"population" : 380200,
+		"area" : 316.00
+	},
+	{
+		"country" : "Marshall Islands",
+		"iso" : "584",
+		"independence" : 1990,
+		"expectancy" : 65.5,
+		"population" : 64000,
+		"area" : 181.00
+	},
+	{
+		"country" : "Martinique",
+		"iso" : "474",
+		"independence" : null,
+		"expectancy" : 78.3,
+		"population" : 395000,
+		"area" : 1102.00
+	},
+	{
+		"country" : "Mauritania",
+		"iso" : "478",
+		"independence" : 1960,
+		"expectancy" : 50.8,
+		"population" : 2670000,
+		"area" : 1025520.00
+	},
+	{
+		"country" : "Mauritius",
+		"iso" : "480",
+		"independence" : 1968,
+		"expectancy" : 71.0,
+		"population" : 1158000,
+		"area" : 2040.00
+	},
+	{
+		"country" : "Mayotte",
+		"iso" : "175",
+		"independence" : null,
+		"expectancy" : 59.5,
+		"population" : 149000,
+		"area" : 373.00
+	},
+	{
+		"country" : "Mexico",
+		"iso" : "484",
+		"independence" : 1810,
+		"expectancy" : 71.5,
+		"population" : 98881000,
+		"area" : 1958201.00
+	},
+	{
+		"country" : "Micronesia",
+		"iso" : "583",
+		"independence" : 1990,
+		"expectancy" : null,
+		"population" : 119000,
+		"area" : 702.00
+	},
+	{
+		"country" : "Moldova",
+		"iso" : "498",
+		"independence" : 1991,
+		"expectancy" : 64.5,
+		"population" : 4380000,
+		"area" : 33851.00
+	},
+	{
+		"country" : "Monaco",
+		"iso" : "492",
+		"independence" : 1861,
+		"expectancy" : 78.8,
+		"population" : 34000,
+		"area" : 1.50
+	},
+	{
+		"country" : "Mongolia",
+		"iso" : "496",
+		"independence" : 1921,
+		"expectancy" : 67.3,
+		"population" : 2662000,
+		"area" : 1566500.00
+	},
+	{
+		"country" : "Montserrat",
+		"iso" : "500",
+		"independence" : null,
+		"expectancy" : 78.0,
+		"population" : 11000,
+		"area" : 102.00
+	},
+	{
+		"country" : "Morocco",
+		"iso" : "504",
+		"independence" : 1956,
+		"expectancy" : 69.1,
+		"population" : 28351000,
+		"area" : 446550.00
+	},
+	{
+		"country" : "Mozambique",
+		"iso" : "508",
+		"independence" : 1975,
+		"expectancy" : 37.5,
+		"population" : 19680000,
+		"area" : 801590.00
+	},
+	{
+		"country" : "Myanmar",
+		"iso" : "104",
+		"independence" : 1948,
+		"expectancy" : 54.9,
+		"population" : 45611000,
+		"area" : 676578.00
+	},
+	{"
+		country" : "Namibia",
+		"iso" : "516",
+		"independence" : 1990,
+		"expectancy" : 42.5,
+		"population" : 1726000,
+		"area" : 824292.00
+	},
+	{
+		"country" : "Nauru",
+		"iso" : "520",
+		"independence" : 1968,
+		"expectancy" : 60.8,
+		"population" : 12000,
+		"area" : 21.00
+	},
+	{
+		"country" : "Nepal",
+		"iso" : "524",
+		"independence" : 1769,
+		"expectancy" : 57.8,
+		"population" : 23930000,
+		"area" : 147181.00
+	},
+	{
+		"country" : "Netherlands",
+		"iso" : "528",
+		"independence" : 1581,
+		"expectancy" : 78.3,
+		"population" : 15864000,
+		"area" : 41526.00
+	},
+	{
+		"country" : "Netherlands Antilles",
+		"iso" : null,
+		"independence" : null,
+		"expectancy" : null,
+		"population" : null,
+		"area" : null
+	},
+	{
+		"country" : "New Caledonia",
+		"iso" : "540",
+		"independence" : null,
+		"expectancy" : 72.8
+	},
+	{
+		"country" : "New Zealand",
+		"iso" : "554",
+		"independence" : 1907,
+		"expectancy" : 77.8,
+		"population" : 3862000,
+		"area" : 270534.00
+	},
+	{
+		"country" : "Nicaragua",
+		"iso" : "558",
+		"independence" : 1838,
+		"expectancy" : 68.7,
+		"population" : 5074000,
+		"area" : 130000.00
+	},
+	{
+		"country" : "Niger",
+		"iso" : "562",
+		"independence" : 1960,
+		"expectancy" : 41.3,
+		"population" : 10730000,
+		"area" : 1267000.00
+	},
+	{
+		"country" : "Nigeria",
+		"iso" : "566",
+		"independence" : 1960,
+		"expectancy" : 51.6,
+		"population" : 111506000,
+		"area" : 923768.00
+	},
+	{
+		"country" : "Niue",
+		"iso" : "570",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : 2000,
+		"area" : 260.00
+	},
+	{
+		"country" : "Norfolk Island",
+		"iso" : "574",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : 2000,
+		"area" : 36.00
+	},
+	{
+		"country" : "North Korea",
+		"iso" : "408",
+		"independence" : 1948,
+		"expectancy" : 70.7,
+		"population" : 24039000,
+		"area" : 120538.00
+	},
+	{
+		"country" : "Northern Ireland",
+		"iso" : null,
+		"independence" : null,
+		"expectancy" : null,
+		"population" : null,
+		"area" : null
+	},
+	{
+		"country" : "Northern Mariana Islands",
+		"iso" : "580",
+		"independence" : null,
+		"expectancy" : 75.5,
+		"population" : 78000,
+		"area" : 464.00,
+	},
+	{
+		"country" : "Norway",
+		"iso" : "578",
+		"independence" : 1905,
+		"expectancy" : 78.7,
+		"population" : 4478500,
+		"area" : 323877.00
+	},
+	{
+		"country" : "Oman",
+		"iso" : "512",
+		"independence" : 1951,
+		"expectancy" : 71.8,
+		"population" : 2542000,
+		"area" : 309500.00
+	},
+	{
+		"country" : "Pakistan",
+		"iso" : "586",
+		"independence" : 1947,
+		"expectancy" : 61.1,
+		"population" : 156483000,
+		"area" : 796095.00
+	},
+	{
+		"country" : "Palau",
+		"iso" : "585",
+		"independence" : 1994,
+		"expectancy" : 68.6,
+		"population" : 19000,
+		"area" : 459.00
+	},
+	{
+		"country" : "Palestine",
+		"iso" : "275",
+		"independence" : null,
+		"population" : 3101000,
+		"area" : 6257.00
+	},
+	{
+		"country" : "Panama",
+		"iso" : "591",
+		"independence" : 1903,
+		"expectancy" : 75.5,
+		"population" : 2856000,
+		"area" : 75517.00
+	},
+	{
+		"country" : "Papua New Guinea",
+		"iso" : "598",
+		"independence" : 1975,
+		"expectancy" : 63.1,
+		"population" : 4807000,
+		"area" : 462840.00
+	},
+	{
+		"country" : "Paraguay",
+		"iso" : "600",
+		"independence" : 1811,
+		"expectancy" : 73.7,
+		"population" : 5496000,
+		"area" : 406752.00
+	},
+	{
+		"country" : "Peru",
+		"iso" : "604",
+		"independence" : 1821,
+		"expectancy" : 70.0,
+		"population" : 25662000,
+		"area" : 1285216.00
+	},
+	{
+		"country" : "Philippines",
+		"iso" : "608",
+		"independence" : 1946,
+		"expectancy" : 67.5,
+		"population" : 75967000,
+		"area" : 300000.00
+	},
+	{
+		"country" : "Pitcairn",
+		"iso" : "612",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : 50,
+		"area" : 49.00
+	},
+	{
+		"country" : "Poland",
+		"iso" : "616",
+		"independence" : 1918,
+		"expectancy" : 73.2,
+		"population" : 38653600,
+		"area" : 323250.00
+	},
+	{
+		"country" : "Portugal",
+		"iso" : "620",
+		"independence" : 1143,
+		"expectancy" : 75.8,
+		"population" : 9997600,
+		"area" : 91982.00
+	},
+	{
+		"country" : "Puerto Rico",
+		"iso" : "630",
+		"independence" : null,
+		"expectancy" : 75.6,
+		"population" : 3869000,
+		"area" : 8875.00
+	},
+	{
+		"country" : "Qatar",
+		"iso" : "634",
+		"independence" : 1971,
+		"expectancy" : 72.4,
+		"population" : 599000,
+		"area" : 11000.00
+	},
+	{
+		"country" : "Reunion",
+		"iso" : "638",
+		"independence" : null,
+		"population" : 699000,
+		"area" : 2510.00
+	},
+	{
+		"country" : "Romania",
+		"iso" : "642",
+		"independence" : 1878,
+		"expectancy" : 69.9,
+		"population" : 22455500,
+		"area" : 238391.00
+	},
+	{
+		"country" : "Russia",
+		"iso" : "643",
+		"independence" : 1991,
+		"expectancy" :67.2,
+		"population" : 146934000,
+		"area" : 17075400.00
+	},
+	{
+		"country" : "Rwanda",
+		"iso" : "646",
+		"independence" : 1962,
+		"expectancy" : 39.3,
+		"population" : 7733000,
+		"area" : 26338.00
+	},
+	{
+		"country" : "Saint Helena",
+		"iso" : "654",
+		"independence" : null,
+		"expectancy" : 76.8,
+		"population" : 6000,
+		"area" : 314.00
+	},
+	{
+		"country" : "Saint Kitts and Nevis",
+		"iso" : "659",
+		"independence" : 1983,
+		"expectancy" : 70.7,
+		"population" : 38000,
+		"area" : 261.00
+	},
+	{
+		"country" : "Saint Lucia",
+		"iso" : "662",
+		"independence" : 1979,
+		"expectancy" : 72.3,
+		"population" : 154000,
+		"area" : 622.00
+	},
+	{
+		"country" : "Saint Pierre and Miquelon",
+		"iso" : "666",
+		"independence" : null,
+		"expectancy" : 77.6,
+		"population" : 7000,
+		"area" : 242.00
+	},
+	{
+		"country" : "Saint Vincent and the Grenadines",
+		"iso" : "670",
+		"independence" : 1979,
+		"expectancy" : 72.3,
+		"population" : 114000,
+		"area" : 388.00
+	},
+	{
+		"country" : "Samoa",
+		"iso" : "882",
+		"independence" : 1962,
+		"expectancy" : 69.2,
+		"population" : 180000,
+		"area" : 2831.00
+	},
+	{
+		"country" : "San Marino",
+		"iso" : "674",
+		"independence" : 885,
+		"expectancy" : 81.1,
+		"population" : 27000,
+		"area" : 61.00
+	},
+	{
+		"country" : "Sao Tome and Principe",
+		"iso" : "678",
+		"independence" : 1975,
+		"expectancy" : 65.3,
+		"population" : 147000,
+		"area" : 964.00
+	},
+	{
+		"country" : "Saudi Arabia",
+		"iso" : "682",
+		"independence" : 1932,
+		"expectancy" : 67.8,
+		"population" : 21607000,
+		"area" : 2149690.00
+	},
+	{
+		"country" : "Scotland",
+		"iso" : null,
+		"independence" : null,
+		"expectancy" : null,
+		"population" : null,
+		"area" : null,
+	},
+	{
+		"country" : "Senegal",
+		"iso" : "686",
+		"independence" : 1960,
+		"expectancy" : 62.2,
+		"population" : 9481000,
+		"area" : 196722.00
+	},
+	{
+		"country" : "Seychelles",
+		"iso" : "690",
+		"independence" : 1976,
+		"expectancy" : 70.4,
+		"population" : 77000,
+		"area" : 455.00
+	},
+	{
+		"country" : "Sierra Leone",
+		"iso" : "694",
+		"independence" : 1961,
+		"expectancy" : 45.3,
+		"population" : 4854000,
+		"area" : 71740.00
+	},
+	{
+		"country" : "Singapore",
+		"iso" : "702",
+		"independence" : 1965,
+		"expectancy" : 80.1,
+		"population" : 3567000
+	},
+	{
+		"country" : "Slovakia",
+		"iso" : "703",
+		"independence" : 1993,
+		"expectancy" : 73.7,
+		"population" : 5398700,
+		"area" : 49012.00
+	},
+	{
+		"country" : "Slovenia",
+		"iso" : "705",
+		"independence" : 1991,
+		"expectancy" : 74.9,
+		"population" : 1987800,
+		"area" : 20256.00
+	},
+	{
+		"country" : "Solomon Islands",
+		"iso" : "090",
+		"independence" : 1978,
+		"expectancy" : 71.3,
+		"population" : 444000,
+		"area" : 28896.00
+	},
+	{
+		"country" : "Somalia",
+		"iso" : "706",
+		"independence" : 1960,
+		"expectancy" : 46.2,
+		"population" : 10097000,
+		"area" : 637657.00
+	},
+	{
+		"country" : "South Africa",
+		"iso" : "710",
+		"independence" : 1910,
+		"expectancy" : 51.1,
+		"population" : 40377000,
+		"area" : 1221037.00
+	},
+	{
+		"country" : "South Georgia and the South Sandwich Islands",
+		"iso" : "239",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : null,
+		"area" : 3903.00
+	},
+	{
+		"country" : "South Korea",
+		"iso" : "410",
+		"independence" : 1948,
+		"expectancy" : 74.4,
+		"population" : 46844000,
+		"area" : 99434.00
+	},
+	{
+		"country" : "Spain",
+		"iso" : "724",
+		"independence" : 1492,
+		"expectancy" : 78.8,
+		"population" : 39441700,
+		"area" : 505992.00
+	},
+	{
+		"country" : "SriLanka",
+		"iso" : "144",
+		"independence" : 1948,
+		"expectancy" : 71.8,
+		"population" : 18827000,
+		"area" : 65610.00
+	},
+	{
+		"country" : "Sudan",
+		"iso" : "729",
+		"independence" : 1956,
+		"expectancy" : 56.6,
+		"population" : 29490000,
+		"area" : 2505813.00
+	},
+	{
+		"country" : "Suriname",
+		"iso" : "740",
+		"independence" : 1975,
+		"expectancy" : 71.4,
+		"population" : 417000,
+		"area" : 163265.00
+	},
+	{
+		"country" : "Svalbard and Jan Mayen",
+		"iso" : "744",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : 3200,
+		"area" : 62422.00
+	},
+	{
+		"country" : "Swaziland",
+		"iso" : "748",
+		"independence" : 1968,
+		"expectancy" : 40.4,
+		"population" : 1008000,
+		"area" : 17364.00
+	},
+	{
+		"country" : "Sweden",
+		"iso" : "752",
+		"independence" : 836,
+		"expectancy" : 79.6,
+		"population" : 8861400,
+		"area" : 449964.00
+	},
+	{
+		"country" : "Switzerland",
+		"iso" : "756",
+		"independence" : 1499,
+		"expectancy" : 79.6,
+		"population" : 7160400,
+		"area" : 41284.00
+	},
+	{
+		"country" : "Syria",
+		"iso" : "760",
+		"independence" : 1941,
+		"expectancy" : 68.5,
+		"population" : 16125000,
+		"area" : 185180.00
+	},
+	{
+		"country" : "Taiwan",
+		"iso" : "158",
+		"independence" : 1945,
+		"expectancy" : 76.4,
+		"population" : 22256000,
+		"area" : 36188.00
+	},
+	{
+		"country" : "Tajikistan",
+		"iso" : "762",
+		"independence" : 1991,
+		"expectancy" : 64.1,
+		"population" : 6188000,
+		"area" : 143100.00
+	},
+	{
+		"country" : "Tanzania",
+		"iso" : "834",
+		"independence" : 1961,
+		"expectancy" : 52.3,
+		"population" : 33517000,
+		"area" : 883749.00
+	},
+	{
+		"country" : "Thailand",
+		"iso" : "764",
+		"independence" : 1350,
+		"expectancy" : 68.6,
+		"population" : 61399000,
+		"area" : 513115.00
+	},
+	{
+		"country" : "Togo",
+		"iso" : "768",
+		"independence" : 1960,
+		"expectancy" : 54.7,
+		"population" : 4629000,
+		"area" : 56785.00
+	},
+	{
+		"country" : "Tokelau",
+		"iso" : "772",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : 2000,
+		"area" : 12.00
+	},
+	{
+		"country" : "Tonga",
+		"iso" : "776",
+		"independence" : 1970,
+		"expectancy" : 67.9,
+		"population" : 99000,
+		"area" : 650.00
+	},
+	{
+		"country" : "Trinidad and Tobago",
+		"iso" : "780",
+		"independence" : 1962,
+		"expectancy" : 68.0,
+		"population" : 1295000,
+		"area" : 5130.00
+	},
+	{
+		"country" : "Tunisia",
+		"iso" : "788",
+		"independence" : 1956,
+		"expectancy" : 73.7,
+		"population" : 9586000,
+		"area" : 163610.00
+	},
+	{
+		"country" : "Turkey",
+		"iso" : "792",
+		"independence" : 1923,
+		"expectancy" : 71.0,
+		"population" : 66591000,
+		"area" : 774815.00
+	},
+	{
+		"country" : "Turkmenistan",
+		"iso" : "795",
+		"independence" : 1991,
+		"expectancy" : 60.9,
+		"population" : 4459000,
+		"area" : 488100.00
+	},
+	{
+		"country" : "Turks and Caicos Islands",
+		"iso" : "796",
+		"independence" : null,
+		"expectancy" : 73.3,
+		"population" : 17000,
+		"area" : 430.00
+	},
+	{
+		"country" : "Tuvalu",
+		"iso" : "798",
+		"independence" : 1978,
+		"expectancy" : 66.3,
+		"population" : 12000,
+		"area" : 26.00
+	},
+	{
+		"country" : "Uganda",
+		"iso" : "800",
+		"independence" : 1962,
+		"expectancy" : 42.9,
+		"population" : 21778000,
+		"area" : 241038.00
+	},
+	{
+		"country" : "Ukraine",
+		"iso" : "804",
+		"independence" : 1991,
+		"expectancy" : 66.0,
+		"population" : 50456000,
+		"area" : 603700.00
+	},
+	{
+		"country" : "United Arab Emirates",
+		"iso" : "784",
+		"independence" : 1971,
+		"expectancy" : 74.1,
+		"population" : 2441000,
+		"area" : 83600.00
+	},
+	{
+		"country" : "United Kingdom",
+		"iso" : "826",
+		"independence" : 1066,
+		"expectancy" : 77.7,
+		"population" : 59623400,
+		"area" : 242900.00
+	},
+	{
+		"country" : "United States",
+		"iso" : "840",
+		"independence" : 1776,
+		"expectancy" : 77.1,
+		"population" : 278357000,
+		"area" : 9363520.00
+	},
+	{
+		"country" : "United States Minor Outlying Islands",
+		"iso" : "581",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : null,
+		"area" : 16.00
+	},
+	{
+		"country" : "Uruguay",
+		"iso" : "858",
+		"independence" : 1828,
+		"expectancy" : 75.2,
+		"population" : 3337000,
+		"area" : 175016.00
+	},
+	{
+		"country" : "Uzbekistan",
+		"iso" : "860",
+		"independence" : 1991,
+		"expectancy" : 63.7,
+		"population" : 24318000,
+		"area" : 447400.00
+	},
+	{
+		"country" : "Vanuatu",
+		"iso" : "548",
+		"independence" : 1980,
+		"expectancy" : 60.6,
+		"population" : 190000,
+		"area" : 12189.00
+	},
+	{
+		"country" : "Venezuela",
+		"iso" : "862",
+		"independence" : 1811,
+		"expectancy" : 73.1,
+		"population" : 24170000,
+		"area" : 912050.00
+	},
+	{
+		"country" : "Vietnam",
+		"iso" : "704",
+		"independence" : 1945,
+		"expectancy" : 69.3,
+		"population" : 79832000,
+		"area" : 331689.00
+	},
+	{
+		"country" : "Virgin Islands, British",
+		"iso" : "092",
+		"independence" : null,
+		"expectancy" : 75.4,
+		"population" : 21000,
+		"area" : 151.00
+	},
+	{
+		"country" : "Virgin Islands, U.S.",
+		"iso" : "850",
+		"independence" : null,
+		"expectancy" : 78.1,
+		"population" : 93000,
+		"area" : 347.00
+	},
+	{
+		"country" : "Wales",
+		"iso" : "null",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : null,
+		"area" : null,	
+	},
+	{
+		"country" : "Wallis and Futuna",
+		"iso" : "876",
+		"independence" : null,
+		"expectancy" : null,
+		"population" : 15000,
+		"area" : 200.00
+	},
+	{
+		"country" : "Western Sahara",
+		"iso" : "732",
+		"independence" : null,
+		"expectancy" : 49.8,
+		"population" : 293000,
+		"area" : 266000.00
+	},
+	{
+		"country" : "Yemen",
+		"iso" : "887",
+		"independence" : 1918,
+		"expectancy" : 59.8,
+		"population" : 18112000,
+		"area" : 527968.00
+	},
+	{
+		"country" : "Yugoslavia",
+		"iso" : "null",
+		"independence" : 1918,
+		"expectancy" : 72.4,
+		"population" : 10640000,
+		"area" : 102173.00
+	},
+	{
+		"country" : "Zambia",
+		"iso" : "894",
+		"independence" : 1964,
+		"expectancy" : 37.2,
+		"population" : 9169000,
+		"area" : 752618.00
+	},
+	{
+		"country" : "Zimbabwe",
+		"iso" : "716",
+		"independence" : 1980,
+		"expectancy" : 37.8,
+		"population" : 11669000,
+		"area" : 390757.00
+	}
+]

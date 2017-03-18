@@ -1,0 +1,209 @@
+.landing-arrow {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.landing-arrow img {
+	max-width: 97vw;
+}
+
+.ssn{
+	position: absolute;
+	z-index: 1;
+	margin-left: 31vw;
+	margin-top: 34vw;
+}
+
+.ssn img{
+	max-width: 15vw;
+
+}
+
+.clock2{
+	position: absolute;
+	z-index: 1;
+	margin-left: 15vw;
+	margin-top: 10vw;
+}
+
+.clock2 img{
+	max-width: 15vw;
+
+}
+
+.clock3{
+	position: absolute;
+	z-index: 1;
+	margin-left: 37vw;
+	margin-top: 0vw;
+}
+
+.clock3 img{
+	width: 15vw;
+}
+
+.clock4{
+	position: absolute;
+	position: absolute;
+	z-index: 1;
+	margin-left: 53vw;
+	margin-top: 25vw;
+}
+
+.clock4 img{
+	max-width: 15vw;
+}
+
+.clock5{
+	position: absolute;
+	z-index: 3;
+	margin-left: 61vw;
+	margin-top: 9vw;
+}
+
+.clock5 img{
+	max-width: 15vw;
+}
+
+.clock6{
+	position: absolute;
+	z-index: 0;
+	margin-left: 52vw;
+	margin-top: 12vw;
+}
+
+.clock6 img{
+	max-width: 15vw;
+}
+
+@media (max-width: 700px) {
+	.pageBanner1{
+		background-image: url("history_01.png");
+		background-position: center; 
+		background-size: cover;
+		width: 100%;
+		height: 50vw;
+		position: relative;
+		padding-top: 0px;
+		margin-top: 0;
+		border-top: 10px solid #FAF8F4;
+	}
+
+
+	.pageBanner2{
+		background-image: url("history_02.png");
+		background-position: center; 
+		background-size: cover;
+		width: 100%;
+		height: 50vw;
+		position: relative;
+		padding-top: 0px;
+		margin-top: 0;
+		border-top: 10px solid #FAF8F4;
+	}
+	.pageBanner3{
+		background-image: url("history_03.png");
+		background-position: center; 
+		background-size: cover;
+		width: 100%;
+		height: 50vw;
+		position: relative;
+		padding-top: 0px;
+		margin-top: 0;
+		border-top: 10px solid #FAF8F4;
+	}
+}
+
+@media (min-width: 701px) {
+	.pageBanner1{
+		background-image: url("history_01.png");
+		background-position: center; 
+		background-size: cover;
+		width: 100%;
+		height: 30vw;
+		position: relative;
+		padding-top: 0px;
+		border-top: 20px solid #FAF8F4;
+	}
+
+
+	.pageBanner2{
+		background-image: url("history_02.png");
+		background-position: center; 
+		background-size: cover;
+		width: 100%;
+		height: 30vw;
+		position: relative;
+		padding-top: 0px;
+		border-top: 20px solid #FAF8F4;
+	}
+	.pageBanner3{
+		background-image: url("history_03.png");
+		background-position: center; 
+		background-size: cover;
+		width: 100%;
+		height: 30vw;
+		position: relative;
+		padding-top: 0px;
+		border-top: 20px solid #FAF8F4;
+	}
+
+	.pageBanner4{
+		background-image: url("history_03.png");
+		background-position: center; 
+		background-size: cover;
+		width: 100%;
+		height: 30vw;
+		position: relative;
+		padding-top: 0px;
+		border-top: 20px solid #FAF8F4;
+	}
+}
+
+@media (min-width: 1251px) {
+	.pageBanner1{
+		background-image: url("history_01.png");
+		background-position: center; 
+		background-size: cover;
+		width: calc(100% - 60px);
+		height: 30vw;
+		position: relative;
+		padding-top: 0px;
+		border-top: 20px solid #FAF8F4;
+	}
+
+
+	.pageBanner2{
+		background-image: url("history_02.png");
+		background-position: center; 
+		background-size: cover;
+		width: calc(100% - 60px);
+		height: 30vw;
+		position: relative;
+		padding-top: 0px;
+		border-top: 20px solid #FAF8F4;
+	}
+	.pageBanner3{
+		background-image: url("history_03.png");
+		background-position: center; 
+		background-size: cover;
+		width: calc(100% - 60px);
+		height: 30vw;
+		position: relative;
+		padding-top: 0px;
+		border-top: 20px solid #FAF8F4;
+	}
+
+	.pageBanner4{
+		background-image: url("history_04.png");
+		background-position: center; 
+		background-size: cover;
+		width: calc(100% - 60px);
+		height: 30vw;
+		position: relative;
+		padding-top: 0px;
+		border-top: 20px solid #FAF8F4;
+	}
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Hind+Madurai:500,600,700|Raleway:800|Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script> 
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="favicon.png">
+
+  <title>Olivia Johnson | Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="dist2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="cover.css" rel="stylesheet">
+  <link href="animate.css" rel="stylesheet">
+
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+
+    <body style="background-color: rgb(0, 0, 0)">
+
+      <div class="site-wrapper">
+
+        <div class="site-wrapper-inner">
+
+          <div class="cover-container">
+
+            <div class="masthead clearfix">
+              <div class="inner">
+                <div class="masthead-brand">
+                 <a href="special.html"><img src="olivia_johnson_logo_2016.png"></a>
+               </div>
+               <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="resume.html">Resumé</a></li>
+                  <li><a href="mailto:olivia@o-j.co?subject=Hello!">Contact</a></li>                  
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="bio hidden">
+            <h1>
+              Olivia Johnson is a graphic designer living and <a href="www.sosolimited.com">working</a> in New England.</a>
+              </h1>
+
+            <div class="thumbnails hidden">
+              <section id="top-img"><a href="socialism-is.html"><img src="socialism_thumb.gif"></a><h2 class="bold">Socialism Is...</h2></section>
+
+             
+            </div>
+<!--           <div class="fullName"><h2 class="footer">© Olivia Johnson Graphic Design</h2></div>
+-->          <div class="mastfoot">
+<div class="inner">
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+  </html>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('div.thumbnails').fadeIn(1500).removeClass('hidden');
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('div.bio').fadeIn(1000).removeClass('hidden');
+    });
+
+var tStart = 100 // Start transition 100px from top
+  , tEnd = 500   // End at 500px
+  , cStart = [0, 0, 0]  // Gold
+  , cEnd = [255, 255, 255]   // Lime
+  , cDiff = [cEnd[0] - cStart[0], cEnd[1] - cStart[1], cEnd[1] - cStart[0]];
+
+$(document).ready(function(){
+    $(document).scroll(function() {
+        var p = ($(this).scrollTop() - tStart) / (tEnd - tStart); // % of transition
+        p = Math.min(1, Math.max(0, p)); // Clamp to [0, 1]
+        var cBg = [Math.round(cStart[0] + cDiff[0] * p), Math.round(cStart[1] + cDiff[1] * p), Math.round(cStart[2] + cDiff[2] * p)];
+        $("body").css('background-color', 'rgb(' + cBg.join(',') +')');
+    });
+});
+  </script>
