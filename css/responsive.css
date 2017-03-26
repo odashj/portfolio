@@ -42,10 +42,10 @@
 		width:70px;
 	}
 
-	.project-image h1  {
+	.project-image h4  {
 		position: absolute; 
-		bottom: 7px; 
-		left: 25px; 
+		bottom: 1px; 
+		left: 15px; 
 		width: 100%; 
 		color: #fff;
 	}
@@ -117,8 +117,8 @@
 
 	.body-text {
 		position: relative;
-		margin-top: 40px;
-		margin-bottom: 50px;
+		margin-top: 45px;
+		margin-bottom: 55px;
 		margin-left: 0;
 		margin-right: 0;
 	}
@@ -174,16 +174,16 @@
 		width:15%;
 	}
 
-	.project-image h1  {
+	.project-image h4  {
 		position: absolute; 
-		bottom: 7px; 
-		left: 50px; 
+		bottom: 1px; 
+		left: 15px; 
 		width: 100%; 
 		color: #fff;
 	}
 
 	.portrait {
-		width: 100%;
+		width: 50%;
 		margin-top: 100px;
 		float: left;
 		display: block;
@@ -249,10 +249,10 @@
 
 	.body-text {
 		position: relative;
-		margin-top: 40px;
-		margin-bottom: 50px;
-		margin-left: 0;
-		margin-right: 0;
+		margin-top: 50px;
+		margin-bottom: 60px;
+		margin-left: 100px;
+		margin-right: 100px;
 	}
 
 	p {
@@ -307,10 +307,10 @@
 		width:15%;
 	}
 
-	.project-image h1  {
+	.project-image h4  {
 		position: absolute; 
-		bottom: 7px; 
-		left: 70px; 
+		bottom: 1px; 
+		left: 25px; 
 		width: 100%; 
 		color: #fff;
 	}
@@ -346,7 +346,7 @@
 		height: 250px;
 		position: relative;
 		display: block;
-		margin-bottom: 30px;
+		margin-bottom: 55px;
 	}
 
 	.project-title {
@@ -380,8 +380,8 @@
 
 	.body-text {
 		position: relative;
-		margin-top: 40px;
-		margin-bottom: 50px;
+		margin-top: 65px;
+		margin-bottom: 75px;
 		margin-left: 150px;
 		margin-right: 150px;
 	}
@@ -449,10 +449,10 @@
 		width:15%;
 	}
 
-	.project-image h1  {
+	.project-image h4  {
 		position: absolute; 
-		bottom: 7px; 
-		left: 70px; 
+		bottom: 1px; 
+		left: 25px; 
 		width: 100%; 
 		color: #fff;
 	}
@@ -488,7 +488,7 @@
 		height: 250px;
 		position: relative;
 		display: block;
-		margin-bottom: 30px;
+		margin-bottom: 55px;
 	}
 
 	.project-title {
@@ -522,8 +522,8 @@
 
 	.body-text {
 		position: relative;
-		margin-top: 40px;
-		margin-bottom: 50px;
+		margin-top: 70px;
+		margin-bottom: 80px;
 		margin-left: 150px;
 		margin-right: 150px;
 	}

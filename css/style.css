@@ -1,5 +1,5 @@
 body {
-	background-color: #f4f4f4;
+	background-color: #ECECEC;
 	overflow-x: hidden;
 }
 
@@ -27,7 +27,7 @@ body {
 .navigation {
 	width: 100%;
 	height: 30px;
-	background-color: #f4f4f4;
+	background-color: #ECECEC;
 /*	box-shadow: 0 0 25px 18px #f4f4f4;*/
 	z-index: 100;
 	position: fixed;
@@ -119,6 +119,12 @@ p {
 	letter-spacing: .01em;
 }
 
+p a {
+	text-decoration: none;
+	color: #000000;
+	border-bottom: 1px solid #EA5825;
+}
+
 hr {
 	margin-top: 20px;
 	padding: 2px 0;
@@ -162,14 +168,18 @@ hr {
 
 	}*/
 
-	.project-image h1  {
+	.project-image h4  {
 		position: absolute; 
-		bottom: 7px; 
-		left: 70px; 
+		bottom: 1px; 
+		left: 25px; 
 		width: 100%; 
 		color: #fff;
-		display: none;
 	}
+/*
+	h1 span {
+		background: #EA5825;
+   		padding: .1em .25em .1em .25em; 
+	}*/
 
 	.project-image img {
 		width: 100%;
@@ -220,7 +230,7 @@ hr {
 	height: 250px;
 	position: relative;
 	display: block;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .project-title {
@@ -243,8 +253,8 @@ hr {
 
 .body-text {
 	position: relative;
-	margin-top: 40px;
-	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-bottom: 60px;
 	margin-left: 150px;
 	margin-right: 150px;
 }
