@@ -15,11 +15,11 @@ body {
 */
 ::selection {
 	color: #ffffff;
-	background: #EA5825; /* WebKit/Blink Browsers */
+	background: #A4A4A4; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
 	color: #ffffff;
-	background: #EA5825; /* Gecko Browsers */
+	background: #A4A4A4; /* Gecko Browsers */
 }
 
 /*sticky header
@@ -80,7 +80,7 @@ h2 {
 h2 a{
 	color: #000000;
 	text-decoration: none;
-	border-bottom: 1px solid #EA5825;
+	border-bottom: 1px solid #A4A4A4;
 }
 
 h4 {
@@ -97,7 +97,7 @@ h4 {
 h4 a {
 	text-decoration: none;
 	color: #000000;
-	border-bottom: 1px solid #EA5825;
+	border-bottom: 1px solid #A4A4A4;
 	line-height: 34px;
 }
 
@@ -122,14 +122,14 @@ p {
 p a {
 	text-decoration: none;
 	color: #000000;
-	border-bottom: 1px solid #EA5825;
+	border-bottom: 1px solid #A4A4A4;
 }
 
 hr {
 	margin-top: 20px;
 	padding: 2px 0;
 	border: none;
-	background-color: #EA5825;
+	background-color: #A4A4A4;
 	letter-spacing: 5px;
 }
 
@@ -177,7 +177,7 @@ hr {
 	}
 /*
 	h1 span {
-		background: #EA5825;
+		background: #A4A4A4;
    		padding: .1em .25em .1em .25em; 
 	}*/
 
