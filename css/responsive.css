@@ -4,6 +4,11 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) {
 	/* Styles */
+
+	body {
+		overflow-x: hidden;
+	}
+	
 	.site-wrapper {
 		width: 90%;
 		margin-left: auto;
