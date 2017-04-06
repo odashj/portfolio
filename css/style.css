@@ -162,6 +162,7 @@ hr {
 	position: relative;
 	margin: 0 auto;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 /*#thumbnail-text1, #thumbnail-text2, #thumbnail-text3, #thumbnail-text4 {
