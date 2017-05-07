@@ -3,7 +3,7 @@ var canvas;
 var state;
 var api = 'https://api.census.gov/data/2015/acs1/profile';
 var apiKey = '?key=9df29ce2a585089df6961f0f534d063842a4651b';
-var units = '&get=NAME,DP05_0001PE,DP02_0092PE,DP04_0134E,DP04_0003PE,DP04_0089E,DP04_0046PE,DP03_0062E,DP03_0070PE,DP03_0005PE,DP03_0099PE,DP03_0128PE,DP02_0066PE,DP02_0064PE,DP02_0065PE&for=state:';
+var units = '&get=NAME,DP05_0001PE,DP02_0092PE,DP04_0134E,DP04_0003PE,DP04_0089E,DP04_0046PE,DP03_0062E,DP03_0070PE,DP03_0005PE,DP03_0099PE,DP03_0128PE,DP02_0066PE,DP02_0062PE,DP02_0064PE,DP02_0065PE&for=state:';
 var input;
 
 var statsText;
@@ -58,14 +58,11 @@ function draw() {
     var pov = state[1][11];
 
     var hs = state[1][12];
-    var bach = state[1][13];
-    var grad = state[1][14];;
+    var someCollege = state[1][13];
+    var bach = state[1][14];
+    var grad = state[1][15];
 
     var id = state[1][15];
-    // var grad = state[1][6];
-
-    // var noHealth = state[1][10];
-    // var someCollege = state[1][11];
 
     var employed = (100 - unemployed); 
     var notPov = (100 - pov);
@@ -90,13 +87,18 @@ function draw() {
     var notPovNorm = (notPov - 79.6)*(100/(91.8 - 79.6));
 
 
-    var employedNorm = (employed - 94.3)*(320/(100 - 94.3));
+    var employedNorm = (employed - 93.4)*(290/(100 - 93.4));
 
-    var healthNorm = (health - 79.6)*(655/(97.2 - 79.6));
-    var notSecurityNorm = (notSecurity - 87.5)*(500/(97 - 87.5));
+    var healthNorm = (health - 79.1)*(655/(97.2 - 79.1));
+    var notSecurityNorm = (notSecurity - 86.4)*(500/(97 - 86.4));
 
-    var hsNorm = ((hs - 82.2)*33.0275229358);  
-    var bachNorm = ((bach - 11.7)*7.6335877863);  
+    var hsNormC = ((hs - 82.2)*33.0275229358);  
+    var hsNormL = ((hs - 82.2)*350/(93.5-82.2));  
+    var someCollegeNorm = (someCollege - 7.5)*(1.7/(27.5 - 7.5));
+    var bachNormC = (bach - 11.7)*(100/(24.8 - 11.7));  
+    var bachNormL = (bach - 11.7)*(350/(24.8 - 11.7));  
+    var gradNorm = (grad - 7.7)*(360/(32.9 - 7.7));
+    var gradNormL = (grad - 6.5)*(350/(32.9 - 6.5));
     
 
     // var nameText = ' state: ';
@@ -117,44 +119,36 @@ function draw() {
     background(popNorm,100,foreignNorm);
 
     if(homeValue < 178600) { 
-        noFill();
-        stroke(rentNorm,100,vacantNorm);
-        strokeWeight(homeValueNormW);
-        strokeCap(PROJECT);
-        // rect(0,homeOwnersNormH-homeValueNormH,width,homeValueNormH);
-        line(0,homeOwnersNormH,width,homeOwnersNormH);
+      noFill();
+      stroke(rentNorm,100,vacantNorm);
+      strokeWeight(homeValueNormW);
+      strokeCap(PROJECT);
+      line(0,homeOwnersNormH,width,homeOwnersNormH);
     } else if ((homeValue < 339300) && (homeValue > 178600)){
-        // noFill();
-        // stroke(rentNorm,100,vacantNorm);
-        // strokeWeight(homeValueNormH);
-        // strokeCap(PROJECT);
-        // line(0,height-homeOwnersNormD,width,0+homeOwnersNormD);
-        noFill();
-        stroke(rentNorm,100,vacantNorm);
-        strokeWeight(homeValueNormH);
-        strokeCap(PROJECT);
-        translate(homeOwnersNormD,0);
-        line((-width-width),height*2,(width*2-width),-height);
-        translate(-homeOwnersNormD,0);
-        // line(0,height-homeOwnersNormD,width,0+homeOwnersNormD);
+      noFill();
+      stroke(rentNorm,100,vacantNorm);
+      strokeWeight(homeValueNormH);
+      strokeCap(PROJECT);
+      translate(homeOwnersNormD,0);
+      line((-width-width),height*2,(width*2-width),-height);
+      translate(-homeOwnersNormD,0);
     } else { 
-        noFill();
-        stroke(rentNorm,100,vacantNorm);
-        strokeWeight(homeValueNormW);
-        strokeCap(PROJECT);
-        line(homeOwnersNormW,0,homeOwnersNormW,height);
+      noFill();
+      stroke(rentNorm,100,vacantNorm);
+      strokeWeight(homeValueNormW);
+      strokeCap(PROJECT);
+      line(homeOwnersNormW,0,homeOwnersNormW,height);
     }
-    
-    noStroke();
 
-     noStroke();
+
+    noStroke();
 
     if (income > 53889) {
       noStroke();
       fill(incomeNorm,100,notPovNorm);
     } else {
       noFill();
-      strokeWeight(27);
+      strokeWeight(30);
       strokeCap(PROJECT);
       stroke(incomeNorm,100,notPovNorm);
     }
@@ -163,28 +157,75 @@ function draw() {
       polygon(healthNorm,notSecurityNorm-employedNorm, employedNorm, 4); 
     } else {
       ellipse(healthNorm,notSecurityNorm-employedNorm,employedNorm*2,employedNorm*2);
-   } 
+    } 
 
- 
-  noStroke();
-  fill(255);
-  text(name,width/2,height/2);
+    if ((someCollege > 16.9 ) && (someCollege < 21.1 )) {
+      translate(85, 85);
+    } else if ((someCollege > 21.1 ) && (someCollege < 24.3 )) {
+      translate(width-85, 85);
+    } else if (someCollege > 24.3 ) {
+      translate(width-85, height-85);
+    }  else {
+       translate(85, height-85);
+    }
+    noStroke();
+    fill(hsNormC,100,bachNormC);
+    if ((hs > 86.7) && (bach < 18.5)) {
+      rotate(PI/-2.0);
+      star(0, 0, 18, 39, 4); 
+    } else if ((bach > 18.5) && (grad < 11.2)) {
+      rotate(PI/-2.0);
+      star(0, 0, 18, 39, 5); 
+    } else if (grad > 11.2) {
+      rotate(PI/-2.0);
+      star(0, 0, 18, 39, 6); 
+}
+
+
+
+
+
+
+    // noStroke();
+    // fill(255);
+    // resetMatrix();      
+    // text(name,width/2,height/2);
 
   }
-function polygon(x, y, radius, npoints) {
-  var angle = TWO_PI / npoints;
-  beginShape();
-  for (var a = 0; a < TWO_PI; a += angle) {
-    var sx = x + cos(a) * radius;
-    var sy = y + sin(a) * radius;
-    vertex(sx, sy);
+
+
+
+
+
+
+
+  function polygon(x, y, radius, npoints) {
+    var angle = TWO_PI / npoints;
+    beginShape();
+    for (var a = 0; a < TWO_PI; a += angle) {
+      var sx = x + cos(a) * radius;
+      var sy = y + sin(a) * radius;
+      vertex(sx, sy);
+
+    }
+    endShape(CLOSE);
   }
-  endShape(CLOSE);
-}
- 
-}
 
-
+  function star(x, y, radius1, radius2, npoints) {
+    var angle = TWO_PI / npoints;
+    var halfAngle = angle/2.0;
+    beginShape();
+    for (var a = 0; a < TWO_PI; a += angle) {
+      var sx = x + cos(a) * radius2;
+      var sy = y + sin(a) * radius2;
+      vertex(sx, sy);
+      sx = x + cos(a+halfAngle) * radius1;
+      sy = y + sin(a+halfAngle) * radius1;
+      vertex(sx, sy);
+    }
+    endShape(CLOSE);
+  }
+}
 
 
 
