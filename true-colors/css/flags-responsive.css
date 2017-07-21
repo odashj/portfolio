@@ -1,0 +1,199 @@
+/*responsive styles
+*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-width : 767px)  {
+	.site-wrapper {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+
+	.header-bg {
+		background-size: 150%; 
+		height: 250px;
+	}
+
+	.header-bg-overlay {
+		height: 250px;
+	}
+
+	.subtitle {
+		padding-top: 0;
+		margin-top: -.5em;
+	}
+
+	.page-header {
+		height: 280px;
+	}
+
+	.flag-mockup {
+		height: 58vw;
+	}
+
+
+	h1 {
+		font-size: 46px;
+		line-height: 40px;
+	}
+
+	h2 {
+		font-size: 27px;
+		line-height: 33px;
+	}
+
+	h3 {
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	h4 {
+
+	}
+
+	p {
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	hr {
+		margin-bottom: 3%;
+		margin-top: 3%;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen  and (min-width : 768px) and (max-width : 1223px) {
+	.site-wrapper {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+
+	.subtitle {
+		padding-top: 1.6em;
+	}
+
+	.header-bg {
+		background-size: 150%; 
+		height: 260px;
+	}
+
+	.header-bg-overlay {
+		height: 260px;
+	}
+
+	.page-header {
+		height: 280px;
+	}
+
+	.flag-mockup {
+		height: 29vw;
+	}
+
+	h1 {
+		font-size: 50px;
+		line-height: 54px;
+	}
+
+	h2 {
+		font-size: 30px;
+		line-height: 38px;
+	}
+
+	p {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	h4 {
+
+	}
+
+	hr {
+		margin-bottom: 1%;
+		margin-top: 0;
+	}
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) and (max-width : 1823px) {
+	.site-wrapper {
+		width: 1080px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+
+	.header-bg {
+		background-size: 100%; 
+	}
+	.page-header {
+		height: 295px;
+	}
+
+	.subtitle {
+		padding-top: 1.6em;
+	}
+
+	.flag-mockup {
+		height: 350px;
+	}
+
+	p {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	h4 {
+
+	}
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+	.site-wrapper {
+		width: 1080px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+	}
+
+	.header-bg {
+		background-size: 100%; 
+	}
+
+	.subtitle {
+		padding-top: 1.6em;
+	}
+
+	.page-header {
+		height: 295px;
+	}
+
+	.flag-mockup {
+		height: 350px;
+	}
+
+	h4 {
+
+	}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+/*@media only screen and (max-width : 1223px) {
+	#canvasHolder {
+		width: 800px;
+		height: 500px;
+		position: absolute;
+		margin: auto;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		transform:scale(0.5);
+	}
+}*/
