@@ -1,12 +1,10 @@
 var canvas;
 
-var pdf;
-
 var state;
 var api = 'https://api.census.gov/data/2015/acs1/profile';
 var apiKey = '?key=9df29ce2a585089df6961f0f534d063842a4651b';
 var units = '&get=NAME,DP05_0001PE,DP02_0092PE,DP04_0134E,DP04_0003PE,DP04_0089E,DP04_0046PE,DP03_0062E,DP03_0070PE,DP03_0005PE,DP03_0099PE,DP03_0128PE,DP02_0066PE,DP02_0062PE,DP02_0064PE,DP02_0065PE&for=state:';
-var input;
+
 
 var statsText;
 
@@ -18,37 +16,21 @@ function setup() {
   console.log(canvasHolder);
   print(canvasWidth + ', ' + canvasHeight);
 
-// use this code on the web
   createCanvas(canvasWidth, canvasHeight).parent('canvasHolder');
-
-// use this code when exporting
-  // createCanvas(canvasWidth, canvasHeight, SVG);
-  
-  pdf = createPDF();
-  pdf.beginRecord();
   
   // myCanvas = createCanvas(800, 500);
   // canvas.parent('canvasHolder');
   colorMode(HSB);
-
-  var button = select('#submit');
-  button.mousePressed(stateAsk);
-
-  input = select('#city');
-
-}
-
-function stateAsk() {
-  var url = api + apiKey + units + input.value();
+ var url = api + apiKey + units + input;
   loadJSON(url, gotData);
+
 }
+
+ 
 
 function gotData(data) {
   state = data;
 }
-
-
-
 
 function draw() {
 
@@ -82,10 +64,10 @@ function draw() {
     var health = (100 - noHealth);
     var notSecurity = (100 - security);
 
-    var popNorm = (pop - 586107)*(359/(39144818 - 586107));
+    var popNorm = ((pop - 586107)*0.00001);
     var foreignNorm = ((foreign - .5)*15);
 
-    var rentNorm = (rent - 675)*(359/(1500 - 675));
+    var rentNorm = ((rent - 675)*0.4363636364);
     var vacantNorm = ((notVacant - 74.8)*5.7471264368); 
 
     var homeValueNormH = (homeValue - 100000)*(650/(500000 - 100000));
@@ -95,7 +77,7 @@ function draw() {
     var homeOwnersNormW = (homeOwners - 30)*(700/(75 - 30));
     var homeOwnersNormD = (homeOwners - 30)*((350+width)/(75 - 30));
 
-    var incomeNorm = (income - 42019)*(359/(75847 - 42019));
+    var incomeNorm = (income - 42019)*(360/(75847 - 42019));
     var notPovNorm = (notPov - 79.6)*(100/(91.8 - 79.6));
 
 
@@ -104,10 +86,10 @@ function draw() {
     var healthNorm = (health - 79.1)*(655/(97.2 - 79.1));
     var notSecurityNorm = (notSecurity - 86.4)*(500/(97 - 86.4));
 
-    var hsNormC = (hs - 82.2)*(359/(93.5 - 82.2)); 
+    var hsNormC = ((hs - 82.2)*33.0275229358);  
     var hsNormL = ((hs - 82.2)*350/(93.5-82.2));  
     var someCollegeNorm = (someCollege - 7.5)*(1.7/(27.5 - 7.5));
-    var bachNormC = (bach - 11.5)*(100/(25 - 11.5));  
+    var bachNormC = (bach - 11.7)*(100/(24.8 - 11.7));  
     var bachNormL = (bach - 11.7)*(350/(24.8 - 11.7));  
     var gradNorm = (grad - 7.7)*(360/(32.9 - 7.7));
     var gradNormL = (grad - 6.5)*(350/(32.9 - 6.5));
@@ -178,20 +160,25 @@ function draw() {
     } else if (someCollege > 24.3 ) {
       translate(width-85, height-85);
     }  else {
-     translate(85, height-85);
-   }
-   noStroke();
-   fill(hsNormC,100,bachNormC);
-   if ((hs > 86.7) && (bach < 18.5)) {
-    rotate(PI/-2.0);
-    star(0, 0, 18, 39, 4); 
-  } else if ((bach > 18.5) && (grad < 11.2)) {
-    rotate(PI/-2.0);
-    star(0, 0, 18, 39, 5); 
-  } else if (grad > 11.2) {
-    rotate(PI/-2.0);
-    star(0, 0, 18, 39, 6); 
-  }
+       translate(85, height-85);
+    }
+    noStroke();
+    fill(hsNormC,100,bachNormC);
+    if ((hs > 86.7) && (bach < 18.5)) {
+      rotate(PI/-2.0);
+      star(0, 0, 18, 39, 4); 
+    } else if ((bach > 18.5) && (grad < 11.2)) {
+      rotate(PI/-2.0);
+      star(0, 0, 18, 39, 5); 
+    } else if (grad > 11.2) {
+      rotate(PI/-2.0);
+      star(0, 0, 18, 39, 6); 
+}
+
+
+
+
+
 
     // noStroke();
     // fill(255);
@@ -200,7 +187,11 @@ function draw() {
 
   }
 
-  
+
+
+
+
+
 
   function polygon(x, y, radius, npoints) {
     var angle = TWO_PI / npoints;
@@ -228,15 +219,8 @@ function draw() {
     }
     endShape(CLOSE);
   }
-
 }
 
-function keyPressed() {
-  if (keyPressed) {
-    if (key == 'S' || key == 's')
-      save();
-  }
-}
 
 
 
