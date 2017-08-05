@@ -95,7 +95,7 @@ body {
 }
 
 .hero-title {
-	margin-top: 16%;
+	margin-top: 17%;
 }
 
 .page-header {
@@ -120,7 +120,7 @@ a {
 h1 {
 	font-family: 'Yantramanav', sans-serif;
 	font-weight: 400;
-	font-size: 130px;
+	font-size: 170px;
 	line-height: 0px;
 	color: #353535;
 	text-align: center;
@@ -155,6 +155,10 @@ h4 {
 	color: #353535;
 }
 
+h4 a {
+	text-decoration: none !important;
+}
+
 h5 {
 	font-family: 'Roboto Mono', monospace;
 	text-transform: uppercase;
@@ -174,9 +178,7 @@ p {
 	color: #353535;
 }
 
-hr {
-	border-top: 1px solid #ffffff;
-}
+
 
 
 .subtitle {
