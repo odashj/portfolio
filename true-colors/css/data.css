@@ -4,9 +4,12 @@
 	height: 500px;
 	position: relative;
 	-ms-transform: scale(0.83, 0.83);
-    -webkit-transform: scale(0.83, 0.83);
-    transform: scale(0.83, 0.83);
-    transform-origin: top left;
+	-webkit-transform: scale(0.83, 0.83);
+	transform: scale(0.83, 0.83);
+	transform-origin: top left;
+	-webkit-box-shadow: -2px 2px 20px -6px rgba(64,64,64,0.61);
+	-moz-box-shadow: -2px 2px 20px -6px rgba(64,64,64,0.61);
+	box-shadow: -2px 2px 20px -6px rgba(64,64,64,0.61);
 }
 
 #navBar-flag {
@@ -39,39 +42,61 @@ hr {
 	overflow-y: scroll;
 	top: 0;
 	padding-right: 5%;
+/*	-webkit-box-shadow: inset 0px -18px 40px 4px rgba(219,219,219,1);
+-moz-box-shadow: inset 0px -18px 40px 4px rgba(219,219,219,1);
+box-shadow: inset 0px -18px 40px 4px rgba(219,219,219,1);*/
+}
+
+p {
+	font-size: 16px;
+	line-height: 16px;
+	color: #707070;
 }
 
 /*
  *  Scroll bar
  */
 
-#style-3::-webkit-scrollbar-track
-{
-	background-color: #e5e5e5;
+ #style-3::-webkit-scrollbar-track
+ {
+ 	background-color: none;
+ }
+
+ #style-3::-webkit-scrollbar
+ {
+ 	width: 6px;
+ 	background-color: none;
+ }
+
+ #style-3::-webkit-scrollbar-thumb
+ {
+ 	background-color: #adadad;
+ }
+
+
+ .footer-div-flag {
+ 	background-color: #bfbfbf;
+ 	width: 100%;
+ 	position: fixed;
+ 	bottom: 0;
+ 	margin-top: 0;
+ 	padding-top: 8px;
+ 	padding-bottom: 8px;
+ }
+
+.gradient {
+	width: 340px;
+	height: 60px;
+	z-index: 100;
+	top: 375px;
+	position: absolute;
+	background: -moz-linear-gradient(top,  rgba(219,219,219,0) 0%, rgba(219,219,219,1) 79%);
+background: -webkit-linear-gradient(top,  rgba(219,219,219,0) 0%,rgba(219,219,219,1) 79%);
+background: linear-gradient(to bottom,  rgba(219,219,219,0) 0%,rgba(219,219,219,1) 79%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00dbdbdb', endColorstr='#dbdbdb',GradientType=0 );
+
+
 }
-
-#style-3::-webkit-scrollbar
-{
-	width: 6px;
-	background-color: #e5e5e5;
-}
-
-#style-3::-webkit-scrollbar-thumb
-{
-	background-color: #adadad;
-}
-
-
-.footer-div-flag {
-	background-color: #bfbfbf;
-	width: 100%;
-	position: fixed;
-	bottom: 0;
-	margin-top: 0;
-	padding-top: 8px;
-	padding-bottom: 8px;
-}
-
 
 
 

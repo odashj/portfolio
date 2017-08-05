@@ -44,85 +44,56 @@
             <div id="canvasHolder"></div>
           </div>
           <div class="col span_1_of_3">
-          <h2 style="text-align: left; line-height: 10px">Alaska</h2>
+            <div id="stateName">
+            <div></div>
+          </div>
+            <div class="gradient">
+            </div>
           <div class="state-stats" id="style-3">
-            <h3 style="color:#353535;text-align: left;">Population</h3>
-            <p style="font-size: 16px;line-height: 16px;color:#707070;">
-              Total population: 
-            </p>
-            <p style="font-size: 16px;line-height: 16px;color:#707070;">
-              % of population born outside US:
-            </p>
+            <h3 style="color:#353535;text-align: left; line-height: 10px;">Population</h3>
+            <div id="population">
+              <div></div>
+            </div>
             <hr>
-            <h3 style="color:#353535;text-align: left;">Housing</h3>
-            <p style="font-size: 16px;line-height: 16px;color:#707070;">
-              Median home value:
-            </p>
-            <p style="font-size: 16px;line-height: 16px;color:#707070;">
-              Median monthly rent:
-            </p>
-            <p style="font-size: 16px;line-height: 16px;color:#707070;">
-              % of homes that are owner-occupied:
-            </p>
-            <p style="font-size: 16px;line-height: 16px;color:#707070;">
-              % of homes that are vacant:
-            </p>
+            <h3 style="color:#353535;text-align: left; line-height: 10px;"">Housing</h3>
+            <div id="housing">
+              <div></div>
+            </div>
             <hr>
-            <h3 style="color:#353535;text-align: left;">Economy</h3>
-            <p style="font-size: 16px;line-height: 16px;color:#707070;">
-              Median household income:
-            </p>
-            <p style="font-size: 16px;line-height: 16px;color:#707070;">
-              % of families living below poverty level:
-            </p>
-            <p style="font-size: 16px;line-height: 16px;color:#707070;">
-              % of households with social assistance:
-            </p>
-            <p style="font-size: 16px;line-height: 16px;color:#707070;">
-              % of population that is unemployed:
-            </p>
-            <p style="font-size: 16px;line-height: 16px;color:#707070;">
-              % of population without health coverage:
-            </p>
+            <h3 style="color:#353535;text-align: left; line-height: 10px;"">Economy</h3>
+            <div id="economy">
+               <div></div>
+            </div>
             <hr>
-            <h3 style="color:#353535;text-align: left;">Education</h3>
-            <p style="font-size: 16px;line-height: 16px;color:#707070;">
-              % of population with high school diploma:
-            </p>
-            <p style="font-size: 16px;line-height: 16px;color:#707070;">
-              % of population with some college, no degree:
-            </p>
-            <p style="font-size: 16px;line-height: 16px;color:#707070;">
-              % of population with bachelor's degree:
-            </p>
-            <p style="font-size: 16px;line-height: 16px;color:#707070;">
-              % of population with graduate degree:
-            </p>
+            <h3 style="color:#353535;text-align: left; line-height: 10px;"">Education</h3>
+              <div id="education">
+            <div></div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     <div class="footer-div-flag">
       <div class="site-wrapper">
         <div class="section group">
-        <div class="col span_2_of_3">
-        <a href="index.html#map">
-        <img src="assets/arrow.svg" style="width: 40px; height: auto; float: left; padding-top: 6px;">
-        <h3 style="color:#353535;text-align: left; float: left;">
+          <div class="col span_2_of_3">
+            <a href="index.html#map">
+              <img src="assets/arrow.svg" style="width: 40px; height: auto; float: left; padding-top: 6px;">
+              <h3 style="color:#353535;text-align: left; float: left;">
                 &nbsp; Back
-            </h3>
+              </h3>
             </a>
           </div>
           <div class="col span_1_of_3">
-          <div class="share-links">
-            <h3 style="color:#353535;text-align: left; float: left;">
-              Share: &nbsp;
-            </h3>
-            <h3 style="text-align: left; float: left;">
-              <a href="#">Facebook</a>&nbsp;
-              <a href="#">Twitter</a>&nbsp;
-              <a href="#">Email</a>
-            </h3>
+            <div class="share-links">
+              <h3 style="color:#353535;text-align: left; float: left;">
+                Share: &nbsp;
+              </h3>
+              <h3 style="text-align: left; float: left;">
+                <a href="#">Facebook</a>&nbsp;
+                <a href="#">Twitter</a>&nbsp;
+                <a href="#">Email</a>
+              </h3>
             </div>
           </div>
         </div>
@@ -194,6 +165,7 @@ $('.button-group').on( 'click', 'button', function() {
   var filterValue = $(this).attr('data-filter');
   $grid.isotope({ filter: filterValue });
 });
+
 
 </script>
 

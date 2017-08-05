@@ -5,8 +5,11 @@ var api = 'https://api.census.gov/data/2015/acs1/profile';
 var apiKey = '?key=9df29ce2a585089df6961f0f534d063842a4651b';
 var units = '&get=NAME,DP05_0001PE,DP02_0092PE,DP04_0134E,DP04_0003PE,DP04_0089E,DP04_0046PE,DP03_0062E,DP03_0070PE,DP03_0005PE,DP03_0099PE,DP03_0128PE,DP02_0066PE,DP02_0062PE,DP02_0064PE,DP02_0065PE&for=state:';
 
-
-var statsText;
+var nameStats;
+var popStats;
+var houseStats;
+var ecoStats;
+// var eduStats;
 
 function setup() {
   const canvasHolder = select('#canvasHolder'),
@@ -35,6 +38,8 @@ function gotData(data) {
 function draw() {
 
   if (state) {
+
+// Data
     var name = state[1][0];
 
     var pop = state[1][1];
@@ -48,7 +53,7 @@ function draw() {
     var income = state[1][7];
     var security = state[1][8];
     var unemployed = state[1][9]; 
-    var noHealth = state[1][10];;
+    var noHealth = state[1][10];
     var pov = state[1][11];
 
     var hs = state[1][12];
@@ -95,20 +100,36 @@ function draw() {
     var gradNormL = (grad - 6.5)*(350/(32.9 - 6.5));
     
 
-    // var nameText = ' state: ';
-    // var popText = ' | population: ';
-    // var employedText = ' | population employed: ';
-    // var schoolText = ' | population currently in school: ';
-    // var noHealthText = ' | population without health insurance: ';
-    // var bachText = ' | % with bachelors degree: ';
-    // var povText = ' | % of families in poverty: ';
-    // var incomeText = ' | average household income: ';
-    // var rentText = ' | median rent: ';
-    // var homeText = ' | median home value: ';
+// Stats text
+var lineBreak = '<br>';
+var pStyle = '<p style="font-size: 16px;line-height: 28px;color:#707070;">';
+var pStyleClose = '</p>';
+var weight = '<span style="font-weight: 700;">';
+var closeWeight = '</span>';
 
-    // var scrolling = nameText + name + popText + pop + employedText + employed + schoolText + school + noHealthText + noHealth + bachText + bach + povText + pov + incomeText + income + rentText + rent + homeText + home;
-    // var statsText = createP(scrolling);
-    // statsText.parent("stats");
+var nameStyle = '<h2 style="text-align: left; line-height: 10px">';
+var nameStyleClose = '</h2>';
+
+var popText = 'Total population: ';
+var foreignText = '% of population born outside US: ';
+
+var homeValueText = 'Median home value: ';
+var rentText = 'Median monthly rent: ';
+var homeOwnersText = '% of homes that are owner-occupied: ';
+var vacantText = '% of homes that are vacant: ';
+
+var incomeText = 'Median household income: ';
+var povText = '% of families living below poverty level: ';
+var securityText = '% of households with social assistance: ';
+var unemployedText = '% of population that is unemployed: '; 
+var noHealthText = '% of population without health coverage: ';
+
+var hsText = '% of population with high school diploma: ';
+var someCollegeText = '% of population with some college: ';
+var bachText = '% of population with bachelor&#39;s degree: ';
+var gradText = '% of population with graduate degree: ';
+
+
 
     background(popNorm,100,foreignNorm);
 
@@ -175,8 +196,30 @@ function draw() {
       star(0, 0, 18, 39, 6); 
 }
 
+var nameStats = nameStyle + name + nameStyleClose;
+var nameStatsText = createDiv(nameStats);
+nameStatsText.parent('stateName');
+noLoop();
 
+var popStats = pStyle + popText + weight + pop + closeWeight + lineBreak + foreignText + weight + foreign + closeWeight + pStyleClose;
+var popStatsText = createDiv(popStats);
+popStatsText.parent('population');
+noLoop();
 
+var houseStats = pStyle + homeValueText + weight + homeValue + closeWeight + lineBreak + rentText + weight + rent + closeWeight + lineBreak + homeOwnersText + weight + homeOwners + closeWeight + lineBreak + vacantText + weight + vacant + closeWeight + pStyleClose;
+var houseStatsText = createDiv(houseStats);
+houseStatsText.parent('housing');
+noLoop();
+
+var ecoStats = pStyle + incomeText + weight + income + closeWeight + lineBreak + povText + weight + pov + closeWeight + lineBreak + securityText + weight + security + closeWeight + lineBreak + unemployedText + weight + unemployed + closeWeight + lineBreak + noHealthText + weight + noHealth + closeWeight + pStyleClose;
+var ecoStatsText = createDiv(ecoStats);
+ecoStatsText.parent('economy');
+noLoop();
+
+var eduStats = pStyle + hsText + weight + hs + closeWeight + lineBreak + someCollegeText + weight + someCollege + closeWeight + lineBreak + bachText + weight + bach + closeWeight + lineBreak + gradText + weight + grad + closeWeight + lineBreak + lineBreak + pStyleClose;
+var ecoStatsText = createDiv(eduStats);
+ecoStatsText.parent('education');
+noLoop();
 
 
 
