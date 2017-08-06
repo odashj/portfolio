@@ -216,7 +216,7 @@ var ecoStatsText = createDiv(ecoStats);
 ecoStatsText.parent('economy');
 noLoop();
 
-var eduStats = pStyle + hsText + weight + hs + closeWeight + lineBreak + someCollegeText + weight + someCollege + closeWeight + lineBreak + bachText + weight + bach + closeWeight + lineBreak + gradText + weight + grad + closeWeight + lineBreak + lineBreak + pStyleClose;
+var eduStats = pStyle + hsText + weight + hs + closeWeight + lineBreak + someCollegeText + weight + someCollege + closeWeight + lineBreak + bachText + weight + bach + closeWeight + lineBreak + gradText + weight + grad + closeWeight + lineBreak + pStyleClose;
 var ecoStatsText = createDiv(eduStats);
 ecoStatsText.parent('education');
 noLoop();

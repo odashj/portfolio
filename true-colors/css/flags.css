@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	background-color: #dbdbdb;
 	overflow-x: hidden;
+	opacity: 0;
 } 
 
 .header-div {
@@ -25,9 +26,9 @@ body {
 	height: 55px;
 	width: 100%;
 	background-color: none;
-	display: none;
 	background-repeat: no-repeat;
 	background-size: cover;
+	display: none;
 }
 .nav-bar-overlay{
 	position: absolute;

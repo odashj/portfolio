@@ -25,7 +25,6 @@
 
   <script src="libraries/fips-codes/ak.js" type="text/javascript"></script>
 </head>
-<body>
   <body>
     <div class="logo"><a href="http://o-j.co"><img src="assets/logo.png" style="width:30px;height: 100%"></a>
     </div>
@@ -125,6 +124,45 @@
   });
 </script>
 
+<!-- Fade ins
+ -->
+   <script>
+  setTimeout(function() {
+    $(".logo").fadeTo(350, 1);
+  }, 200);
+</script>
+   <script>
+  setTimeout(function() {
+    $("body").fadeTo(350, 1);
+  }, 200);
+</script>
+   <script>
+  setTimeout(function() {
+    $("#navBar-flag").fadeTo(350, 1);
+  }, 200);
+</script>
+  <script>
+  setTimeout(function() {
+    $(".footer-div-flag").fadeTo(350, 1);
+  }, 200);
+</script>
+
+ <script>
+  setTimeout(function() {
+    $("#stateName").fadeTo(300, 1);
+  }, 600);
+</script>
+<script>
+  setTimeout(function() {
+    $("#canvasHolder").fadeTo(300, 1);
+  }, 600);
+</script>
+<script>
+  setTimeout(function() {
+    $(".state-stats").fadeTo(300, 1);
+  }, 600);
+</script>
+
 <script type="text/javascript">
   // external js: isotope.pkgd.js
 
@@ -165,8 +203,16 @@ $('.button-group').on( 'click', 'button', function() {
   var filterValue = $(this).attr('data-filter');
   $grid.isotope({ filter: filterValue });
 });
-
-
 </script>
-
+<script type="text/javascript">
+/*! Fades out the whole page when clicking links */
+$('a').click(function(e) {
+e.preventDefault();
+newLocation = this.href;
+$('body').fadeOut(300, newpage);
+});
+function newpage() {
+window.location = newLocation;
+}
+</script>
 
