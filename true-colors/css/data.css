@@ -10,6 +10,7 @@
 	-webkit-box-shadow: -2px 2px 20px -6px rgba(64,64,64,0.61);
 	-moz-box-shadow: -2px 2px 20px -6px rgba(64,64,64,0.61);
 	box-shadow: -2px 2px 20px -6px rgba(64,64,64,0.61);
+	opacity: 0;
 }
 
 #navBar-flag {
@@ -21,7 +22,10 @@
 	background-color: none;
 	background-repeat: no-repeat;
 	background-size: cover;
+	opacity: 0;
 }
+
+
 
 .body-div-flag {
 	width: 100%;
@@ -42,9 +46,11 @@ hr {
 	overflow-y: scroll;
 	top: 0;
 	padding-right: 5%;
-/*	-webkit-box-shadow: inset 0px -18px 40px 4px rgba(219,219,219,1);
--moz-box-shadow: inset 0px -18px 40px 4px rgba(219,219,219,1);
-box-shadow: inset 0px -18px 40px 4px rgba(219,219,219,1);*/
+	opacity: 0;
+}
+
+#stateName {
+	opacity: 0;
 }
 
 p {
@@ -82,13 +88,14 @@ p {
  	margin-top: 0;
  	padding-top: 8px;
  	padding-bottom: 8px;
+ 	opacity: 0;
  }
 
 .gradient {
 	width: 340px;
-	height: 60px;
+	height: 55px;
 	z-index: 100;
-	top: 375px;
+	top: 388px;
 	position: absolute;
 	background: -moz-linear-gradient(top,  rgba(219,219,219,0) 0%, rgba(219,219,219,1) 79%);
 background: -webkit-linear-gradient(top,  rgba(219,219,219,0) 0%,rgba(219,219,219,1) 79%);

@@ -614,6 +614,10 @@
 </body>
 </html>
 
+<!-- Fade ins
+-->
+
+
 <script type="text/javascript">
   $(document).ready(function(){ 
     $(".countryName").click(function() { 
@@ -637,15 +641,43 @@
     var bg = bgArray[Math.floor(Math.random() * bgArray.length)];
     var path = 'assets/';
     var imageUrl = path + bg;
-    $('.flag-mockup').css('background-image', 'url(' + imageUrl +')');
-
   });
 </script>
+
+<!-- fades -->
+   <script>
+  setTimeout(function() {
+    $("body").fadeTo(350, 1);
+  }, 200);
+</script>
+<!-- <script>
+  $(".hero-title").hide();
+
+  setTimeout(function() {
+    $(".hero-title").fadeIn(300);
+  }, 200);
+</script>
+<script>
+  $(".logo").hide();
+
+  setTimeout(function() {
+    $(".logo").fadeIn(300);
+  }, 700);
+</script>
+<script>
+  setTimeout(function() {
+    $(".body-div").fadeTo(300, 1);
+  }, 900);
+</script> -->
+
+
+
+
 <script type="text/javascript">
   var navTop = $('.body-div').offset().top;
 
   $(window).scroll(function(){
-    if ($(this).scrollTop() >= navTop - 66) {
+    if ($(this).scrollTop() >= navTop - 55) {
       $('#navBar').css('position', 'fixed');
       $('#navBar').css('top', '0');
       $('#navBar').css('display', 'block');
@@ -656,6 +688,8 @@
     }
   });
 </script>
+
+
 <script type="text/javascript">
   // external js: isotope.pkgd.js
 
@@ -697,6 +731,13 @@ $('.button-group').on( 'click', 'button', function() {
   $grid.isotope({ filter: filterValue });
 });
 
-
+$('a').click(function(e) {
+e.preventDefault();
+newLocation = this.href;
+$('body').fadeOut(300, newpage);
+});
+function newpage() {
+window.location = newLocation;
+}
 
 </script>
