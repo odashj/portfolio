@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="What if state flags were based on objective data?">
+  <meta name="keywords" content="olivia johnson, true colors, flags, data visualization, data viz, graphic design, design, america, state flags">
+  <meta name="author" content="Olivia Johnson">
 
   <title>True Colors</title>
 
@@ -25,9 +26,9 @@
   <script src="jquery.marquee.js"></script>
   <script type='text/javascript' src='//cdn.jsdelivr.net/jquery.marquee/1.3.9/jquery.marquee.min.js'></script>
   <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-  <script src="/node_modules/isotope-layout/dist/isotope.pkgd.min.js"></script>
-  <script src="node_modules/isotope-layout/dist/isotope.pkgd.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <!-- <script src="/node_modules/isotope-layout/dist/isotope.pkgd.min.js"></script>
+  <script src="node_modules/isotope-layout/dist/isotope.pkgd.js"></script> -->
   <link href="css/isotope.css" rel="stylesheet">
 
 </head>
@@ -38,7 +39,7 @@
     <div class="nav-bar-overlay">
     </div>
     <div class="nav-title">
-      <h4 style="color: #ffffff;text-align: left;">True Colors</h4>
+      <a href="index.html" style="text-decoration: none;"><h4 style="color: #ffffff;text-align: left;">True Colors</h4></a>
     </div>
   </div>
   <div class="header-div">
@@ -71,7 +72,7 @@
         </div>
       </div>
       <div class="section group">
-        <div class="col span_4_of_4">
+      <div class="col span_8_of_8">
           <div class="grid">
             <a href="http://localhost:8000/true-colors/ak.html">
               <div class="element-item ak" data-category="state">
@@ -517,7 +518,7 @@
 </div>
 </div>
 <div class="section group">
-  <div class="col span_2_of_4" style="margin-top: 25px;">
+  <div class="col span_4_of_4" style="margin-top: 25px;">
     <div class="button-group sort-by-button-group">
      <h3 style="text-align: left; float: left;">Sort by:&nbsp;</h3>
      <button class="button is-checked" data-sort-value="original-order" data-filter="*" style="border-right: 0px">Geography</button>
@@ -528,7 +529,7 @@
 <div class="section group" style="margin-top: 1em">
   <div class="col span_1_of_6">
   </div>
-  <div class="col span_2_of_3">
+  <div class="col span_2_of_3 body-text">
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat d tincidunt ut.Lorem ivolutpat. </p>
     <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu </p>
   </div>
@@ -561,7 +562,7 @@
 <div class="section group">
   <div class="col span_1_of_6">
   </div>
-  <div class="col span_2_of_3">
+  <div class="col span_2_of_3 body-text2">
     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
   </div>
 </div>
@@ -619,15 +620,6 @@
 
 
 <script type="text/javascript">
-  $(document).ready(function(){ 
-    $(".countryName").click(function() { 
-      $(".about").fadeIn("slow");
-    });
-
-    $("#close").click(function() { 
-      $(".about").fadeOut("slow"); 
-    });
-  });
 
   $(document).ready(function() {
     var bgArray = ['alabama.svg', 'alaska.svg', 'arkansas.svg', 'california.svg', 'colorado.svg', 'connecticut.svg', 'dc.svg', 'delaware.svg', 'florida.svg', 'georgia.svg', 'hawaii.svg', 'idaho.svg', 'illinois.svg', 'indiana.svg', 'iowa.svg', 'kansas.svg', 'kentucky.svg', 'louisiana.svg', 'maine.svg', 'maryland.svg', 'massachusetts.svg', 'michigan.svg', 'minnesota.svg', 'mississippi.svg', 'missouri.svg', 'montana.svg', 'nebraska.svg', 'nevada.svg', 'new-hampshire.svg', 'new-jersey.svg', 'new-mexico.svg', 'new-york.svg', 'north-carolina.svg', 'north-dakota.svg', 'ohio.svg', 'oklahoma.svg', 'oregon.svg', 'pennsylvania.svg','rhode-island.svg', 'south-carolina.svg', 'south-dakota.svg', 'tennessee.svg', 'texas.svg', 'utah.svg', 'vermont.svg', 'virginia.svg', 'washington.svg', 'west-virginia.svg', 'wisconsin.svg', 'wyoming.svg'];
@@ -645,7 +637,7 @@
 </script>
 
 <!-- fades -->
-   <script>
+<script>
   setTimeout(function() {
     $("body").fadeTo(350, 1);
   }, 200);
@@ -731,13 +723,32 @@ $('.button-group').on( 'click', 'button', function() {
   $grid.isotope({ filter: filterValue });
 });
 
-$('a').click(function(e) {
-e.preventDefault();
-newLocation = this.href;
-$('body').fadeOut(300, newpage);
-});
-function newpage() {
-window.location = newLocation;
-}
+$(document).ready(function() {
+    // run test on initial page load
+    checkSize();
 
-</script>
+    // run test on resize of the window
+    $(window).resize(checkSize);
+  });
+
+//Function to the css rule
+function checkSize(){
+  if ($(".button-group").css("display") == "none" ){
+        // filter items on button click
+        $grid.isotope({ sortBy : 'name' });
+        $grid.isotope({ filter: ':not(.zero)' });
+      }
+    }
+
+
+
+    $('a').click(function(e) {
+      e.preventDefault();
+      newLocation = this.href;
+      $('body').fadeOut(300, newpage);
+    });
+    function newpage() {
+      window.location = newLocation;
+    }
+
+  </script>

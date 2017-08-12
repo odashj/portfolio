@@ -103,13 +103,6 @@ body {
 	height: 295px;
 }
 
-.flag-mockup {
-	width: 100%;
-	background-size: contain;
-	background-color: none;
-	background-repeat: no-repeat;
-	background-image: url('../assets/flag-mockups_ohio.png');
-}
 
 /*Typography*/
 
@@ -151,7 +144,7 @@ h4 {
 	font-family: 'Yantramanav', sans-serif;
 	font-weight: 400;
 	font-size: 28px;
-	line-height: 38px;
+	line-height: 36px;
 	text-align: center;
 	color: #353535;
 }
@@ -179,9 +172,6 @@ p {
 	color: #353535;
 }
 
-
-
-
 .subtitle {
 	margin-top: -30px;
 }
@@ -197,6 +187,16 @@ p {
 	line-height: 1px;
 	display: block;
 	color: #828282;
+}
+
+.body-text {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.body-text2 {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 /*#canvasHolder {

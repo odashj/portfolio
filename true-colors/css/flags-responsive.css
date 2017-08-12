@@ -1,4 +1,4 @@
-/*responsive styles
+/*/*responsive styles
 */
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -11,56 +11,50 @@
 	}
 
 	.header-bg {
-		background-size: 150%; 
-		height: 250px;
+		background-size: 120%; 
+	}
+	.header-div {
+		position: fixed;
+		height: 240px;
+		width: 100%;
 	}
 
-	.header-bg-overlay {
-		height: 250px;
+	.hero-title {
+		margin-top: 115px;
 	}
 
-	.subtitle {
-		padding-top: 0;
-		margin-top: -.5em;
+	.hero-text {
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 
-	.page-header {
-		height: 280px;
+	.body-div {
+		margin-top: 240px;
 	}
-
-	.flag-mockup {
-		height: 58vw;
-	}
-
 
 	h1 {
-		font-size: 46px;
-		line-height: 40px;
+		font-size: 16vw;
 	}
 
 	h2 {
-		font-size: 27px;
-		line-height: 33px;
-	}
-
-	h3 {
-		font-size: 12px;
-		line-height: 15px;
-	}
-
-	h4 {
-
+		font-size: 28px;
+		line-height: 36px;
 	}
 
 	p {
-		font-size: 18px;
-		line-height: 26px;
+		font-size: 22px;
+		line-height: 30px;
 	}
 
-	hr {
-		margin-bottom: 3%;
-		margin-top: 3%;
-	}
+	.body-text {
+	margin-top: -35px;
+	margin-bottom: -40px;
+}
+
+	.body-text2 {
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -72,51 +66,40 @@
 		position: relative;
 	}
 
-	.subtitle {
-		padding-top: 1.6em;
-	}
-
 	.header-bg {
-		background-size: 150%; 
-		height: 260px;
+		background-size: 100%; 
+	}
+	.header-div {
+		position: fixed;
+		height: 250px;
+		width: 100%;
 	}
 
-	.header-bg-overlay {
-		height: 260px;
+	.hero-title {
+		margin-top: 115px;
 	}
 
-	.page-header {
-		height: 280px;
-	}
-
-	.flag-mockup {
-		height: 29vw;
+	.body-div {
+		margin-top: 250px;
 	}
 
 	h1 {
-		font-size: 50px;
-		line-height: 54px;
+		font-size: 120px;
 	}
 
 	h2 {
-		font-size: 30px;
-		line-height: 38px;
+		font-family: 'Yantramanav', sans-serif;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 36px;
+		text-align: center;
+		color: #353535;
 	}
 
 	p {
 		font-size: 22px;
 		line-height: 30px;
 	}
-
-	h4 {
-
-	}
-
-	hr {
-		margin-bottom: 1%;
-		margin-top: 0;
-	}
-
 }
 
 /* Desktops and laptops ----------- */
