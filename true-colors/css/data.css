@@ -1,12 +1,29 @@
 
-#canvasHolder {
+/*General styling*/
+#wrap {
+	position: relative;
 	width: 800px;
 	height: 500px;
+}
+
+.canvasParent {
 	position: relative;
+	width: 800px;
+	height: 500px;
+	transform-origin: top left;
 	-ms-transform: scale(0.83, 0.83);
 	-webkit-transform: scale(0.83, 0.83);
 	transform: scale(0.83, 0.83);
-	transform-origin: top left;
+}
+
+#canvasHolder {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+/*	-ms-transform: scale(0.83, 0.83);
+	-webkit-transform: scale(0.83, 0.83);
+	transform: scale(0.83, 0.83);*/
+	/*transform-origin: top left;*/
 	-webkit-box-shadow: -2px 2px 20px -6px rgba(64,64,64,0.61);
 	-moz-box-shadow: -2px 2px 20px -6px rgba(64,64,64,0.61);
 	box-shadow: -2px 2px 20px -6px rgba(64,64,64,0.61);
@@ -42,11 +59,15 @@ hr {
 }
 
 .state-stats {
-	height: 343px;
+	height: 327px;
 	overflow-y: scroll;
+	overflow-x: hidden;
 	top: 0;
 	padding-right: 5%;
+	padding-top: 15px;
 	opacity: 0;
+	position: relative;
+	border-top: 1px solid #353535;
 }
 
 #stateName {
@@ -65,18 +86,19 @@ p {
 
  #style-3::-webkit-scrollbar-track
  {
- 	background-color: none;
  }
 
  #style-3::-webkit-scrollbar
  {
  	width: 6px;
- 	background-color: none;
+
  }
 
  #style-3::-webkit-scrollbar-thumb
  {
  	background-color: #adadad;
+ 	border-top: solid 18px #DBDBDB;
+
  }
 
 
@@ -91,19 +113,65 @@ p {
  	opacity: 0;
  }
 
-.gradient {
-	width: 340px;
-	height: 55px;
-	z-index: 100;
-	top: 388px;
-	position: absolute;
-	background: -moz-linear-gradient(top,  rgba(219,219,219,0) 0%, rgba(219,219,219,1) 79%);
-background: -webkit-linear-gradient(top,  rgba(219,219,219,0) 0%,rgba(219,219,219,1) 79%);
-background: linear-gradient(to bottom,  rgba(219,219,219,0) 0%,rgba(219,219,219,1) 79%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00dbdbdb', endColorstr='#dbdbdb',GradientType=0 );
+ .back-mobile {
+ 	display: none;
+ }
+ .back-desktop {
+ 	display: block;
+ }
 
 
-}
+ /*responsive styling*/
 
+ /* Smartphones (portrait and landscape) ----------- */
+ @media only screen and (min-device-width : 320px) and (max-width : 767px)  {
+ 	.state-stats {
+ 		height: auto;
+ 		padding-bottom: 10px;
+ 	}
 
+ 	.body-div-flag {
+ 		width: 100%;
+ 		position: absolute;
+ 		margin-top: 65px;
+ 		margin-bottom: 0;
+ 	}
+
+ 	.back-mobile {
+ 		display: block;
+ 	}
+ 	
+
+ 	.footer-div-flag {
+ 		position: relative;
+ 	}
+ }
+
+ /* iPads (portrait and landscape) ----------- */
+ @media only screen  and (min-width : 768px) and (max-width : 965px) {
+ 	.canvasParent {
+ 		-ms-transform: scale(0.55, 0.55);
+ 		-webkit-transform: scale(0.55, 0.55);
+ 		transform: scale(0.55, 0.55);
+ 	}
+ 	.state-stats {
+ 		height: 195px;
+ 	}
+ }
+
+ /* iPads large */
+ @media only screen  and (min-width : 966px) and (max-width : 1223px) {
+ 	.canvasParent {
+ 		-ms-transform: scale(0.7, 0.7);
+ 		-webkit-transform: scale(0.7, 0.7);
+ 		transform: scale(0.7, 0.7);
+ 	}
+ 	.state-stats {
+ 		height: 269px;
+ 	}
+ }
+
+ /* Large screens ----------- */
+ @media only screen  and (min-width : 1824px) {
+ }
 

@@ -13,6 +13,11 @@
 	.header-bg {
 		background-size: 120%; 
 	}
+
+	#navBar{
+	background-size: 120%; 
+}
+
 	.header-div {
 		position: fixed;
 		height: 240px;
