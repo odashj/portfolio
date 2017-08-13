@@ -34,6 +34,10 @@
 .span_2_of_3 {
 	width: 66.1%;
 }
+
+.span_flag {
+	width: 66.1%;
+}
 .span_1_of_3 {
 	width: 32.2%;
 }
@@ -113,7 +117,12 @@
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
+@media only screen and (max-width: 1150px) {
+	.span_flag { 
+		width: 100%; 
+		padding-right: 20px;
+		}
+	}
 @media only screen and (max-width: 767px) {
 	.span_1_of_4 { 
 		width: 50%; 
