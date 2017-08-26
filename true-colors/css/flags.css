@@ -43,6 +43,7 @@ body {
 	margin-left: 25px;
 	z-index: 1000;
 	position: relative;
+	opacity: 0;
 }
 
 .nav-logo {

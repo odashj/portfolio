@@ -667,6 +667,14 @@
       $('#navBar').css('display', 'none');
     }
   });
+
+    $(window).scroll(function(){
+    if ($(this).scrollTop() >= navTop - 55) {
+      $('.nav-title').fadeTo(200, 1);
+    } else {
+      $('.nav-title').css('opacity', '0');
+    }
+  });
 </script>
 
 
