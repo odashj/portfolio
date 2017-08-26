@@ -4,6 +4,7 @@ body {
 	background-color: #dbdbdb;
 	overflow-x: hidden;
 	opacity: 0;
+	-webkit-font-smoothing: antialiased;
 } 
 
 .header-div {

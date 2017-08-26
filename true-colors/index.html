@@ -68,6 +68,7 @@
         <div class="col span_2_of_4">
           <div class="hero-text">
             <h2 id="map">How do the 51 state flags look when data decides their designs?</h2>
+            <h3>Select a flag to see details.</h3>
           </div>
         </div>
       </div>
@@ -630,25 +631,7 @@
     $("body").fadeTo(350, 1);
   }, 200);
 </script>
-<!-- <script>
-  $(".hero-title").hide();
 
-  setTimeout(function() {
-    $(".hero-title").fadeIn(300);
-  }, 200);
-</script>
-<script>
-  $(".logo").hide();
-
-  setTimeout(function() {
-    $(".logo").fadeIn(300);
-  }, 700);
-</script>
-<script>
-  setTimeout(function() {
-    $(".body-div").fadeTo(300, 1);
-  }, 900);
-</script> -->
 
 
 
@@ -683,9 +666,10 @@
 
 
 // init Isotope
+
 var $grid = $('.grid').isotope({
   itemSelector: '.element-item',
-  layoutMode: 'fitRows',
+  layoutMode: 'masonry',
   getSortData: {
     name: '.name',
     symbol: '.symbol',
