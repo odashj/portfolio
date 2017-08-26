@@ -4,6 +4,7 @@ body {
 	background-color: #dbdbdb;
 	overflow-x: hidden;
 	opacity: 0;
+	-webkit-font-smoothing: antialiased;
 } 
 
 .header-div {
@@ -43,6 +44,7 @@ body {
 	margin-left: 25px;
 	z-index: 1000;
 	position: relative;
+	opacity: 0;
 }
 
 .nav-logo {

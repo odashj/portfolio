@@ -69,6 +69,7 @@ hide buttons on small screens*/
 
 .grid {
 	max-width: 100%;
+	max-height: 100%;
 	margin-left: 0;
 }
 
@@ -86,10 +87,55 @@ hide buttons on small screens*/
 	float: left;
 	width: 83px;
 	height: 52px;
-	margin: 3px;
+	margin: 3px 3px 3px 3px;
 	padding: 1px;
 }
 
+@media only screen and (min-width : 0px) and (max-width : 400px)  {
+	.element-item {
+		margin: calc(16.7% - 42px);
+	}
+}
+@media only screen and (min-width : 401px) and (max-width : 495px)  {
+	.element-item {
+		margin: calc(12.5% - 42px);
+	}
+}
+@media only screen and (min-width : 496px) and (max-width : 592px)  {
+	.element-item {
+		margin: calc(10% - 42px);
+	}
+}
+@media only screen and (min-width : 593px) and (max-width : 690px)  {
+	.element-item {
+		margin: calc(8.34% - 42px);
+	}
+}
+@media only screen and (min-width : 691px) and (max-width : 790px)  {
+	.element-item {
+		margin: calc(7.14% - 42px);
+	}
+}
+@media only screen and (min-width : 791px) and (max-width : 890px)  {
+	.element-item {
+		margin: calc(6.25% - 42px);
+	}
+}
+@media only screen and (min-width : 891px) and (max-width : 986px)  {
+	.element-item {
+		margin: calc(5.56% - 42px);
+	}
+}
+@media only screen and (min-width : 987px) and (max-width : 1086px)  {
+	.element-item {
+		margin: calc(5% - 42px);
+	}
+}
+@media only screen and (min-width : 1087px) and (max-width : 1187px)  {
+	.element-item {
+		margin: calc(4.55% - 42px);
+	}
+}
 .element-item > * {
 	margin: 0;
 	padding: 0;
@@ -130,7 +176,7 @@ a:hover .abbr {
 	opacity: 1;
 }
 
-@media only screen and (min-device-width : 320px) and (max-width : 767px)  {
+@media only screen and (min-device-width : 320px) and (max-width : 1223px)  {
 	a .abbr {
 		opacity: 1;
 	}
