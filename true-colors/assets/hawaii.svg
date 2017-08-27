@@ -1,1 +1,23 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="500" viewBox="0 0 800 500"><defs/><g/><g transform="scale(1,1)"><g><g transform="scale(1,1)"><rect fill="rgb(255,33,0)" stroke="none" x="0" y="0" width="800" height="500" fill-opacity="1"/></g><path fill="none" stroke="rgb(132,0,2)" paint-order="fill stroke markers" d=" M 413.77777777777777 0 L 413.77777777777777 500" stroke-opacity="1" stroke-linecap="square" stroke-miterlimit="10" stroke-width="758.7125"/><path fill="rgb(205,0,89)" stroke="none" paint-order="stroke fill markers" d=" M 769.756403817177 275.78044596912497 L 611.574585635359 433.96226415094304 L 453.3927674535409 275.78044596912497 L 611.574585635359 117.5986277873069 L 769.756403817177 275.78044596912497 L 769.756403817177 275.78044596912497" fill-opacity="1"/><g transform="translate(715,85) rotate(-90,0,0)"><path fill="rgb(107,0,176)" stroke="none" paint-order="stroke fill markers" d=" M 39 0 L 14.562305898749054 10.580134541264517 L 12.051662780622951 37.091204135510985 L -5.562305898749052 17.119017293312766 L -31.551662780622948 22.923624839406457 L -18 2.204364238465236e-15 L -31.55166278062295 -22.923624839406447 L -5.562305898749056 -17.119017293312762 L 12.051662780622943 -37.09120413551099 L 14.562305898749052 -10.58013454126452 L 39 0 L 39 0" fill-opacity="1"/></g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 500" style="enable-background:new 0 0 800 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FF2400;}
+	.st1{fill:none;stroke:#840084;stroke-width:758.7125;stroke-linecap:square;stroke-miterlimit:10;}
+	.st2{fill:#CD0056;}
+	.st3{fill:#8C00B1;}
+</style>
+<g transform="scale(1,1)">
+	<g>
+		<g transform="scale(1,1)">
+			<rect class="st0" width="800" height="500"/>
+		</g>
+		<path class="st1" d="M413.8,0v500"/>
+		<path class="st2" d="M769.8,275.8L611.6,434L453.4,275.8l158.2-158.2L769.8,275.8L769.8,275.8"/>
+		<g transform="translate(715,85) rotate(-90,0,0)">
+			<path class="st3" d="M39,0L14.6,10.6l-2.5,26.5l-17.6-20l-26,5.8L-18,0l-13.6-22.9l26,5.8l17.6-20l2.5,26.5L39,0L39,0"/>
+		</g>
+	</g>
+</g>
+</svg>
