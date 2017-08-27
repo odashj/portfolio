@@ -69,10 +69,10 @@ function draw() {
     var health = (100 - noHealth);
     var notSecurity = (100 - security);
 
-    var popNorm = ((pop - 586107)*0.00001);
+    var popNorm = (pop - 586107)*(359/(39144818 - 586107));
     var foreignNorm = ((foreign - .5)*15);
 
-    var rentNorm = ((rent - 675)*0.4363636364);
+    var rentNorm = (rent - 675)*(359/(1500 - 675));
     var vacantNorm = ((notVacant - 74.8)*5.7471264368); 
 
     var homeValueNormH = (homeValue - 100000)*(650/(500000 - 100000));
@@ -82,7 +82,7 @@ function draw() {
     var homeOwnersNormW = (homeOwners - 30)*(700/(75 - 30));
     var homeOwnersNormD = (homeOwners - 30)*((350+width)/(75 - 30));
 
-    var incomeNorm = (income - 42019)*(360/(75847 - 42019));
+    var incomeNorm = (income - 42019)*(359/(75847 - 42019));
     var notPovNorm = (notPov - 79.6)*(100/(91.8 - 79.6));
 
 
@@ -91,10 +91,10 @@ function draw() {
     var healthNorm = (health - 79.1)*(655/(97.2 - 79.1));
     var notSecurityNorm = (notSecurity - 86.4)*(500/(97 - 86.4));
 
-    var hsNormC = ((hs - 82.2)*33.0275229358);  
+     var hsNormC = (hs - 82.2)*(359/(93.5 - 82.2));  
     var hsNormL = ((hs - 82.2)*350/(93.5-82.2));  
     var someCollegeNorm = (someCollege - 7.5)*(1.7/(27.5 - 7.5));
-    var bachNormC = (bach - 11.7)*(100/(24.8 - 11.7));  
+    var bachNormC = (bach - 11.5)*(100/(25 - 11.5));  
     var bachNormL = (bach - 11.7)*(350/(24.8 - 11.7));  
     var gradNorm = (grad - 7.7)*(360/(32.9 - 7.7));
     var gradNormL = (grad - 6.5)*(350/(32.9 - 6.5));
