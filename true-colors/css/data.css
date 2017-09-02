@@ -173,5 +173,16 @@ p {
 
  /* Large screens ----------- */
  @media only screen  and (min-width : 1824px) {
+ 	.canvasParent {
+	-ms-transform: scale(1.25, 1.25);
+	-webkit-transform: scale(1.25, 1.25);
+	transform: scale(1.25, 1.25);
+}
+.body-div-flag {
+	margin-top: calc(50vh - 355px);
+}
+ 	.state-stats {
+ 		height: 525px;
+ 	}
  }
 

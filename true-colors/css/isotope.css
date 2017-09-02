@@ -82,13 +82,56 @@ hide buttons on small screens*/
 
 /* ---- .element-item ---- */
 
-.element-item {
-	position: relative;
-	float: left;
-	width: 83px;
-	height: 52px;
-	margin: 3px 3px 3px 3px;
-	padding: 1px;
+@media only screen  and (max-width : 1823px) {
+	.element-item {
+		position: relative;
+		float: left;
+		width: 83px;
+		height: 52px;
+		margin: 3px 3px 3px 3px;
+		padding: 1px;
+	}
+	.element-item .abbr {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding-top: 15px;
+		width: 83px;
+		height: 52px;
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: .075em;
+		color: #ffffff; 
+		text-shadow: 2px 2px 8px rgba(0,0,0,.05);
+		background: rgba(0,0,0,.4);
+	}
+}
+@media only screen  and (min-width : 1824px) {
+	.element-item {
+		position: relative;
+		float: left;
+		width: 125px;
+		height: 78px;
+		margin: 4px 4px 4px 4px;
+		padding: 1px;
+	}
+	.element-item .abbr {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding-top: 27px;
+		width: 125px;
+		height: 78px;
+		text-transform: uppercase;
+		text-align: center;
+		letter-spacing: .075em;
+		color: #ffffff; 
+		text-shadow: 2px 2px 8px rgba(0,0,0,.05);
+		background: rgba(0,0,0,.4);
+				font-size: 16px;
+		line-height: 26px;
+	}
+
 }
 
 @media only screen and (min-width : 0px) and (max-width : 400px)  {
@@ -151,20 +194,7 @@ hide buttons on small screens*/
 	display: none;
 }
 
-.element-item .abbr {
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding-top: 15px;
-	width: 83px;
-	height: 52px;
-	text-transform: uppercase;
-	text-align: center;
-	letter-spacing: .075em;
-	color: #ffffff; 
-	text-shadow: 2px 2px 8px rgba(0,0,0,.05);
-	background: rgba(0,0,0,.4);
-}
+
 
 a .abbr {
 	opacity: 0;
