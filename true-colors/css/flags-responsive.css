@@ -47,8 +47,8 @@
 	}
 
 	p {
-		font-size: 22px;
-		line-height: 30px;
+		font-size: 19px;
+		line-height: 27px;
 	}
 
 	.body-text {
@@ -166,16 +166,20 @@
 		height: 350px;
 	}
 	.hero-title {
-	margin-top: 175px;
-}
-h2 {
-	font-size: 43px;
-	line-height: 47px;
-}
-p {
-	font-size: 25px;
-	line-height: 36px;
-}
+		margin-top: 175px;
+	}
+	h2 {
+		font-size: 48px;
+		line-height: 52px;
+	}
+	p {
+		font-size: 27px;
+		line-height: 38px;
+	}
+	h6 {
+		font-size: 36px;
+		line-height: 40px;
+	}
 }
 
 /* Smartphones (portrait and landscape) ----------- */
