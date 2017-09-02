@@ -9,6 +9,9 @@ var nameStats;
 var popStats;
 var houseStats;
 var ecoStats;
+
+var percent;
+var dollar;
 // var eduStats;
 
 function setup() {
@@ -111,24 +114,26 @@ var nameStyle = '<h2 style="text-align: left; line-height: 10px">';
 var nameStyleClose = '</h2>';
 
 var popText = 'Total population: ';
-var foreignText = '% of population born outside US: ';
+var foreignText = 'Population born outside US: ';
 
 var homeValueText = 'Median home value: ';
 var rentText = 'Median monthly rent: ';
-var homeOwnersText = '% of homes that are owner-occupied: ';
-var vacantText = '% of homes that are vacant: ';
+var homeOwnersText = 'Homes that are owner-occupied: ';
+var vacantText = 'Homes that are vacant: ';
 
 var incomeText = 'Median household income: ';
-var povText = '% of families living below poverty level: ';
-var securityText = '% of households with social assistance: ';
-var unemployedText = '% of population that is unemployed: '; 
-var noHealthText = '% of population without health coverage: ';
+var povText = 'Families living below poverty level: ';
+var securityText = 'Households with social assistance: ';
+var unemployedText = 'Population that is unemployed: '; 
+var noHealthText = 'Population without health coverage: ';
 
-var hsText = '% of population with high school diploma: ';
-var someCollegeText = '% of population with some college: ';
-var bachText = '% of population with bachelor&#39;s degree: ';
-var gradText = '% of population with graduate degree: ';
+var hsText = 'Population with high school diploma: ';
+var someCollegeText = 'Population with some college: ';
+var bachText = 'Population with Bachelor&#39;s degree: ';
+var gradText = 'Population with graduate degree: ';
 
+var percent = '%';
+var dollar = '$';
 
 
     background(popNorm,100,foreignNorm);
@@ -201,22 +206,22 @@ var nameStatsText = createDiv(nameStats);
 nameStatsText.parent('stateName');
 noLoop();
 
-var popStats = pStyle + popText + weight + pop + closeWeight + lineBreak + foreignText + weight + foreign + closeWeight + pStyleClose;
+var popStats = pStyle + popText + weight + pop + closeWeight + lineBreak + foreignText + weight + foreign + percent + closeWeight + pStyleClose;
 var popStatsText = createDiv(popStats);
 popStatsText.parent('population');
 noLoop();
 
-var houseStats = pStyle + homeValueText + weight + homeValue + closeWeight + lineBreak + rentText + weight + rent + closeWeight + lineBreak + homeOwnersText + weight + homeOwners + closeWeight + lineBreak + vacantText + weight + vacant + closeWeight + pStyleClose;
+var houseStats = pStyle + homeValueText + weight + dollar + homeValue + closeWeight + lineBreak + rentText + weight + dollar + rent + closeWeight + lineBreak + homeOwnersText + weight + homeOwners + percent + closeWeight + lineBreak + vacantText + weight + vacant + percent + closeWeight + pStyleClose;
 var houseStatsText = createDiv(houseStats);
 houseStatsText.parent('housing');
 noLoop();
 
-var ecoStats = pStyle + incomeText + weight + income + closeWeight + lineBreak + povText + weight + pov + closeWeight + lineBreak + securityText + weight + security + closeWeight + lineBreak + unemployedText + weight + unemployed + closeWeight + lineBreak + noHealthText + weight + noHealth + closeWeight + pStyleClose;
+var ecoStats = pStyle + incomeText + weight + dollar + income + closeWeight + lineBreak + povText + weight + pov + percent + closeWeight + lineBreak + securityText + weight + security + percent + closeWeight + lineBreak + unemployedText + weight + unemployed + percent + closeWeight + lineBreak + noHealthText + weight + noHealth + percent + closeWeight + pStyleClose;
 var ecoStatsText = createDiv(ecoStats);
 ecoStatsText.parent('economy');
 noLoop();
 
-var eduStats = pStyle + hsText + weight + hs + closeWeight + lineBreak + someCollegeText + weight + someCollege + closeWeight + lineBreak + bachText + weight + bach + closeWeight + lineBreak + gradText + weight + grad + closeWeight + lineBreak + pStyleClose;
+var eduStats = pStyle + hsText + weight + hs + percent + closeWeight + lineBreak + someCollegeText + weight + someCollege + percent + closeWeight + lineBreak + bachText + weight + bach + percent + closeWeight + lineBreak + gradText + weight + grad + percent + closeWeight + lineBreak + pStyleClose;
 var ecoStatsText = createDiv(eduStats);
 ecoStatsText.parent('education');
 noLoop();
