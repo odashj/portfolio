@@ -1,9 +1,9 @@
 var canvas;
 
 var state;
-var api = 'https://api.census.gov/data/2015/acs1/profile';
-var apiKey = '?key=9df29ce2a585089df6961f0f534d063842a4651b';
-var units = '&get=NAME,DP05_0001PE,DP02_0092PE,DP04_0134E,DP04_0003PE,DP04_0089E,DP04_0046PE,DP03_0062E,DP03_0070PE,DP03_0005PE,DP03_0099PE,DP03_0128PE,DP02_0066PE,DP02_0062PE,DP02_0064PE,DP02_0065PE&for=state:';
+var api = 'https://api.census.gov/data/2016/acs/acs1/profile';
+var units = '?get=NAME,DP05_0001PE,DP02_0092PE,DP04_0134E,DP04_0003PE,DP04_0089E,DP04_0046PE,DP03_0062E,DP03_0070PE,DP03_0005PE,DP03_0099PE,DP03_0128PE,DP02_0066PE,DP02_0062PE,DP02_0064PE,DP02_0065PE';
+var apiKey = '&key=9df29ce2a585089df6961f0f534d063842a4651b&for=state:';
 
 var nameStats;
 var popStats;
@@ -27,7 +27,7 @@ function setup() {
   // myCanvas = createCanvas(800, 500);
   // canvas.parent('canvasHolder');
   colorMode(HSB);
- var url = api + apiKey + units + input;
+ var url = api + units + apiKey + input;
   loadJSON(url, gotData);
 
 }
@@ -94,10 +94,10 @@ function draw() {
     var healthNorm = (health - 79.1)*(655/(97.2 - 79.1));
     var notSecurityNorm = (notSecurity - 86.4)*(500/(97 - 86.4));
 
-     var hsNormC = (hs - 82.2)*(359/(93.5 - 82.2));  
+     var hsNormC = (hs - 79)*(359/(93.5 - 79));  
     var hsNormL = ((hs - 82.2)*350/(93.5-82.2));  
     var someCollegeNorm = (someCollege - 7.5)*(1.7/(27.5 - 7.5));
-    var bachNormC = (bach - 11.5)*(100/(25 - 11.5));  
+    var bachNormC = (bach - 10)*(100/(25 - 10));  
     var bachNormL = (bach - 11.7)*(350/(24.8 - 11.7));  
     var gradNorm = (grad - 7.7)*(360/(32.9 - 7.7));
     var gradNormL = (grad - 6.5)*(350/(32.9 - 6.5));
@@ -107,11 +107,11 @@ function draw() {
 var lineBreak = '<br>';
 var pStyle = '<p style="font-size: 16px;line-height: 28px;color:#707070;">';
 var pStyleClose = '</p>';
-var weight = '<span style="font-weight: 700;">';
+var weight = '<span style="font-weight: 700; color:#E51600">';
 var closeWeight = '</span>';
 
-var nameStyle = '<h2 style="text-align: left; line-height: 10px">';
-var nameStyleClose = '</h2>';
+var nameStyle = '<h5 style="text-align: left; line-height: 10px">';
+var nameStyleClose = '</h5>';
 
 var popText = 'Total population: ';
 var foreignText = 'Population born outside US: ';
@@ -192,14 +192,17 @@ var dollar = '$';
     fill(hsNormC,100,bachNormC);
     if ((hs > 86.7) && (bach < 18.5)) {
       rotate(PI/-2.0);
-      star(0, 0, 18, 39, 4); 
+      star(0, 0, 20, 46, 4); 
     } else if ((bach > 18.5) && (grad < 11.2)) {
       rotate(PI/-2.0);
-      star(0, 0, 18, 39, 5); 
+      star(0, 0, 20, 46, 5); 
     } else if (grad > 11.2) {
       rotate(PI/-2.0);
-      star(0, 0, 18, 39, 6); 
-}
+      star(0, 0, 20, 46, 6); 
+} else {
+      rotate(PI/-4.0);
+      star(0, 0, 19, 46, 4); 
+};
 
 var nameStats = nameStyle + name + nameStyleClose;
 var nameStatsText = createDiv(nameStats);

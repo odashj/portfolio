@@ -59,7 +59,7 @@ hr {
 }
 
 .state-stats {
-	height: 327px;
+	height: 334px;
 	overflow-y: scroll;
 	overflow-x: hidden;
 	top: 0;
@@ -96,14 +96,14 @@ p {
 
  #style-3::-webkit-scrollbar-thumb
  {
- 	background-color: #adadad;
- 	border-top: solid 18px #DBDBDB;
+ 	background-color: #c9c9c9;
+ 	border-top: solid 18px #efefef;
 
  }
 
 
  .footer-div-flag {
- 	background-color: #bfbfbf;
+ 	background-color: #c9c9c9;
  	width: 100%;
  	position: fixed;
  	bottom: 0;
