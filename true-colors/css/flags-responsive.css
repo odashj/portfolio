@@ -1,10 +1,11 @@
 /*/*//*responsive styles
 */
 
+
+
 /* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 767px) {
 
-
-@media screen and (max-width: 767px) and (orientation: landscape) {
 	.site-wrapper {
 		width: 90%;
 		margin-left: auto;
@@ -30,10 +31,28 @@
 		padding-top: 30px;
 	}
 
-	p {
-		font-size: 22px;
-		line-height: 30px;
+	.top-margin {
+		margin-top: 40px;
 	}
+
+	p {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+		h5 {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+	hr.home {
+		width: 100px;
+	}
+
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+	
 	h1 {
 		font-size: 15vw;
 		margin-left: -1vw;
@@ -60,37 +79,8 @@
 
 }
 
-@media only screen and (min-device-width : 0) and (max-width : 767px) and (orientation: portrait)  {
-	.site-wrapper {
-		width: 90%;
-		margin-left: auto;
-		margin-right: auto;
-		position: relative;
-	}
-
-	.header-bg {
-		background-size: cover; 
-	}
+@media screen and (max-width : 767px) and (orientation: portrait)  {
 	
-	.header-div {
-		position: fixed;
-		height: 100vh;
-		width: 100%;
-	}
-
-	.body-div {
-		background-color: #efefef;
-		width: 100%;
-		position: absolute;
-		margin-top: 100vh;
-		padding-top: 30px;
-	}
-
-	p {
-		font-size: 22px;
-		line-height: 30px;
-	}
-
 h1 {
 	font-size: 40vw;
 	line-height: 0;
@@ -141,6 +131,20 @@ h2 {
 		font-size: 22px;
 		line-height: 30px;
 	}
+
+	.top-margin {
+		margin-top: 40px;
+	}
+
+	h5 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 26px;
+	}
 }
 
 /* Desktops and laptops ----------- */
@@ -170,45 +174,16 @@ h2 {
 	.header-bg {
 		background-size: 100%; 
 	}
-/*
-	.subtitle {
-		padding-top: 1.6em;
-	}
 
-	.page-header {
-		height: 295px;
-	}
-
-	.flag-mockup {
-		height: 350px;
-	}
-	.hero-title {
-		margin-top: 175px;
-	}
-	h2 {
-
-	}
 	p {
-		font-size: 27px;
-		line-height: 38px;
-	}
-	h6 {
-		font-size: 36px;
-		line-height: 40px;
-		}*/
+		font-size: 29px;
+		line-height: 41px;
 	}
 
-	/* Smartphones (portrait and landscape) ----------- */
-/*@media only screen and (max-width : 1223px) {
-	#canvasHolder {
-		width: 800px;
-		height: 500px;
-		position: absolute;
-		margin: auto;
-		left: 0;
-		right: 0;
-		top: 0;
-		bottom: 0;
-		transform:scale(0.5);
+	h5 {
+	font-size: 37px;
+	line-height: 50px;
+}
+
 	}
-}/*/
+

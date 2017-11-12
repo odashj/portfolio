@@ -6,6 +6,10 @@
 	height: 500px;
 }
 
+/*#navBar{
+	position: fixed !important;
+}*/
+
 .canvasParent {
 	position: relative;
 	width: 800px;
