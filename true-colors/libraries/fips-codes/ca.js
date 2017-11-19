@@ -1,1 +1,1 @@
-var input = '6';
+var input = '06';

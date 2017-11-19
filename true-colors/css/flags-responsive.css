@@ -1,8 +1,11 @@
-/*/*responsive styles
+/*/*//*responsive styles
 */
 
+
+
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-width : 767px)  {
+@media only screen and (max-width: 767px) {
+
 	.site-wrapper {
 		width: 90%;
 		margin-left: auto;
@@ -11,55 +14,99 @@
 	}
 
 	.header-bg {
-		background-size: 120%; 
+		background-size: cover; 
 	}
-
-	#navBar{
-		background-size: 120%; 
-	}
-
+	
 	.header-div {
 		position: fixed;
-		height: 240px;
+		height: 100vh;
 		width: 100%;
 	}
 
-	.hero-title {
-		margin-top: 115px;
-	}
-
-	.hero-text {
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-
 	.body-div {
-		margin-top: 240px;
+		background-color: #efefef;
+		width: 100%;
+		position: absolute;
+		margin-top: 100vh;
+		padding-top: 30px;
 	}
 
-	h1 {
-		font-size: 16vw;
-	}
-
-	h2 {
-		font-size: 28px;
-		line-height: 36px;
+	.top-margin {
+		margin-top: 40px;
 	}
 
 	p {
-		font-size: 19px;
-		line-height: 27px;
+		font-size: 16px;
+		line-height: 24px;
 	}
 
-	.body-text {
-		margin-top: -35px;
-		margin-bottom: -40px;
+		h5 {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+	hr.home {
+		width: 100px;
 	}
 
-	.body-text2 {
-		margin-top: -15px;
-		margin-bottom: -15px;
+}
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+	
+	h1 {
+		font-size: 15vw;
+		margin-left: -1vw;
+		text-align: left;
 	}
+
+	h2 {
+		font-size: 3vw;
+		line-height: 4vw;
+		text-align: left;
+		width: 50vw;
+	}
+
+	.hero-title {
+		position: relative;
+		top: 1vh;
+		left: 0;
+	}
+
+	.hero-subtitle {
+		position: absolute;
+		bottom: 5vh;
+	}
+
+}
+
+@media screen and (max-width : 767px) and (orientation: portrait)  {
+	
+h1 {
+	font-size: 40vw;
+	line-height: 0;
+	letter-spacing: -.015em;
+	margin-left: -1vw;
+	text-align: left;
+}
+
+
+h2 {
+	font-size: 20px;
+	line-height: 30px;
+	text-align: left;
+	width: 90vw;
+}
+
+.hero-title {
+	position: relative;
+	top: 5vh;
+	left: 0;
+}
+
+.hero-subtitle {
+	position: absolute;
+	bottom: 10vh;
+}
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -74,36 +121,29 @@
 	.header-bg {
 		background-size: 100%; 
 	}
-	.header-div {
-		position: fixed;
-		height: 250px;
-		width: 100%;
-	}
-
-	.hero-title {
-		margin-top: 115px;
-	}
-
-	.body-div {
-		margin-top: 250px;
-	}
-
-	h1 {
-		font-size: 120px;
-	}
 
 	h2 {
-		font-family: 'Yantramanav', sans-serif;
-		font-weight: 400;
-		font-size: 32px;
-		line-height: 36px;
-		text-align: center;
-		color: #353535;
+		font-size: 2vw;
+		line-height: 3.1vw;
 	}
 
 	p {
 		font-size: 22px;
 		line-height: 30px;
+	}
+
+	.top-margin {
+		margin-top: 40px;
+	}
+
+	h5 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 26px;
 	}
 }
 
@@ -119,26 +159,7 @@
 	.header-bg {
 		background-size: 100%; 
 	}
-	.page-header {
-		height: 295px;
-	}
 
-	.subtitle {
-		padding-top: 1.6em;
-	}
-
-	.flag-mockup {
-		height: 350px;
-	}
-
-	p {
-		font-size: 22px;
-		line-height: 30px;
-	}
-
-	h4 {
-
-	}
 }
 
 /* Large screens ----------- */
@@ -154,45 +175,15 @@
 		background-size: 100%; 
 	}
 
-	.subtitle {
-		padding-top: 1.6em;
-	}
-
-	.page-header {
-		height: 295px;
-	}
-
-	.flag-mockup {
-		height: 350px;
-	}
-	.hero-title {
-		margin-top: 175px;
-	}
-	h2 {
-		font-size: 48px;
-		line-height: 52px;
-	}
 	p {
-		font-size: 27px;
-		line-height: 38px;
+		font-size: 29px;
+		line-height: 41px;
 	}
-	h6 {
-		font-size: 36px;
-		line-height: 40px;
-	}
+
+	h5 {
+	font-size: 37px;
+	line-height: 50px;
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-/*@media only screen and (max-width : 1223px) {
-	#canvasHolder {
-		width: 800px;
-		height: 500px;
-		position: absolute;
-		margin: auto;
-		left: 0;
-		right: 0;
-		top: 0;
-		bottom: 0;
-		transform:scale(0.5);
 	}
-}*/
+

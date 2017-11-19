@@ -6,9 +6,9 @@
 	display: inline-block;
 	padding: 0.3em .9em;
 	margin-top: 7px;
-	background: #dbdbdb;
-	border: solid 1px #707070;
-	color: #707070;
+	background: #efefef;
+	border: solid 1px #E51600;
+	color: #E51600;
 	cursor: pointer;
 	font-family: 'Roboto Mono', monospace;
 	font-weight: 400;
@@ -20,15 +20,15 @@
 }
 
 .button:hover {
-	background-color: #bfbfbf;
-	color: #353535;
+	background-color: #c9c9c9;
+	color: #E51600;
 	transition: all .15s ease-in-out;
 	-webkit-transition: all .15s ease-in-out;
 }
 
 .button:active,
 .button.is-checked {
-	background-color: #707070;
+	background-color: #E51600;
 }
 
 .button.is-checked {
@@ -52,7 +52,7 @@
 	float: left;
 	border-radius: 0;
 	margin-left: 0;
-	margin-right: 0px;
+	margin-right: 0;
 }
 /*
 hide buttons on small screens*/
@@ -71,6 +71,7 @@ hide buttons on small screens*/
 	max-width: 100%;
 	max-height: 100%;
 	margin-left: 0;
+	margin-top: 25px;
 }
 
 /* clear fix */

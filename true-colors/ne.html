@@ -14,9 +14,10 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/flags.css" rel="stylesheet">
   <link href="css/flags-responsive.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Yantramanav:400,700|Roboto+Mono:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Yantramanav:400,700|Roboto+Mono:300,400,700|Six+Caps" rel="stylesheet">
 
   <script src="libraries/p5.js" type="text/javascript"></script>
+  <script src="libraries/p5.js-pdf-master/p5.svg.js" type="text/javascript"></script>
   <script src="libraries/p5.dom.js" type="text/javascript"></script>
   <script src="libraries/p5.sound.js" type="text/javascript"></script>
   <script src="sketch2.js" type="text/javascript"></script>
@@ -37,16 +38,9 @@
 <meta property="og:title" content="True Colors | Nebraska" />
 </head>
 <body>
-  <div class="logo"><a href="http://o-j.co"><img src="assets/logo.png" style="width:30px;height: 100%"></a>
-  </div>
-  <div id="navBar-flag">
-    <div class="nav-bar-overlay">
-    </div>
-    <div class="nav-title" style="opacity: 1">
-      <h4 style="color: #ffffff;text-align: left;"><a href="index.html">True Colors</a></h4>
-    </div>
-  </div>
-
+  <div id="navBar" style="position: fixed;">
+  <a href="index.html" style="text-decoration: none;"><h4 class="nav-bar">True Colors</h4></a>
+</div>
   <div class="body-div-flag">
 
     <div class="site-wrapper back-mobile">
@@ -118,10 +112,10 @@
               Share: &nbsp;
             </h3>
             <h3 style="text-align: left; float: left;">
-              <a href="https://www.facebook.com/sharer.php?u=http://o-j.co/true-colors/ne.html">Facebook</a>&nbsp;
-              <a href="https://twitter.com/intent/tweet?url=http://o-j.co/true-colors/ne.html&text=This is what Nebraska's flag would look like if it were based on data:&hashtags=truecolors">Twitter</a>&nbsp;
+              <a href="https://www.facebook.com/sharer.php?u=http://o-j.co/true-colors/ne.html" style="color:#353535;">Facebook</a>&nbsp;
+              <a href="https://twitter.com/intent/tweet?url=http://o-j.co/true-colors/ne.html&text=This is what Nebraska's flag would look like if it were based on data:&hashtags=truecolors" style="color:#353535;">Twitter</a>&nbsp;
               <a href="mailto:?subject=What if the US flags were based on data?&amp;body=Here's what Nebraska's flag looks like: http://o-j.co/true-colors/ne.html."
-   title="Share by Email">Email</a>
+   title="Share by Email" style="color:#353535;">Email</a>
             </h3>
           </div>
         </div>
@@ -138,7 +132,7 @@
 <script type="text/javascript">
 
   $(document).ready(function() {
-    var bgArray = ['alabama.svg', 'alaska.svg', 'arkansas.svg', 'california.svg', 'colorado.svg', 'connecticut.svg', 'dc.svg', 'delaware.svg', 'florida.svg', 'georgia.svg', 'hawaii.svg', 'idaho.svg', 'illinois.svg', 'indiana.svg', 'iowa.svg', 'kansas.svg', 'kentucky.svg', 'louisiana.svg', 'maine.svg', 'maryland.svg', 'massachusetts.svg', 'michigan.svg', 'minnesota.svg', 'mississippi.svg', 'missouri.svg', 'montana.svg', 'nebraska.svg', 'nevada.svg', 'new-hampshire.svg', 'new-jersey.svg', 'new-mexico.svg', 'new-york.svg', 'north-carolina.svg', 'north-dne.ta.svg', 'ohio.svg', 'oklahoma.svg', 'oregon.svg', 'pennsylvania.svg','rhode-island.svg', 'south-carolina.svg', 'south-dne.ta.svg', 'tennessee.svg', 'texas.svg', 'utah.svg', 'vermont.svg', 'virginia.svg', 'washington.svg', 'west-virginia.svg', 'wisconsin.svg', 'wyoming.svg'];
+    var bgArray = ['alabama.svg', 'alaska.svg', 'arkansas.svg', 'california.svg', 'colorado.svg', 'connecticut.svg', 'dc.svg', 'delaware.svg', 'florida.svg', 'georgia.svg', 'hawaii.svg', 'idaho.svg', 'illinois.svg', 'indiana.svg', 'iowa.svg', 'kansas.svg', 'kentucky.svg', 'louisiana.svg', 'maine.svg', 'maryland.svg', 'massachusetts.svg', 'michigan.svg', 'minnesota.svg', 'mississippi.svg', 'missouri.svg', 'montana.svg', 'nebraska.svg', 'nevada.svg', 'new-hampshire.svg', 'new-jersey.svg', 'new-mexico.svg', 'new-york.svg', 'north-carolina.svg', 'north-dakota.svg', 'ohio.svg', 'oklahoma.svg', 'oregon.svg', 'pennsylvania.svg','rhode-island.svg', 'south-carolina.svg', 'south-dne.ta.svg', 'tennessee.svg', 'texas.svg', 'utah.svg', 'vermont.svg', 'virginia.svg', 'washington.svg', 'west-virginia.svg', 'wisconsin.svg', 'wyoming.svg'];
     var bg = bgArray[Math.floor(Math.random() * bgArray.length)];
     var path = 'assets/';
     var imageUrl = path + bg;
