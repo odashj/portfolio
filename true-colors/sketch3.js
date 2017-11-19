@@ -1,5 +1,4 @@
 var canvas;
-var pdf;
 
 var state;
 var api = 'https://api.census.gov/data/2016/acs/acs1/profile';
@@ -24,13 +23,7 @@ function setup() {
   print(canvasWidth + ', ' + canvasHeight);
 
   createCanvas(canvasWidth, canvasHeight).parent('canvasHolder');
-
-  // use this code when exporting
-  // createCanvas(canvasWidth, canvasHeight, SVG);
-
-  // pdf = createPDF();
-  // pdf.beginRecord();
-
+  
   // myCanvas = createCanvas(800, 500);
   // canvas.parent('canvasHolder');
   colorMode(HSB);
@@ -95,9 +88,9 @@ function draw() {
     var homeOwnersNormD = (homeOwners - 45)*((350+width)/(73 - 45));
 
     var incomeNorm = (income - 41754)*(359/(78945 - 41754));
-    var notPovNorm = (notPov - 77)*(100/(92.7 - 77));
+    var notPovNorm = (notPov - 79.8)*(100/(92.7 - 79.8));
 
-    var employedNorm = (employed - 95.2)*(300/(98.5 - 95.2));
+    var employedNorm = (employed - 95.2)*(290/(98.5 - 95.2));
 
     var healthNorm = (health - 83.4)*(655/(97.5 - 83.4));
     var notSecurityNorm = (notSecurity -89.7)*(525/(98.1 - 89.7));
@@ -105,7 +98,7 @@ function draw() {
     var hsNormC = (hs - 82.4)*(359/(93.2 - 82.4));  
     var hsNormL = ((hs - 82.4)*350/(93.2 - 82.4));  
     var someCollegeNorm = (someCollege - 13)*(1.7/(27.1 - 13));
-    var bachNormC = (bach - 10.5)*(100/(24.9 - 10.5));  
+    var bachNormC = (bach - 11)*(100/(24.9 - 11));  
     var bachNormL = (bach - 12.6)*(350/(24.9 - 12.6));  
     var gradNorm = (grad - 7.8)*(360/(32.9 - 7.8));
     var gradNormL = (grad - 7.8)*(350/(32.9 - 7.8));
@@ -160,31 +153,12 @@ var dollar = '$';
       translate(homeOwnersNormD,0);
       line((-width-width),height*2,(width*2-width),-height);
       translate(-homeOwnersNormD,0);
-    } else if ((homeValue >= 477500) && (homeValue < 576100)){ 
+    } else { 
       noFill();
       stroke(rentNorm,100,vacantNorm);
       strokeWeight(homeValueNormW);
       strokeCap(PROJECT);
-      line(homeOwnersNormW+45,0,homeOwnersNormW+45,height);
-    } else if ((homeValue > 576000) && (homeValue < 590000)){ 
-      noFill();
-      stroke(rentNorm,100,vacantNorm);
-      strokeWeight(homeValueNormW);
-      strokeCap(PROJECT);
-      line(homeOwnersNormW+480,0,homeOwnersNormW+480,height);
-    } else if (homeValue > 590000){ 
-      noFill();
-      stroke(rentNorm,100,vacantNorm);
-      strokeWeight(homeValueNormW);
-      strokeCap(PROJECT);
-      line(homeOwnersNormW+40,0,homeOwnersNormW+40,height);
-    }
-      else {
-      noFill();
-      stroke(rentNorm,100,vacantNorm);
-      strokeWeight(homeValueNormW);
-      strokeCap(PROJECT);
-      line(homeOwnersNormW,0,homeOwnersNormW,height);     
+      line(homeOwnersNormW,0,homeOwnersNormW,height);
     }
 
 
@@ -200,19 +174,12 @@ var dollar = '$';
       stroke(incomeNorm,100,notPovNorm);
     }
 
-    if ((unemployed > 2) && (unemployed <= 3.5) && (income >= 57287)) { 
-      polygon(healthNorm,notSecurityNorm-(employedNorm/2),employedNorm-10, 4); 
+    if ((unemployed <= 3.5) && (income >= 57287)) { 
+      polygon(healthNorm,notSecurityNorm-(employedNorm/2),employedNorm, 4); 
     } else if ((unemployed <= 3.5) && (income < 57287)) {
       polygon(healthNorm,notSecurityNorm-(employedNorm/2),employedNorm-60, 4); 
-   } else if ((unemployed <= 2) && (income > 60000)) {
-      polygon(healthNorm,notSecurityNorm-200,employedNorm-10, 4); 
-    } else if ((unemployed >= 3.6) && (income <= 56565)) {
-      ellipse(healthNorm+104,notSecurityNorm,employedNorm*1.5,employedNorm*1.5);
-    } else if ((unemployed >= 4.8) && (income >= 75506)) {
-      ellipse(healthNorm+104,notSecurityNorm,90,90);
-    }  
-    else {
-      ellipse(healthNorm,notSecurityNorm,employedNorm*1.5,employedNorm*1.5);
+    } else {
+      ellipse(healthNorm,notSecurityNorm,employedNorm*1.6,employedNorm*1.6);
     } 
 
 
@@ -226,11 +193,7 @@ var dollar = '$';
        translate(85, height-85);
     }
     noStroke();
-    if (input = 33) {
-    fill(hsNormC,100,bachNormC+5);
-  } else {
     fill(hsNormC,100,bachNormC);
-  }
     if ((hs >= 89.8) && (bach <= 19.1)) {
       rotate(PI/-2.0);
       star(0, 0, 20, 46, 4); 
@@ -313,12 +276,7 @@ noLoop();
   }
 }
 
-// function keyPressed() {
-//   if (keyPressed) {
-//     if (key == 'S' || key == 's')
-//       save();
-//   }
-// }
+
 
 
 
