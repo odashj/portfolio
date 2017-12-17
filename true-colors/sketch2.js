@@ -143,7 +143,6 @@ var gradText = 'Population with graduate degree: ';
 var percent = '%';
 var dollar = '$';
 
-
     background(popNorm,100,foreignNorm);
 
     if(homeValue <= 152000) { 
