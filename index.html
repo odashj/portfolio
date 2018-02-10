@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 
 	<!-- Link to Google Fonts -->	
-	<link href="https://fonts.googleapis.com/css?family=Asul:400,700|Chivo:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn:400,600|Chivo:400,700" rel="stylesheet">
 
 	<link rel="icon" href="favicon.png">
 	<title>Olivia Johnson</title>
@@ -43,10 +43,9 @@
 	</div>
 
 
-	<div class="site-wrapper">
+	<div class="site-wrapper home">
 		<div class="large-text">
-			<h1>Multidisciplinary designer who integrates data, interaction, and social literacy throughout her work.
-
+			<h1 style="margin-right: 1em">Olivia Johnson creates socially thoughtful work through design and data. 
 			</h1>
 			<hr class="trans--grow hr1">
 		</div>
@@ -118,16 +117,5 @@
 		setTimeout(function(){
 			$('.trans--grow').addClass('grow');
 		}, 1000);
-	});
-</script>
-<script type="text/javascript">
-	$(window).scroll(function () {
-		$('.large-text').each(function () {
-			if (($(this).offset().top - $(window).scrollTop()) < 5) {
-				$(this).stop().fadeTo(100, 0);
-			} else {
-				$(this).stop().fadeTo(400, 1);
-			}
-		});
 	});
 </script>
