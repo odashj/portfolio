@@ -95,7 +95,7 @@ h4 {
 	letter-spacing: 1px;
 	font-variant: small-caps;
 	text-transform: lowercase;
-	line-height: 0;
+	line-height: 30px;
 }
 
 h4 a {
