@@ -11,6 +11,10 @@ body {
 	overflow-x: hidden;
 }
 
+.home {
+	height: 55vh;
+}
+
 /*highlight color
 */
 ::selection {
@@ -63,18 +67,18 @@ body {
 
 h1 {
 	color: #000000;
-	font-family: 'Asul', sans-serif;
-	font-weight: 700;
-	font-size: 50px;
-	line-height: 55px;
+	font-family: 'Vollkorn', serif;
+	font-weight: 600;
+	font-size: 55px;
+	line-height: 60px;
 }
 
 h2 {
 	color: #000000;
-	font-family: 'Asul', sans-serif;
+	font-family: 'Vollkorn', serif;
 	font-weight: 400;
-	font-size: 29px;
-	line-height: 37px;
+	font-size: 33px;
+	line-height:40px;
 }
 
 h2 a{
@@ -116,7 +120,6 @@ p {
 	font-size: 20px;
 	line-height: 30px;
 	text-align: left;
-	letter-spacing: .01em;
 }
 
 p a {
@@ -150,10 +153,9 @@ hr {
 /*index styling
 */
 .large-text {
-	width: 920px;
-	position: relative;
-	margin-top: 99px;
-	margin-bottom: 70px;
+	width: 750px;
+	position: fixed;
+	margin-top: 50px;
 }
 
 .project-image {
@@ -212,7 +214,7 @@ hr {
 	margin-top: 100px;
 	float: left;
 	display: inline;
-	position: relative;
+	position: fixed;
 }
 
 .about-text {
@@ -232,7 +234,7 @@ hr {
 	height: 250px;
 	position: relative;
 	display: block;
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 }
 
 .project-title {

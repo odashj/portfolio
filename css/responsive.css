@@ -2,7 +2,23 @@
 */
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) {
+@media only screen and (min-width : 320px) and (max-width : 767px) and (orientation: portrait) {
+
+	.home {
+		height: 40vh;
+	}
+
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) and (orientation: landscape) {
+
+	.home {
+		height: 60vh;
+	}
+
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
 	/* Styles */
 
 	body {
@@ -17,6 +33,8 @@
 		overflow-x: hidden;
 	}
 
+
+
 	.nav-links a {
 		text-decoration: none;
 		color: #000000;
@@ -29,16 +47,12 @@
 	}
 
 	h1 {
-		color: #000000;
-		font-family: 'Asul', sans-serif;
-		font-weight: 700;
 		font-size: 24px;
 		line-height: 28px;
 	}
 
 	.large-text {
 		width: 95%;
-		position: relative;
 		margin-top: 74px;
 		margin-bottom: 50px;
 	}
@@ -74,9 +88,6 @@
 	}
 
 	h2 {
-		color: #000000;
-		font-family: 'Asul', sans-serif;
-		font-weight: 400;
 		font-size: 24px;
 		line-height: 34px;
 	}
@@ -110,13 +121,8 @@
 	}
 
 	h4 {
-		color: #000000;
-		font-family: 'Chivo', sans-serif;
-		font-weight: 400;
 		font-size: 20px;
 		letter-spacing: 1px;
-		font-variant: small-caps;
-		text-transform: lowercase;
 		line-height: 0;
 	}
 
@@ -142,18 +148,28 @@
 	}
 
 	p {
-		color: #000000;
-		font-family: 'Chivo', sans-serif;
-		font-weight: 400;
 		font-size: 16px;
 		line-height: 25px;
-		text-align: left;
-		letter-spacing: .01em;
 	}
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen  and (min-width : 768px) and (max-width : 1223px) {
+
+@media only screen  and (min-width : 768px) and (max-width : 1223px) and (orientation: portrait) {
+
+	.home {
+		height: 38vh;
+	}
+
+}
+
+@media only screen  and (min-width : 768px) and (max-width : 1223px) and (orientation: landscape) {
+	.home {
+		height: 50vh;
+	}
+}
+
+@media only screen  and (min-width : 768px) and (max-width : 1223px){
 	/* Styles */
 	.site-wrapper {
 		width: 90%;
@@ -174,16 +190,12 @@
 		text-transform: lowercase;
 	}
 	h1 {
-		color: #000000;
-		font-family: 'Asul', sans-serif;
-		font-weight: 700;
 		font-size: 38px;
 		line-height: 42px;
 	}
 
 	.large-text {
 		width: 620px;
-		position: relative;
 		margin-top: 99px;
 		margin-bottom: 70px;
 	}
@@ -219,9 +231,6 @@
 	}
 
 	h2 {
-		color: #000000;
-		font-family: 'Asul', sans-serif;
-		font-weight: 400;
 		font-size: 28px;
 		line-height: 38px;
 	}
@@ -255,13 +264,8 @@
 	}
 
 	h4 {
-		color: #000000;
-		font-family: 'Chivo', sans-serif;
-		font-weight: 400;
 		font-size: 20px;
 		letter-spacing: 1px;
-		font-variant: small-caps;
-		text-transform: lowercase;
 		line-height: 0;
 	}
 
@@ -274,13 +278,8 @@
 	}
 
 	p {
-		color: #000000;
-		font-family: 'Chivo', sans-serif;
-		font-weight: 400;
 		font-size: 20px;
 		line-height: 30px;
-		text-align: left;
-		letter-spacing: .01em;
 	}
 
 
@@ -299,13 +298,6 @@
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) and (max-width : 1823px) {
 	/* Styles */
-	.site-wrapper {
-		width: 1080px;
-		margin-left: auto;
-		margin-right: auto;
-		position: relative;
-		overflow-x: hidden;
-	}
 
 	.nav-links a {
 		text-decoration: none;
@@ -318,20 +310,6 @@
 		text-transform: lowercase;
 	}
 
-	h1 {
-		color: #000000;
-		font-family: 'Asul', sans-serif;
-		font-weight: 700;
-		font-size: 50px;
-		line-height: 55px;
-	}
-
-	.large-text {
-		width: 920px;
-		position: relative;
-		margin-top: 99px;
-		margin-bottom: 70px;
-	}
 
 	.grow{
 		width:15%;
@@ -350,33 +328,23 @@
 		margin-top: 100px;
 		float: left;
 		display: inline;
-		position: relative;
+		position: fixed;
 	}
 
 	.about-text {
 		width: 600px;
 		margin-top: 65px;
-		margin-left: 70px;
+		margin-left: 0;
 		height: auto;
-		float: left;
+		float: right;
 		display: inline;
 		position: relative;
 	}
 
-	h2 {
-		color: #000000;
-		font-family: 'Asul', sans-serif;
-		font-weight: 400;
-		font-size: 29px;
-		line-height: 37px;
-	}
 
 	.project-header {
 		width: 1080px;
 		height: 250px;
-		position: relative;
-		display: block;
-		margin-bottom: 55px;
 	}
 
 	.project-title {
@@ -398,13 +366,8 @@
 	}
 
 	h4 {
-		color: #000000;
-		font-family: 'Chivo', sans-serif;
-		font-weight: 400;
 		font-size: 24px;
 		letter-spacing: 1px;
-		font-variant: small-caps;
-		text-transform: lowercase;
 		line-height: 0;
 	}
 
@@ -417,13 +380,9 @@
 	}
 
 	p {
-		color: #000000;
-		font-family: 'Chivo', sans-serif;
-		font-weight: 400;
 		font-size: 20px;
 		line-height: 30px;
 		text-align: left;
-		letter-spacing: .01em;
 	}
 
 	.footer {
@@ -442,13 +401,6 @@
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
 	/* Styles */
-	.site-wrapper {
-		width: 1080px;
-		margin-left: auto;
-		margin-right: auto;
-		position: relative;
-		overflow-x: hidden;
-	}
 
 	.nav-links a {
 		text-decoration: none;
@@ -459,21 +411,6 @@
 		letter-spacing: 1px;
 		font-variant: small-caps;
 		text-transform: lowercase;
-	}
-
-	h1 {
-		color: #000000;
-		font-family: 'Asul', sans-serif;
-		font-weight: 700;
-		font-size: 50px;
-		line-height: 55px;
-	}
-
-	.large-text {
-		width: 920px;
-		position: relative;
-		margin-top: 99px;
-		margin-bottom: 70px;
 	}
 
 	.grow{
@@ -493,23 +430,16 @@
 		margin-top: 100px;
 		float: left;
 		display: inline;
-		position: relative;
+		position: fixed;
 	}
 
-	h2 {
-		color: #000000;
-		font-family: 'Asul', sans-serif;
-		font-weight: 400;
-		font-size: 29px;
-		line-height: 37px;
-	}
 
 	.about-text {
 		width: 600px;
 		margin-top: 65px;
-		margin-left: 70px;
+		margin-left:0px;
 		height: calc(100vh - 383px);
-		float: left;
+		float: right;
 		display: inline;
 		position: relative;
 	}
@@ -517,9 +447,6 @@
 	.project-header {
 		width: 1080px;
 		height: 250px;
-		position: relative;
-		display: block;
-		margin-bottom: 55px;
 	}
 
 	.project-title {
@@ -541,13 +468,8 @@
 	}
 
 	h4 {
-		color: #000000;
-		font-family: 'Chivo', sans-serif;
-		font-weight: 400;
 		font-size: 24px;
 		letter-spacing: 1px;
-		font-variant: small-caps;
-		text-transform: lowercase;
 		line-height: 0;
 	}
 
@@ -560,13 +482,8 @@
 	}
 
 	p {
-		color: #000000;
-		font-family: 'Chivo', sans-serif;
-		font-weight: 400;
 		font-size: 20px;
 		line-height: 30px;
-		text-align: left;
-		letter-spacing: .01em;
 	}
 
 	.footer {
@@ -577,7 +494,11 @@
 		position: relative;
 		text-align: center;
 		margin-top: 100px;
- 		padding: 1px 0 0px 0;
+		padding: 1px 0 0px 0;
 
 	}
+
+	.home {
+	height: 35vh;
+}
 }
