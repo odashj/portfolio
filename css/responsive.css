@@ -135,7 +135,6 @@
 		position: relative;
 		text-align: center;
 		padding: 1px 0 0px 0;
-		border-top: 1px solid #e0e0e0;
 		/*background-color: #e0e0e0;*/
 	}
 
@@ -291,7 +290,6 @@
 		position: relative;
 		text-align: center;
 		padding: 1px 0 0px 0;
-		border-top: 1px solid #e0e0e0;
 	}
 }
 
@@ -328,7 +326,7 @@
 		margin-top: 100px;
 		float: left;
 		display: inline;
-		position: fixed;
+		position: relative;
 	}
 
 	.about-text {
@@ -358,7 +356,7 @@
 	.project-intro {
 		width: 50%;
 		left: 0;
-		margin-top: 65px;
+		margin-top: 75px;
 		height: auto;
 		float: right;
 		display: inline;
@@ -393,7 +391,6 @@
 		position: relative;
 		text-align: center;
 		padding: 1px 0 0px 0;
-		border-top: 1px solid #e0e0e0;
 	}
 
 }
@@ -460,7 +457,7 @@
 	.project-intro {
 		width: 50%;
 		left: 0;
-		margin-top: 65px;
+		margin-top: 75px;
 		height: auto;
 		float: right;
 		display: inline;
@@ -500,5 +497,12 @@
 
 	.home {
 	height: 35vh;
+}
+}
+
+/* Short screens ----------- */
+@media (min-aspect-ratio: 16/7) {
+	.home {
+	height: 60vh;
 }
 }
