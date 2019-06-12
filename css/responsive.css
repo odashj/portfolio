@@ -435,7 +435,7 @@
 		width: 600px;
 		margin-top: 65px;
 		margin-left:0px;
-		height: calc(100vh - 383px);
+	/*	height: calc(100vh - 383px);*/
 		float: right;
 		display: inline;
 		position: relative;
